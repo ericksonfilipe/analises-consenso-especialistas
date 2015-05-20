@@ -43,21 +43,21 @@ def NDCG(consenso, abordagem, k):
     return ndcg_k/float(idcg_k)
 
 def DCG_K(consenso, abordagem, k):
-    ranking = abordagem[:k-1]
+    ranking = abordagem[:k]
     pesos = [k-i for i in range(k)]
     if not ranking:
         return float('NaN')
-    dcg = DCG(ranking, consenso, pesos[0], 1)
+    dcg = DCG(ranking, consenso, pesos[0], 0)
     for i in range(1, len(ranking)):
-        dcg += DCG(ranking, consenso, pesos[i], i+1)
+        dcg += DCG(ranking, consenso, pesos[i], i)
     return dcg
 
 def DCG(ranking, ideal, peso, i):
     rel_i = rel(ranking, ideal, peso, i)
-    return rel_i if i <= 1 else rel_i/log(2, i)
+    return rel_i if i <= 0 else rel_i/log(2, 1+i)
 
 def rel(ranking, ideal, peso, i):
-    return float(2**peso - 1) if ranking[i-1] in ideal else float(1 - 2**peso)
+    return float(2**peso - 1) if ranking[i] in ideal else float(1 - 2**peso)
 
 def corretos(abordagem, consenso):
     count = 0
@@ -93,7 +93,7 @@ def carrega_abordagem(arquivo):
     for linha in linhas:
         linha_list = linha.split(",")
         classe = recupera_nome_classe(linha_list[0])
-        indicacoes = [nome.strip() for nome in linha_list[1:4] if nome != "" or nome != "NA"]
+        indicacoes = [nome.strip() for nome in linha_list[1:] if nome.strip() != "" and nome.strip() != "NA"]
         abordagem[classe] = indicacoes
     return abordagem
 
