@@ -49,15 +49,19 @@ def DCG_K(consenso, abordagem, k):
         return float('NaN')
     dcg = DCG(ranking, consenso, pesos[0], 0)
     for i in range(1, len(ranking)):
-        dcg += DCG(ranking, consenso, pesos[i], i)
+        if ranking[i] in consenso:
+            dcg += DCG(ranking, consenso, pesos[i], i)
     return dcg
 
 def DCG(ranking, ideal, peso, i):
     rel_i = rel(ranking, ideal, peso, i)
     return rel_i if i <= 0 else rel_i/log(2, 1+i)
 
-def rel(ranking, ideal, peso, i):
+def rel_penalize_bad_results(ranking, ideal, peso, i):
     return float(2**peso - 1) if ranking[i] in ideal else float(1 - 2**peso)
+
+def rel(ranking, ideal, peso, i):
+    return peso if ranking[i] in ideal else 0
 
 def corretos(abordagem, consenso):
     count = 0
