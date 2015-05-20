@@ -54,7 +54,7 @@ def DCG_K(consenso, abordagem, k):
     return dcg
 
 def DCG(ranking, ideal, peso, i):
-    rel_i = rel(ranking, ideal, peso, i)
+    rel_i = rel_penalize_bad_results(ranking, ideal, peso, i)
     return rel_i if i <= 0 else rel_i/log(2, 1+i)
 
 def rel_penalize_bad_results(ranking, ideal, peso, i):
