@@ -1,0 +1,690 @@
+.././src/hot/br/gov/dpf/corporativo/client/security/CorporativoIdentity.java,Diego Cavalcanti,NA,NA
+.././src/hot/br/gov/dpf/epol/action/Action.java,Diego Cavalcanti,Leticia Wanderlei,Ana Lacerda
+.././src/hot/br/gov/dpf/epol/action/AdvogadoAction.java,Marcos Candeia,Andre Abrantes,NA
+.././src/hot/br/gov/dpf/epol/action/AgendaRequestURLAction.java,Diego Rafael,Demontie Junior,Claudivan Filho
+.././src/hot/br/gov/dpf/epol/action/AlterarSegredoJusticaAction.java,Erickson Filipe,Leticia Wanderlei,Pedro Henriques
+.././src/hot/br/gov/dpf/epol/action/ApensarAction.java,Demontie Junior,Diego Cavalcanti,Filipe Wesley
+.././src/hot/br/gov/dpf/epol/action/ApreenderMaterialAction.java,Igleson Freire,Leticia Wanderlei,Demontie Junior
+.././src/hot/br/gov/dpf/epol/action/BuscarAction.java,Ana Lacerda,Claudivan Filho,Demontie Junior
+.././src/hot/br/gov/dpf/epol/action/BuscarCasoAction.java,Claudivan Filho,Diego Cavalcanti,Samuel Wesley
+.././src/hot/br/gov/dpf/epol/action/BuscarEnvolvidoAction.java,Carla Sukeyosi,Gabriel Brito,Ana Lacerda
+.././src/hot/br/gov/dpf/epol/action/BuscarMaterialAction.java,Carla Sukeyosi,Samuel Wesley,Ana Lacerda
+.././src/hot/br/gov/dpf/epol/action/BuscarTarefaAction.java,Samuel Wesley,Carla Sukeyosi,Demontie Junior
+.././src/hot/br/gov/dpf/epol/action/CadastrarListaDeDistribuicaoAction.java,Andre Abrantes,Ana Lacerda,Rigel Melo
+.././src/hot/br/gov/dpf/epol/action/CadastrarPapelServidorAction.java,Marcos Candeia,Carla Sukeyosi,Vladwoguer Bezerra
+.././src/hot/br/gov/dpf/epol/action/CadastrarTarefaAction.java,Raquel Guimaraes,Samuel Wesley,Jarbas Pereira
+.././src/hot/br/gov/dpf/epol/action/CasoAction.java,Andre Abrantes,Diego Cavalcanti,Joao Lucas
+.././src/hot/br/gov/dpf/epol/action/CondutaAction.java,Guilherme Emmanuel,Erickson Filipe,Vladwoguer Bezerra
+.././src/hot/br/gov/dpf/epol/action/CrudAction.java,Leticia Wanderlei,Felipe Diogenes,NA
+.././src/hot/br/gov/dpf/epol/action/CrudMode.java,Felipe Diogenes,NA,NA
+.././src/hot/br/gov/dpf/epol/action/DefinirPermissoesDeAcessoAction.java,Joao Batista,Vladwoguer Bezerra,Carla Sukeyosi
+.././src/hot/br/gov/dpf/epol/action/DesapensarAction.java,Leticia Wanderlei,Lucas Torres,Vladwoguer Bezerra
+.././src/hot/br/gov/dpf/epol/action/DesmembrarCasoAction.java,Andre Abrantes,Joao Batista,Marcos Candeia
+.././src/hot/br/gov/dpf/epol/action/EnvolvidoAbstractAction.java,Marcos Candeia,Diego Cavalcanti,Igleson Freire
+.././src/hot/br/gov/dpf/epol/action/EnvolvimentoAction.java,Samuel,Erickson Filipe,Claudivan Filho
+.././src/hot/br/gov/dpf/epol/action/ExibirNotificacoesAction.java,Diego Cavalcanti,Claudivan Filho,Leticia Wanderlei
+.././src/hot/br/gov/dpf/epol/action/FatoAction.java,Gabriel Brito,Samuel,Leticia Wanderlei
+.././src/hot/br/gov/dpf/epol/action/ICrudAction.java,Felipe Diogenes,NA,NA
+.././src/hot/br/gov/dpf/epol/action/ICrudCreateAction.java,Diego Cavalcanti,Felipe Diogenes,NA
+.././src/hot/br/gov/dpf/epol/action/ICrudEditAction.java,Felipe Diogenes,NA,NA
+.././src/hot/br/gov/dpf/epol/action/ICrudReadAction.java,Felipe Diogenes,Diego Cavalcanti,NA
+.././src/hot/br/gov/dpf/epol/action/IExibicaoConfiguravel.java,Carla Sukeyosi,NA,NA
+.././src/hot/br/gov/dpf/epol/action/IndicarInconsistenciaMaterialAction.java,Igleson Freire,Gabriel Brito,Vladwoguer Bezerra
+.././src/hot/br/gov/dpf/epol/action/IndiciamentoAction.java,Diego Cavalcanti,Filipe Wesley,Pedro Henriques
+.././src/hot/br/gov/dpf/epol/action/InstaurarInqueritoAction.java,Felipe Diogenes,Carla Sukeyosi,NA
+.././src/hot/br/gov/dpf/epol/action/LacrarMaterialAction.java,Andre Abrantes,Erickson Filipe,Marcos Candeia
+.././src/hot/br/gov/dpf/epol/action/ListarRepresentacoesJudiciaisAction.java,Izabela Melo,Claudivan Filho,NA
+.././src/hot/br/gov/dpf/epol/action/MaterialAction.java,Izabela Melo,Diego Cavalcanti,Ana Lacerda
+.././src/hot/br/gov/dpf/epol/action/MostrarDadosDoUsuarioAction.java,Jessica Sousa,Diogo,Samuel
+.././src/hot/br/gov/dpf/epol/action/MovimentarMaterialAction.java,Carla Sukeyosi,Filipe Wesley,Leticia Wanderlei
+.././src/hot/br/gov/dpf/epol/action/PageflowEPol.java,Raquel Guimaraes,Pedro Henriques,Marcos Candeia
+.././src/hot/br/gov/dpf/epol/action/PedirRedistribuicaoAction.java,Leticia Wanderlei,Jarbas Pereira,Felipe Diogenes
+.././src/hot/br/gov/dpf/epol/action/PessoaFisicaAction.java,Igleson Freire,Vladwoguer Bezerra,Diego Cavalcanti
+.././src/hot/br/gov/dpf/epol/action/PessoaJuridicaAction.java,Carla Sukeyosi,Pedro Henriques,Diego Cavalcanti
+.././src/hot/br/gov/dpf/epol/action/ProrrogarCasoAction.java,Andre Abrantes,Amaury Medeiros,Claudivan Filho
+.././src/hot/br/gov/dpf/epol/action/RedistribuirCargaAction.java,Vladwoguer Bezerra,Leticia Wanderlei,Diego Cavalcanti
+.././src/hot/br/gov/dpf/epol/action/RegistrarDecisaoJudicialAction.java,Leticia Wanderlei,Jarbas Pereira,Diego Cavalcanti
+.././src/hot/br/gov/dpf/epol/action/RemoverLacreMaterialAction.java,Filipe Wesley,Marcos Candeia,Leticia Wanderlei
+.././src/hot/br/gov/dpf/epol/action/RenderAction.java,Filipe Wesley,NA,NA
+.././src/hot/br/gov/dpf/epol/action/RepresentacaoJudicialAction.java,Erickson Filipe,Diego Cavalcanti,Pericles Macedo
+.././src/hot/br/gov/dpf/epol/action/RetornoListener.java,Victor Freire,Pedro Henriques,NA
+.././src/hot/br/gov/dpf/epol/action/RoteiroDeInvestigacaoAction.java,Marcos Candeia,NA,NA
+.././src/hot/br/gov/dpf/epol/action/SelecionarEnvolvidoAction.java,Leticia Wanderlei,Claudivan Filho,NA
+.././src/hot/br/gov/dpf/epol/action/SimpleIndexConverter.java,Raquel Guimaraes,Marcos Candeia,NA
+.././src/hot/br/gov/dpf/epol/action/TipoPenalAction.java,Amaury Medeiros,Felipe Diogenes,Vladwoguer Bezerra
+.././src/hot/br/gov/dpf/epol/action/VerProcedimentoAction.java,Willie Lawrence,Raquel Guimaraes,Jarbas Pereira
+.././src/hot/br/gov/dpf/epol/action/VerTarefaRenderAction.java,Carla Sukeyosi,Leticia Wanderlei,Felipe Diogenes
+.././src/hot/br/gov/dpf/epol/action/VisualizarPecasAction.java,Felipe Diogenes,Claudivan Filho,NA
+.././src/hot/br/gov/dpf/epol/action/converter/CepConverter.java,Raquel Guimaraes,Diego Cavalcanti,Samuel Wesley
+.././src/hot/br/gov/dpf/epol/action/converter/CnpjConverter.java,Gabriel Brito,Diego Cavalcanti,Raquel Guimaraes
+.././src/hot/br/gov/dpf/epol/action/converter/CpfConverter.java,Diego Cavalcanti,Gabriel Brito,Raquel Guimaraes
+.././src/hot/br/gov/dpf/epol/action/converter/HorarioConverter.java,Samuel Wesley,NA,NA
+.././src/hot/br/gov/dpf/epol/action/converter/InstituicaoConverter.java,Samuel Wesley,Samuel,NA
+.././src/hot/br/gov/dpf/epol/action/custom/CadastrarCamposComplementaresAction.java,Jarbas Pereira,Pedro Henriques,Rigel Melo
+.././src/hot/br/gov/dpf/epol/action/custom/CategoriaMaterialFilterAction.java,Diego Rafael,Vladwoguer Bezerra,Ana Lacerda
+.././src/hot/br/gov/dpf/epol/action/custom/FieldTableAction.java,Amaury Medeiros,Vladwoguer Bezerra,Rigel Melo
+.././src/hot/br/gov/dpf/epol/action/custom/FilterAction.java,Jarbas Pereira,Rigel Melo,Vladwoguer Bezerra
+.././src/hot/br/gov/dpf/epol/action/custom/TipoPenalFilterAction.java,Vladwoguer Bezerra,Rigel Melo,Felipe Diogenes
+.././src/hot/br/gov/dpf/epol/action/event/CriarPecaEvent.java,Erickson Filipe,Andre Abrantes,NA
+.././src/hot/br/gov/dpf/epol/action/event/Event.java,Andre Abrantes,Rigel Melo,NA
+.././src/hot/br/gov/dpf/epol/action/event/EventHandler.java,Rigel Melo,Samuel,Andre Abrantes
+.././src/hot/br/gov/dpf/epol/action/event/Evento.java,Gabriel Brito,NA,NA
+.././src/hot/br/gov/dpf/epol/action/event/EventoCriarPeca.java,Leticia Wanderlei,Gabriel Brito,NA
+.././src/hot/br/gov/dpf/epol/action/event/GerenciadorEvento.java,Gabriel Brito,NA,NA
+.././src/hot/br/gov/dpf/epol/action/event/GerenciadorEventoLog.java,Gabriel Brito,NA,NA
+.././src/hot/br/gov/dpf/epol/action/event/GerenciadorEventosEPol.java,Gabriel Brito,NA,NA
+.././src/hot/br/gov/dpf/epol/action/event/MaterialEvent.java,Izabela Melo,Andre Abrantes,Vladwoguer Bezerra
+.././src/hot/br/gov/dpf/epol/action/listagem/ListagemFiltravelCaso.java,Felipe Diogenes,Vladwoguer Bezerra,NA
+.././src/hot/br/gov/dpf/epol/action/listagem/ListagemMultivalorada.java,Ana Lacerda,Vladwoguer Bezerra,NA
+.././src/hot/br/gov/dpf/epol/action/listagem/ListagemSelecionar.java,Samuel Wesley,Ana Lacerda,Vladwoguer Bezerra
+.././src/hot/br/gov/dpf/epol/action/listagem/pp/AbstractListagemPP.java,Felipe Diogenes,Ana Lacerda,Raquel Guimaraes
+.././src/hot/br/gov/dpf/epol/action/listagem/pp/ListagemBancoEPol.java,Vladwoguer Bezerra,Raquel Guimaraes,Pedro Henriques
+.././src/hot/br/gov/dpf/epol/action/listagem/pp/ListagemEmBanco.java,Samuel Wesley,Vladwoguer Bezerra,Raquel Guimaraes
+.././src/hot/br/gov/dpf/epol/action/listagem/pp/ListagemEmMemoria.java,Vladwoguer Bezerra,Raquel Guimaraes,Felipe Diogenes
+.././src/hot/br/gov/dpf/epol/action/listagem/pp/ListagemEnvolvidosEPol.java,Claudivan Filho,NA,NA
+.././src/hot/br/gov/dpf/epol/action/listagem/pp/ListagemMemoriaEPol.java,Vladwoguer Bezerra,Raquel Guimaraes,Pedro Henriques
+.././src/hot/br/gov/dpf/epol/action/listagem/pp/ListagemPP.java,Raquel Guimaraes,Vladwoguer Bezerra,NA
+.././src/hot/br/gov/dpf/epol/action/listagem/pp/ListagemString.java,Vladwoguer Bezerra,Joao Batista,Pedro Henriques
+.././src/hot/br/gov/dpf/epol/action/listagem/pp/ListagemTarefaPesquisa.java,Andre Abrantes,Samuel Wesley,Vladwoguer Bezerra
+.././src/hot/br/gov/dpf/epol/action/listagem/pp/SeletorCampos.java,Felipe Diogenes,Raquel Guimaraes,Pedro Henriques
+.././src/hot/br/gov/dpf/epol/action/listagem/pp/StringValue.java,Vladwoguer Bezerra,Joao Batista,NA
+.././src/hot/br/gov/dpf/epol/action/peca/CadastrarTemplatePecaAction.java,Pedro Henriques,Eduardo Colaço,Diego Cavalcanti
+.././src/hot/br/gov/dpf/epol/action/peca/FazerUploadPecaAction.java,Demontie Junior,Diego Cavalcanti,Leticia Wanderlei
+.././src/hot/br/gov/dpf/epol/action/peca/PecaAction.java,Gabriel Brito,Samuel,Filipe Wesley
+.././src/hot/br/gov/dpf/epol/action/tarefa/AnalisarApensamentoAction.java,Diego Cavalcanti,Leticia Wanderlei,Gabriel Brito
+.././src/hot/br/gov/dpf/epol/action/tarefa/AnalisarDocumentoEnviadoParaAnaliseAction.java,Diego Cavalcanti,Rigel Melo,Demontie Junior
+.././src/hot/br/gov/dpf/epol/action/tarefa/AnalisarFimDeRedistribuicaoTemporariaAction.java,Leticia Wanderlei,Carla Sukeyosi,NA
+.././src/hot/br/gov/dpf/epol/action/tarefa/AnalisarFlagranteAction.java,Carla Sukeyosi,Leticia Wanderlei,NA
+.././src/hot/br/gov/dpf/epol/action/tarefa/AnalisarPedidoDeReconsideracaoAction.java,Felipe Diogenes,NA,NA
+.././src/hot/br/gov/dpf/epol/action/tarefa/CamposArbitrarFianca.java,Vladwoguer Bezerra,Leticia Wanderlei,Diego Cavalcanti
+.././src/hot/br/gov/dpf/epol/action/tarefa/CamposFormularioAtoPresencial.java,Pedro Henriques,Andre Abrantes,Rigel Melo
+.././src/hot/br/gov/dpf/epol/action/tarefa/CamposFormularioProrrogarPrazo.java,Marcos Candeia,NA,NA
+.././src/hot/br/gov/dpf/epol/action/tarefa/CamposFormularioTarefaInominada.java,Diego Cavalcanti,Vladwoguer Bezerra,Marcos Candeia
+.././src/hot/br/gov/dpf/epol/action/tarefa/GerenciarDistribuicaoAction.java,Igleson Freire,NA,NA
+.././src/hot/br/gov/dpf/epol/action/tarefa/ICamposFormularioTarefa.java,Demontie Junior,Marcos Candeia,NA
+.././src/hot/br/gov/dpf/epol/action/tarefa/IResponderTarefaAction.java,Vladwoguer Bezerra,NA,NA
+.././src/hot/br/gov/dpf/epol/action/tarefa/RemarcarAtoPresencialAction.java,Pericles Macedo,Rigel Melo,Jarbas Pereira
+.././src/hot/br/gov/dpf/epol/action/tarefa/ResponderAnalisarPecaAdicionadaAction.java,Leticia Wanderlei,Carla Sukeyosi,Marcos Candeia
+.././src/hot/br/gov/dpf/epol/action/tarefa/ResponderTarefaAction.java,Amaury Medeiros,Pericles Macedo,Andre Abrantes
+.././src/hot/br/gov/dpf/epol/action/tarefa/RevisarAnaliseAction.java,Carla Sukeyosi,Leticia Wanderlei,NA
+.././src/hot/br/gov/dpf/epol/action/tarefa/VerTarefaAction.java,Raquel Guimaraes,Jessica Sousa,Pedro Henriques
+.././src/hot/br/gov/dpf/epol/action/validator/CepValidator.java,Andre Abrantes,Marcos Candeia,NA
+.././src/hot/br/gov/dpf/epol/action/validator/CnpjValidator.java,Raquel Guimaraes,Andre Abrantes,NA
+.././src/hot/br/gov/dpf/epol/action/validator/CpfValidator.java,Vladwoguer Bezerra,Raquel Guimaraes,Andre Abrantes
+.././src/hot/br/gov/dpf/epol/action/validator/ValidacaoException.java,Andre Abrantes,Jessica Sousa,NA
+.././src/hot/br/gov/dpf/epol/cenario/CenarioAgenda.java,Demontie Junior,Marcos Candeia,Pedro Henriques
+.././src/hot/br/gov/dpf/epol/cenario/CenarioAnalisarPedidoReconsideracao.java,Jessica Sousa,NA,NA
+.././src/hot/br/gov/dpf/epol/cenario/CenarioCasoApensamento.java,Andre Abrantes,Joao Lucas,Pericles Macedo
+.././src/hot/br/gov/dpf/epol/cenario/CenarioCasoDesapensamento.java,Andre Abrantes,Lucas Torres,Vladwoguer Bezerra
+.././src/hot/br/gov/dpf/epol/cenario/CenarioCasoFaseAnalise.java,Gabriel Brito,Izabela Melo,Ana Lacerda
+.././src/hot/br/gov/dpf/epol/cenario/CenarioCasoFaseDistribuicao.java,Andre Abrantes,Felipe Diogenes,Vladwoguer Bezerra
+.././src/hot/br/gov/dpf/epol/cenario/CenarioCasoFaseFinalizacao.java,Andre Abrantes,Vladwoguer Bezerra,Raquel Guimaraes
+.././src/hot/br/gov/dpf/epol/cenario/CenarioCasoFaseFinalizacaoAtrasado.java,Andre Abrantes,Guilherme Emmanuel,Vladwoguer Bezerra
+.././src/hot/br/gov/dpf/epol/cenario/CenarioCasoFaseInstauracao.java,Andre Abrantes,Samuel,Vladwoguer Bezerra
+.././src/hot/br/gov/dpf/epol/cenario/CenarioCasoFinalizado.java,Andre Abrantes,Vladwoguer Bezerra,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/cenario/CenarioCasoIndiciar.java,Gabriel Brito,Andre Abrantes,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/cenario/CenarioConstantes.java,Jessica Sousa,Guilherme Emmanuel,NA
+.././src/hot/br/gov/dpf/epol/cenario/CenarioDadosFixos.java,Ana Lacerda,Rigel Melo,Raquel Guimaraes
+.././src/hot/br/gov/dpf/epol/cenario/CenarioFlagranteFaseInquerito.java,Claudivan Filho,Andre Abrantes,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/cenario/CenarioFlagranteTarefaAberta.java,Claudivan Filho,Andre Abrantes,Marcos Candeia
+.././src/hot/br/gov/dpf/epol/cenario/CenarioFlagranteTarefaConcluida.java,Claudivan Filho,Andre Abrantes,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/cenario/CenarioNotificacoes.java,Amaury Medeiros,Marcos Candeia,Pedro Henriques
+.././src/hot/br/gov/dpf/epol/cenario/CenarioRepresentacaoJudicial.java,Andre Abrantes,Guilherme Emmanuel,Vladwoguer Bezerra
+.././src/hot/br/gov/dpf/epol/cenario/CenarioUtil.java,Carla Sukeyosi,Andre Abrantes,Diego Cavalcanti
+.././src/hot/br/gov/dpf/epol/cenario/GrupoCenario.java,Jessica Sousa,Raquel Guimaraes,Marcos Candeia
+.././src/hot/br/gov/dpf/epol/cenario/ITesteCenario.java,Diego Cavalcanti,Marcos Candeia,NA
+.././src/hot/br/gov/dpf/epol/cenario/PopulaCenario.java,Pedro Henriques,Raquel Guimaraes,Marcos Candeia
+.././src/hot/br/gov/dpf/epol/dao/SeamDAO.java,Raquel Guimaraes,Diogo,Vladwoguer Bezerra
+.././src/hot/br/gov/dpf/epol/dao/SeamDAOLocal.java,Rigel Melo,Diego Cavalcanti,Vladwoguer Bezerra
+.././src/hot/br/gov/dpf/epol/dao/TestDAO.java,Pedro Henriques,Felipe Diogenes,Raquel Guimaraes
+.././src/hot/br/gov/dpf/epol/dao/TestDAOLocal.java,Raquel Guimaraes,Vladwoguer Bezerra,Diego Cavalcanti
+.././src/hot/br/gov/dpf/epol/externo/protocolo/DocumentoDTO.java,Samuel Wesley,Vladwoguer Bezerra,Victor Freire
+.././src/hot/br/gov/dpf/epol/externo/protocolo/SistemaProtocoloBean.java,Samuel,Samuel Wesley,Victor Freire
+.././src/hot/br/gov/dpf/epol/externo/protocolo/SistemaProtocoloService.java,Victor Freire,NA,NA
+.././src/hot/br/gov/dpf/epol/jobs/QuartzMailer.java,Marcos Candeia,Diego Cavalcanti,NA
+.././src/hot/br/gov/dpf/epol/jobs/QuartzMailerKicker.java,Diego Cavalcanti,NA,NA
+.././src/hot/br/gov/dpf/epol/pesquisa/AbstractBooleanSearchFilter.java,Vladwoguer Bezerra,Demontie Junior,NA
+.././src/hot/br/gov/dpf/epol/pesquisa/AbstractRadioSearchFilter.java,Vladwoguer Bezerra,Demontie Junior,NA
+.././src/hot/br/gov/dpf/epol/pesquisa/AbstractSearchFilter.java,Demontie Junior,Vladwoguer Bezerra,NA
+.././src/hot/br/gov/dpf/epol/pesquisa/Filtro.java,Diogo,Vladwoguer Bezerra,Gabriel Bezerra
+.././src/hot/br/gov/dpf/epol/pesquisa/FiltroAdapter.java,Vladwoguer Bezerra,Raquel Guimaraes,NA
+.././src/hot/br/gov/dpf/epol/pesquisa/FiltroAnd.java,Vladwoguer Bezerra,Gabriel Bezerra,Diogo
+.././src/hot/br/gov/dpf/epol/pesquisa/FiltroComposto.java,Diogo,Gabriel Bezerra,Vladwoguer Bezerra
+.././src/hot/br/gov/dpf/epol/pesquisa/FiltroDePaginacao.java,Marcos Candeia,Gabriel Bezerra,Diogo
+.././src/hot/br/gov/dpf/epol/pesquisa/FiltroOr.java,Vladwoguer Bezerra,Gabriel Bezerra,Diogo
+.././src/hot/br/gov/dpf/epol/pesquisa/FiltroStringNaoVazia.java,Diego Cavalcanti,Jessica Sousa,Vladwoguer Bezerra
+.././src/hot/br/gov/dpf/epol/pesquisa/FiltroValorNotNull.java,Ana Lacerda,Jessica Sousa,Raquel Guimaraes
+.././src/hot/br/gov/dpf/epol/pesquisa/Pesquisa.java,Diogo,Marcos Candeia,Vladwoguer Bezerra
+.././src/hot/br/gov/dpf/epol/pesquisa/PesquisaCampo.java,Raquel Guimaraes,Marcos Candeia,Vladwoguer Bezerra
+.././src/hot/br/gov/dpf/epol/pesquisa/SearchFilterType.java,Vladwoguer Bezerra,Demontie Junior,NA
+.././src/hot/br/gov/dpf/epol/pesquisa/pp/BDList.java,Diego Cavalcanti,Pedro Henriques,Raquel Guimaraes
+.././src/hot/br/gov/dpf/epol/pesquisa/pp/IPesquisa.java,Diego Cavalcanti,Vladwoguer Bezerra,NA
+.././src/hot/br/gov/dpf/epol/pesquisa/pp/IPesquisaBanco.java,Diego Cavalcanti,Vladwoguer Bezerra,NA
+.././src/hot/br/gov/dpf/epol/pesquisa/pp/IPesquisaMemoria.java,Diego Cavalcanti,Vladwoguer Bezerra,NA
+.././src/hot/br/gov/dpf/epol/pesquisa/pp/PesquisaEmBanco.java,Diego Cavalcanti,Raquel Guimaraes,Marcos Candeia
+.././src/hot/br/gov/dpf/epol/pesquisa/pp/PesquisaEmMemoria.java,Diego Cavalcanti,Raquel Guimaraes,Marcos Candeia
+.././src/hot/br/gov/dpf/epol/pesquisa/pp/filtro/AbstractFiltro.java,Vladwoguer Bezerra,NA,NA
+.././src/hot/br/gov/dpf/epol/pesquisa/pp/filtro/FiltroAceitaTudo.java,Vladwoguer Bezerra,NA,NA
+.././src/hot/br/gov/dpf/epol/pesquisa/pp/filtro/FiltroCompareTo.java,Diego Cavalcanti,Vladwoguer Bezerra,NA
+.././src/hot/br/gov/dpf/epol/pesquisa/pp/filtro/FiltroMemoria.java,Diego Cavalcanti,Vladwoguer Bezerra,NA
+.././src/hot/br/gov/dpf/epol/pesquisa/pp/filtro/FiltroPropertyEquals.java,Diego Cavalcanti,Vladwoguer Bezerra,NA
+.././src/hot/br/gov/dpf/epol/pesquisa/pp/filtro/FiltroRejeitaTudo.java,Vladwoguer Bezerra,NA,NA
+.././src/hot/br/gov/dpf/epol/pesquisa/pp/filtro/FiltroSituacaoTarefa.java,Leticia Wanderlei,Marcos Candeia,Vladwoguer Bezerra
+.././src/hot/br/gov/dpf/epol/pesquisa/pp/filtro/FiltrosEncadeados.java,Vladwoguer Bezerra,NA,NA
+.././src/hot/br/gov/dpf/epol/pesquisa/pp/filtro/IFiltroBanco.java,Diego Cavalcanti,Vladwoguer Bezerra,NA
+.././src/hot/br/gov/dpf/epol/pesquisa/pp/filtro/IFiltroValorColuna.java,Vladwoguer Bezerra,NA,NA
+.././src/hot/br/gov/dpf/epol/session/AgendaBean.java,Demontie Junior,Igleson Freire,Marcos Candeia
+.././src/hot/br/gov/dpf/epol/session/AgendaService.java,Diego Cavalcanti,Demontie Junior,Marcos Candeia
+.././src/hot/br/gov/dpf/epol/session/AnalisarApensamentoBean.java,Filipe Wesley,NA,NA
+.././src/hot/br/gov/dpf/epol/session/AnalisarApensamentoService.java,Filipe Wesley,NA,NA
+.././src/hot/br/gov/dpf/epol/session/Autenticador.java,Igleson Freire,NA,NA
+.././src/hot/br/gov/dpf/epol/session/AutenticadorBean.java,Diego Cavalcanti,Carla Sukeyosi,Felipe Diogenes
+.././src/hot/br/gov/dpf/epol/session/CMISIndisponivelBean.java,Andre Abrantes,Igleson Freire,NA
+.././src/hot/br/gov/dpf/epol/session/CMISService.java,Igleson Freire,Andre Abrantes,NA
+.././src/hot/br/gov/dpf/epol/session/CamposComplementaresBean.java,Pedro Henriques,Igleson Freire,NA
+.././src/hot/br/gov/dpf/epol/session/CamposComplementaresService.java,Pedro Henriques,Igleson Freire,NA
+.././src/hot/br/gov/dpf/epol/session/CasoBean.java,Amaury Medeiros,Leticia Wanderlei,Erickson Filipe
+.././src/hot/br/gov/dpf/epol/session/CasoService.java,Samuel,Victor Freire,Diego Cavalcanti
+.././src/hot/br/gov/dpf/epol/session/CategoriaBean.java,Igleson Freire,NA,NA
+.././src/hot/br/gov/dpf/epol/session/CategoriaService.java,Igleson Freire,NA,NA
+.././src/hot/br/gov/dpf/epol/session/CmisBean.java,Gabriel Brito,Andre Abrantes,Igleson Freire
+.././src/hot/br/gov/dpf/epol/session/CmisTesteBean.java,Igleson Freire,NA,NA
+.././src/hot/br/gov/dpf/epol/session/CompetenciaBean.java,Igleson Freire,NA,NA
+.././src/hot/br/gov/dpf/epol/session/CompetenciaService.java,Igleson Freire,NA,NA
+.././src/hot/br/gov/dpf/epol/session/CondutaBean.java,Filipe Wesley,NA,NA
+.././src/hot/br/gov/dpf/epol/session/CondutaService.java,Filipe Wesley,NA,NA
+.././src/hot/br/gov/dpf/epol/session/DistribuicaoBean.java,Marcos Candeia,Ana Lacerda,Leticia Wanderlei
+.././src/hot/br/gov/dpf/epol/session/DistribuicaoService.java,Diego Cavalcanti,Ana Lacerda,Leticia Wanderlei
+.././src/hot/br/gov/dpf/epol/session/EGPBean.java,Samuel,Ana Lacerda,Gabriel Brito
+.././src/hot/br/gov/dpf/epol/session/EGPCorporativoBean.java,Felipe Diogenes,Carla Sukeyosi,Marcos Candeia
+.././src/hot/br/gov/dpf/epol/session/EGPService.java,Demontie Junior,Felipe Diogenes,Diego Cavalcanti
+.././src/hot/br/gov/dpf/epol/session/EnvolvidoBean.java,Demontie Junior,Igleson Freire,NA
+.././src/hot/br/gov/dpf/epol/session/EnvolvidoService.java,Demontie Junior,Ana Lacerda,Diego Cavalcanti
+.././src/hot/br/gov/dpf/epol/session/EnvolvimentoBean.java,Filipe Wesley,NA,NA
+.././src/hot/br/gov/dpf/epol/session/EnvolvimentoService.java,Filipe Wesley,NA,NA
+.././src/hot/br/gov/dpf/epol/session/EstadoMaterialBean.java,Erickson Filipe,Igleson Freire,NA
+.././src/hot/br/gov/dpf/epol/session/EstadoMaterialService.java,Erickson Filipe,Igleson Freire,NA
+.././src/hot/br/gov/dpf/epol/session/FatoBean.java,Diego Cavalcanti,Victor Freire,Igleson Freire
+.././src/hot/br/gov/dpf/epol/session/FatoService.java,Victor Freire,Igleson Freire,NA
+.././src/hot/br/gov/dpf/epol/session/InstaurarInqueritoBean.java,Carla Sukeyosi,NA,NA
+.././src/hot/br/gov/dpf/epol/session/InstaurarInqueritoService.java,Carla Sukeyosi,NA,NA
+.././src/hot/br/gov/dpf/epol/session/NormaBean.java,Rigel Melo,Victor Freire,Eduardo Colaço
+.././src/hot/br/gov/dpf/epol/session/NormaService.java,Victor Freire,Igleson Freire,NA
+.././src/hot/br/gov/dpf/epol/session/NotificacaoBean.java,Vladwoguer Bezerra,Claudivan Filho,Felipe Diogenes
+.././src/hot/br/gov/dpf/epol/session/NotificacaoService.java,Claudivan Filho,Diego Cavalcanti,Amaury Medeiros
+.././src/hot/br/gov/dpf/epol/session/PapelBean.java,Vladwoguer Bezerra,Igleson Freire,NA
+.././src/hot/br/gov/dpf/epol/session/PapelService.java,Vladwoguer Bezerra,Igleson Freire,NA
+.././src/hot/br/gov/dpf/epol/session/PecaBean.java,Samuel,Felipe Diogenes,Victor Freire
+.././src/hot/br/gov/dpf/epol/session/PecaService.java,Igleson Freire,Diogo,Anderson Rui
+.././src/hot/br/gov/dpf/epol/session/ProcedimentoBean.java,Ana Lacerda,Marcos Candeia,NA
+.././src/hot/br/gov/dpf/epol/session/ProcedimentoService.java,Ana Lacerda,Diego Cavalcanti,NA
+.././src/hot/br/gov/dpf/epol/session/RegistrarDecisaoJudicialBean.java,Leticia Wanderlei,NA,NA
+.././src/hot/br/gov/dpf/epol/session/RegistrarDecisaoJudicialService.java,Diego Cavalcanti,NA,NA
+.././src/hot/br/gov/dpf/epol/session/ServidorBean.java,Raquel Guimaraes,Marcos Candeia,Igleson Freire
+.././src/hot/br/gov/dpf/epol/session/ServidorService.java,Marcos Candeia,Raquel Guimaraes,Igleson Freire
+.././src/hot/br/gov/dpf/epol/session/SugestaoTarefaBean.java,Raquel Guimaraes,Erickson Filipe,Ana Lacerda
+.././src/hot/br/gov/dpf/epol/session/SugestaoTarefaService.java,Erickson Filipe,Igleson Freire,NA
+.././src/hot/br/gov/dpf/epol/session/TarefaBean.java,Diego Cavalcanti,Samuel,Claudivan Filho
+.././src/hot/br/gov/dpf/epol/session/TarefaService.java,Raquel Guimaraes,Diego Cavalcanti,Filipe Wesley
+.././src/hot/br/gov/dpf/epol/session/TipoEnvolvimentoBean.java,Samuel,NA,NA
+.././src/hot/br/gov/dpf/epol/session/TipoEnvolvimentoService.java,Samuel,Diego Cavalcanti,NA
+.././src/hot/br/gov/dpf/epol/session/TipoPenalBean.java,Igleson Freire,NA,NA
+.././src/hot/br/gov/dpf/epol/session/TipoPenalService.java,Igleson Freire,NA,NA
+.././src/hot/br/gov/dpf/epol/session/TipoReferenciaBean.java,Samuel,NA,NA
+.././src/hot/br/gov/dpf/epol/session/TipoReferenciaService.java,Samuel,Diego Cavalcanti,NA
+.././src/hot/br/gov/dpf/epol/session/TipoTarefaBean.java,Raquel Guimaraes,Erickson Filipe,Carla Sukeyosi
+.././src/hot/br/gov/dpf/epol/session/TipoTarefaService.java,Erickson Filipe,Diego Cavalcanti,NA
+.././src/hot/br/gov/dpf/epol/session/corporativo/EnderecoCorporativoBean.java,Leticia Wanderlei,Felipe Diogenes,NA
+.././src/hot/br/gov/dpf/epol/session/corporativo/EnderecoCorporativoService.java,Felipe Diogenes,NA,NA
+.././src/hot/br/gov/dpf/epol/session/corporativo/ProfissaoCorporativoBean.java,Carla Sukeyosi,NA,NA
+.././src/hot/br/gov/dpf/epol/session/corporativo/ProfissaoCorporativoService.java,Carla Sukeyosi,NA,NA
+.././src/hot/br/gov/dpf/epol/session/corporativo/ServidorCorporativoBean.java,Marcos Candeia,NA,NA
+.././src/hot/br/gov/dpf/epol/session/corporativo/ServidorCorporativoService.java,Marcos Candeia,NA,NA
+.././src/hot/br/gov/dpf/epol/session/corporativo/UnidadeCorporativoBean.java,Marcos Candeia,NA,NA
+.././src/hot/br/gov/dpf/epol/session/corporativo/UnidadeCorporativoService.java,Marcos Candeia,NA,NA
+.././src/hot/br/gov/dpf/epol/session/peca/TemplatePecaBean.java,Pericles Macedo,Pedro Henriques,Felipe Diogenes
+.././src/hot/br/gov/dpf/epol/session/peca/TemplatePecaService.java,Samuel,Eduardo Colaço,Felipe Diogenes
+.././src/hot/br/gov/dpf/epol/util/AdaptadorDeLista.java,Igleson Freire,NA,NA
+.././src/hot/br/gov/dpf/epol/util/AgendaDownload.java,Igleson Freire,Vladwoguer Bezerra,Demontie Junior
+.././src/hot/br/gov/dpf/epol/util/CachedMethodResultInterceptor.java,Carla Sukeyosi,NA,NA
+.././src/hot/br/gov/dpf/epol/util/ComparadorSelecionavel.java,Pedro Henriques,Diego Rafael,Marcos Candeia
+.././src/hot/br/gov/dpf/epol/util/ComparadorSelecionavelTipoTarefa.java,Pedro Henriques,Diego Rafael,Marcos Candeia
+.././src/hot/br/gov/dpf/epol/util/ELUtil.java,Raquel Guimaraes,Marcos Candeia,NA
+.././src/hot/br/gov/dpf/epol/util/EscapableMessagesRenderer.java,Samuel,Demontie Junior,NA
+.././src/hot/br/gov/dpf/epol/util/ExibidorCamposUtils.java,Marcos Candeia,Carla Sukeyosi,NA
+.././src/hot/br/gov/dpf/epol/util/Function.java,Rigel Melo,Marcos Candeia,NA
+.././src/hot/br/gov/dpf/epol/util/JavaBeanUtils.java,Andre Abrantes,Demontie Junior,Raquel Guimaraes
+.././src/hot/br/gov/dpf/epol/util/LabelConverter.java,Victor Freire,Eduardo Colaço,Marcos Candeia
+.././src/hot/br/gov/dpf/epol/util/ListView.java,Rigel Melo,Marcos Candeia,NA
+.././src/hot/br/gov/dpf/epol/util/LogEpol.java,Pedro Henriques,NA,NA
+.././src/hot/br/gov/dpf/epol/util/Mensagens.java,Diego Cavalcanti,NA,NA
+.././src/hot/br/gov/dpf/epol/util/MyFacesSecurityEvents.java,Ana Lacerda,Marcos Candeia,NA
+.././src/hot/br/gov/dpf/epol/util/OutjectCenario.java,Diego Cavalcanti,Marcos Candeia,NA
+.././src/hot/br/gov/dpf/epol/util/PecaUploadRetornoListener.java,Marcos Candeia,NA,NA
+.././src/hot/br/gov/dpf/epol/util/Predicate.java,Rigel Melo,Marcos Candeia,NA
+.././src/hot/br/gov/dpf/epol/util/SelectItemComparator.java,Eduardo Colaço,Marcos Candeia,NA
+.././src/hot/br/gov/dpf/epol/util/ServicesContainer.java,Marcos Candeia,Carla Sukeyosi,Felipe Diogenes
+.././src/hot/br/gov/dpf/epol/util/ToStringComparator.java,Eduardo Colaço,Marcos Candeia,NA
+.././src/hot/br/gov/dpf/epol/util/Utils.java,Pedro Henriques,Diego Cavalcanti,Vladwoguer Bezerra
+.././src/hot/br/gov/dpf/epol/util/UtilsMock.java,Carla Sukeyosi,NA,NA
+.././src/hot/br/gov/dpf/epol/util/VersaoBuildMessages.java,Marcos Candeia,NA,NA
+.././src/hot/com/vocado/services/hibernate/HibernateWorkaroundHH2763.java,Jarbas Pereira,Pedro Henriques,NA
+.././src/main/br/gov/dpf/epol/action/arvoreVisualizacao/ListavelEmArvore.java,Igleson Freire,NA,NA
+.././src/main/br/gov/dpf/epol/action/arvoreVisualizacao/Nodo.java,Diego Cavalcanti,Igleson Freire,NA
+.././src/main/br/gov/dpf/epol/action/material/DestruicaoMaterial.java,Gabriel Brito,NA,NA
+.././src/main/br/gov/dpf/epol/action/material/DevolucaoMaterial.java,Carla Sukeyosi,Gabriel Brito,NA
+.././src/main/br/gov/dpf/epol/action/material/ExtravioQuantitativoMaterial.java,Gabriel Brito,NA,NA
+.././src/main/br/gov/dpf/epol/action/material/IncineracaoMaterial.java,Gabriel Brito,NA,NA
+.././src/main/br/gov/dpf/epol/action/material/MovimentacaoMaterial.java,Filipe Wesley,Gabriel Brito,NA
+.././src/main/br/gov/dpf/epol/action/material/TransferenciaExterna.java,Carla Sukeyosi,Gabriel Brito,NA
+.././src/main/br/gov/dpf/epol/action/material/TransferenciaInterna.java,Carla Sukeyosi,Gabriel Brito,NA
+.././src/main/br/gov/dpf/epol/model/Agenda.java,Demontie Junior,Marcos Candeia,Claudivan Filho
+.././src/main/br/gov/dpf/epol/model/Apensamento.java,Carla Sukeyosi,Jarbas Pereira,Claudivan Filho
+.././src/main/br/gov/dpf/epol/model/Caso.java,Victor Freire,Raquel Guimaraes,Pericles Macedo
+.././src/main/br/gov/dpf/epol/model/Conduta.java,Gustavo Sizilio,Filipe Wesley,Erickson Filipe
+.././src/main/br/gov/dpf/epol/model/DadosParecer.java,Marcos Candeia,Raquel Guimaraes,Erickson Filipe
+.././src/main/br/gov/dpf/epol/model/DecisaoJudicial.java,Vladwoguer Bezerra,Jarbas Pereira,Gabriel Brito
+.././src/main/br/gov/dpf/epol/model/Distribuivel.java,Ana Lacerda,Marcos Candeia,Claudivan Filho
+.././src/main/br/gov/dpf/epol/model/Documentavel.java,Izabela Melo,Felipe Diogenes,Carla Sukeyosi
+.././src/main/br/gov/dpf/epol/model/DocumentoGerenciavel.java,Igleson Freire,Andre Abrantes,NA
+.././src/main/br/gov/dpf/epol/model/EPolException.java,Jessica Sousa,Claudivan Filho,NA
+.././src/main/br/gov/dpf/epol/model/ElaborarPeca.java,Gabriel Brito,NA,NA
+.././src/main/br/gov/dpf/epol/model/EntidadeCRUDEPol.java,Raquel Guimaraes,Claudivan Filho,NA
+.././src/main/br/gov/dpf/epol/model/Envolvivel.java,Gabriel Brito,NA,NA
+.././src/main/br/gov/dpf/epol/model/Fato.java,Eduardo Colaço,Pedro Henriques,Jarbas Pereira
+.././src/main/br/gov/dpf/epol/model/Indiciamento.java,Gustavo Sizilio,Victor Freire,Eduardo Colaço
+.././src/main/br/gov/dpf/epol/model/Instituicao.java,Diego Cavalcanti,Samuel,Vladwoguer Bezerra
+.././src/main/br/gov/dpf/epol/model/ListaDeDistribuicao.java,Vladwoguer Bezerra,Igleson Freire,Gabriel Brito
+.././src/main/br/gov/dpf/epol/model/MunicipioEGP.java,Vladwoguer Bezerra,Demontie Junior,Claudivan Filho
+.././src/main/br/gov/dpf/epol/model/MunicipioEstrangeiro.java,Demontie Junior,Claudivan Filho,NA
+.././src/main/br/gov/dpf/epol/model/NaturezaAtoPresencial.java,Ana Lacerda,Claudivan Filho,NA
+.././src/main/br/gov/dpf/epol/model/Notificacao.java,Diego Cavalcanti,Pedro Henriques,Amaury Medeiros
+.././src/main/br/gov/dpf/epol/model/OperacaoNaoPermitidaException.java,Jessica Sousa,Claudivan Filho,NA
+.././src/main/br/gov/dpf/epol/model/Papel.java,Pedro Henriques,Vladwoguer Bezerra,Claudivan Filho
+.././src/main/br/gov/dpf/epol/model/Pedido.java,Diego Cavalcanti,Felipe Diogenes,Erickson Filipe
+.././src/main/br/gov/dpf/epol/model/PreferenciaExibicaoDados.java,Igleson Freire,Marcos Candeia,Carla Sukeyosi
+.././src/main/br/gov/dpf/epol/model/Processo.java,Demontie Junior,Clemilson Morais,Claudivan Filho
+.././src/main/br/gov/dpf/epol/model/Protegivel.java,Rigel Melo,Gabriel Brito,NA
+.././src/main/br/gov/dpf/epol/model/Rascunho.java,Demontie Junior,Izabela Melo,Gabriel Brito
+.././src/main/br/gov/dpf/epol/model/RegistroDeDistribuicao.java,Ana Lacerda,Leticia Wanderlei,Claudivan Filho
+.././src/main/br/gov/dpf/epol/model/RelacionamentoCaso.java,Carla Sukeyosi,Vladwoguer Bezerra,Marcos Candeia
+.././src/main/br/gov/dpf/epol/model/RepresentacaoJudicial.java,Felipe Diogenes,Vladwoguer Bezerra,Pedro Henriques
+.././src/main/br/gov/dpf/epol/model/RoteiroDeInvestigacao.java,Marcos Candeia,NA,NA
+.././src/main/br/gov/dpf/epol/model/StatusCaso.java,Amaury Medeiros,Claudivan Filho,NA
+.././src/main/br/gov/dpf/epol/model/Tarefa.java,Guilherme Emmanuel,Clemilson Morais,Erickson Filipe
+.././src/main/br/gov/dpf/epol/model/TipoData.java,Jarbas Pereira,Claudivan Filho,NA
+.././src/main/br/gov/dpf/epol/model/TipoDeDistribuicao.java,Ana Lacerda,Claudivan Filho,NA
+.././src/main/br/gov/dpf/epol/model/TipoDocumento.java,Victor Freire,Eduardo Colaço,Claudivan Filho
+.././src/main/br/gov/dpf/epol/model/TipoDocumentoIdentificacao.java,Victor Freire,Raquel Guimaraes,Claudivan Filho
+.././src/main/br/gov/dpf/epol/model/TipoIndiciamento.java,Eduardo Colaço,Claudivan Filho,NA
+.././src/main/br/gov/dpf/epol/model/TipoJustificativa.java,Felipe Diogenes,Erickson Filipe,Claudivan Filho
+.././src/main/br/gov/dpf/epol/model/TipoPedido.java,Rigel Melo,Erickson Filipe,Claudivan Filho
+.././src/main/br/gov/dpf/epol/model/TipoReferencia.java,Samuel,Claudivan Filho,NA
+.././src/main/br/gov/dpf/epol/model/TipoRepresentacaoJudicial.java,Diego Rafael,Claudivan Filho,NA
+.././src/main/br/gov/dpf/epol/model/TipoTarefa.java,Andre Abrantes,Carla Sukeyosi,Demontie Junior
+.././src/main/br/gov/dpf/epol/model/UsuarioExterno.java,Demontie Junior,Gabriel Brito,Claudivan Filho
+.././src/main/br/gov/dpf/epol/model/annotations/CachedMethodResult.java,Carla Sukeyosi,NA,NA
+.././src/main/br/gov/dpf/epol/model/annotations/CachedMethods.java,Carla Sukeyosi,NA,NA
+.././src/main/br/gov/dpf/epol/model/annotations/CampoNaoFiltravel.java,Vladwoguer Bezerra,NA,NA
+.././src/main/br/gov/dpf/epol/model/annotations/CampoNaoSelecionavel.java,Samuel Wesley,Demontie Junior,NA
+.././src/main/br/gov/dpf/epol/model/annotations/DateFilterType.java,Demontie Junior,Samuel Wesley,NA
+.././src/main/br/gov/dpf/epol/model/annotations/Filterable.java,Samuel Wesley,Demontie Junior,NA
+.././src/main/br/gov/dpf/epol/model/annotations/ReferenceFilterType.java,Demontie Junior,Samuel Wesley,NA
+.././src/main/br/gov/dpf/epol/model/annotations/StringFilterType.java,Demontie Junior,Samuel Wesley,NA
+.././src/main/br/gov/dpf/epol/model/custodia/CategoriaMaterial.java,Andre Abrantes,Ana Lacerda,NA
+.././src/main/br/gov/dpf/epol/model/custodia/CategoriaMaterialFilter.java,Demontie Junior,Erickson Filipe,Pedro Henriques
+.././src/main/br/gov/dpf/epol/model/custodia/EstadoMaterial.java,Andre Abrantes,Pedro Henriques,Erickson Filipe
+.././src/main/br/gov/dpf/epol/model/custodia/Identificador.java,Leticia Wanderlei,NA,NA
+.././src/main/br/gov/dpf/epol/model/custodia/Inconsistencia.java,Andre Abrantes,Izabela Melo,NA
+.././src/main/br/gov/dpf/epol/model/custodia/Lacre.java,Vladwoguer Bezerra,Izabela Melo,Ana Lacerda
+.././src/main/br/gov/dpf/epol/model/custodia/Material.java,Diego Cavalcanti,Ana Lacerda,Carla Sukeyosi
+.././src/main/br/gov/dpf/epol/model/custodia/StatusLacre.java,Andre Abrantes,Izabela Melo,NA
+.././src/main/br/gov/dpf/epol/model/custodia/TipoInconsistencia.java,Andre Abrantes,NA,NA
+.././src/main/br/gov/dpf/epol/model/custodia/UnidadeMedida.java,Marcos Candeia,Andre Abrantes,Ana Lacerda
+.././src/main/br/gov/dpf/epol/model/custom/ClassFilter.java,Rigel Melo,Samuel Wesley,Ana Lacerda
+.././src/main/br/gov/dpf/epol/model/custom/Customizable.java,Samuel Wesley,Rigel Melo,NA
+.././src/main/br/gov/dpf/epol/model/custom/Field.java,Samuel Wesley,Pedro Henriques,Filipe Wesley
+.././src/main/br/gov/dpf/epol/model/custom/FieldTable.java,Marcos Candeia,Filipe Wesley,Samuel Wesley
+.././src/main/br/gov/dpf/epol/model/custom/Filter.java,Rigel Melo,Samuel Wesley,Ana Lacerda
+.././src/main/br/gov/dpf/epol/model/custom/FilterField.java,Samuel Wesley,Ana Lacerda,Vladwoguer Bezerra
+.././src/main/br/gov/dpf/epol/model/custom/RuntimeEnum.java,Samuel Wesley,Rigel Melo,Marcos Candeia
+.././src/main/br/gov/dpf/epol/model/custom/validator/CalendarAfter.java,Marcos Candeia,NA,NA
+.././src/main/br/gov/dpf/epol/model/custom/validator/CalendarBefore.java,Marcos Candeia,NA,NA
+.././src/main/br/gov/dpf/epol/model/custom/validator/CalendarBetween.java,Marcos Candeia,NA,NA
+.././src/main/br/gov/dpf/epol/model/custom/validator/CompositionType.java,Rigel Melo,Marcos Candeia,NA
+.././src/main/br/gov/dpf/epol/model/custom/validator/ConstraintComposition.java,Rigel Melo,Marcos Candeia,NA
+.././src/main/br/gov/dpf/epol/model/custom/validator/Email.java,Filipe Wesley,Rigel Melo,Marcos Candeia
+.././src/main/br/gov/dpf/epol/model/custom/validator/Length.java,Filipe Wesley,Rigel Melo,Marcos Candeia
+.././src/main/br/gov/dpf/epol/model/custom/validator/Max.java,Rigel Melo,Marcos Candeia,NA
+.././src/main/br/gov/dpf/epol/model/custom/validator/Min.java,Rigel Melo,Marcos Candeia,NA
+.././src/main/br/gov/dpf/epol/model/custom/validator/NotBlank.java,Rigel Melo,Marcos Candeia,NA
+.././src/main/br/gov/dpf/epol/model/custom/validator/NotEmpty.java,Rigel Melo,Marcos Candeia,NA
+.././src/main/br/gov/dpf/epol/model/custom/validator/NotNull.java,Filipe Wesley,Rigel Melo,Marcos Candeia
+.././src/main/br/gov/dpf/epol/model/custom/validator/Pattern.java,Rigel Melo,Marcos Candeia,NA
+.././src/main/br/gov/dpf/epol/model/custom/validator/Range.java,Rigel Melo,Marcos Candeia,NA
+.././src/main/br/gov/dpf/epol/model/custom/validator/Validator.java,Demontie Junior,Rigel Melo,Marcos Candeia
+.././src/main/br/gov/dpf/epol/model/egp/Ator.java,Rigel Melo,Eduardo Colaço,Marcos Candeia
+.././src/main/br/gov/dpf/epol/model/egp/AtribuicoesServidor.java,Igleson Freire,NA,NA
+.././src/main/br/gov/dpf/epol/model/egp/Cargo.java,Eduardo Colaço,Rigel Melo,Diego Cavalcanti
+.././src/main/br/gov/dpf/epol/model/egp/CargoPoliciaFederal.java,Eduardo Colaço,Marcos Candeia,Pedro Henriques
+.././src/main/br/gov/dpf/epol/model/egp/Estado.java,Izabela Melo,Vladwoguer Bezerra,Felipe Diogenes
+.././src/main/br/gov/dpf/epol/model/egp/Municipio.java,Demontie Junior,Clemilson Morais,Gabriel Bezerra
+.././src/main/br/gov/dpf/epol/model/egp/Pessoa.java,Eduardo Colaço,Rigel Melo,Marcos Candeia
+.././src/main/br/gov/dpf/epol/model/egp/Servidor.java,Vladwoguer Bezerra,Jarbas Pereira,Rigel Melo
+.././src/main/br/gov/dpf/epol/model/egp/Unidade.java,Diogo,Joao Lucas,Gabriel Bezerra
+.././src/main/br/gov/dpf/epol/model/envolvido/Advogado.java,Demontie Junior,Marcos Candeia,Pedro Henriques
+.././src/main/br/gov/dpf/epol/model/envolvido/Documento.java,Gustavo Sizilio,Claudivan Filho,Igleson Freire
+.././src/main/br/gov/dpf/epol/model/envolvido/Endereco.java,Gustavo Sizilio,Leticia Wanderlei,Eduardo Colaço
+.././src/main/br/gov/dpf/epol/model/envolvido/Envolvido.java,Pericles Macedo,Gabriel Brito,Rigel Melo
+.././src/main/br/gov/dpf/epol/model/envolvido/Envolvimento.java,Gustavo Sizilio,Vladwoguer Bezerra,Rigel Melo
+.././src/main/br/gov/dpf/epol/model/envolvido/EstadoCivil.java,Eduardo Colaço,NA,NA
+.././src/main/br/gov/dpf/epol/model/envolvido/GrauInstrucao.java,Eduardo Colaço,Vladwoguer Bezerra,Andre Abrantes
+.././src/main/br/gov/dpf/epol/model/envolvido/NaturezaPJ.java,Marcos Candeia,Gustavo Sizilio,Samuel Wesley
+.././src/main/br/gov/dpf/epol/model/envolvido/OutroNome.java,Gustavo Sizilio,Ana Lacerda,Carla Sukeyosi
+.././src/main/br/gov/dpf/epol/model/envolvido/PessoaFisica.java,Erickson Filipe,Izabela Melo,Pedro Henriques
+.././src/main/br/gov/dpf/epol/model/envolvido/PessoaJuridica.java,Gustavo Sizilio,Samuel Wesley,Carla Sukeyosi
+.././src/main/br/gov/dpf/epol/model/envolvido/Profissao.java,Gustavo Sizilio,Eduardo Colaço,Vladwoguer Bezerra
+.././src/main/br/gov/dpf/epol/model/envolvido/QualificadorEnvolvimento.java,Gustavo Sizilio,Samuel,Pedro Henriques
+.././src/main/br/gov/dpf/epol/model/envolvido/Sexo.java,Igleson Freire,Pericles Macedo,Eduardo Colaço
+.././src/main/br/gov/dpf/epol/model/envolvido/Telefone.java,Gustavo Sizilio,Eduardo Colaço,Gabriel Brito
+.././src/main/br/gov/dpf/epol/model/envolvido/TipoEndereco.java,Gabriel Brito,Rigel Melo,Eduardo Colaço
+.././src/main/br/gov/dpf/epol/model/envolvido/TipoEnvolvido.java,Raquel Guimaraes,Carla Sukeyosi,NA
+.././src/main/br/gov/dpf/epol/model/envolvido/TipoEnvolvimento.java,Gustavo Sizilio,Raquel Guimaraes,Eduardo Colaço
+.././src/main/br/gov/dpf/epol/model/envolvido/TipoLogradouro.java,Rigel Melo,Gabriel Brito,NA
+.././src/main/br/gov/dpf/epol/model/envolvido/TipoOutroNome.java,Ana Lacerda,Carla Sukeyosi,NA
+.././src/main/br/gov/dpf/epol/model/envolvido/TipoTelefone.java,Gabriel Brito,Rigel Melo,Eduardo Colaço
+.././src/main/br/gov/dpf/epol/model/lei/Categoria.java,Vladwoguer Bezerra,Gustavo Sizilio,Raquel Guimaraes
+.././src/main/br/gov/dpf/epol/model/lei/Competencia.java,Samuel Wesley,NA,NA
+.././src/main/br/gov/dpf/epol/model/lei/ItemNorma.java,Lucas Torres,Ana Lacerda,Victor Freire
+.././src/main/br/gov/dpf/epol/model/lei/Norma.java,Erickson Filipe,Samuel Wesley,Rigel Melo
+.././src/main/br/gov/dpf/epol/model/lei/TipoItemNorma.java,Eduardo Colaço,Victor Freire,NA
+.././src/main/br/gov/dpf/epol/model/lei/TipoNorma.java,Rigel Melo,Victor Freire,Eduardo Colaço
+.././src/main/br/gov/dpf/epol/model/lei/TipoPenal.java,Samuel Wesley,Gustavo Sizilio,Ana Lacerda
+.././src/main/br/gov/dpf/epol/model/lei/TipoPenalFilter.java,Erickson Filipe,Samuel Wesley,Rigel Melo
+.././src/main/br/gov/dpf/epol/model/peca/Atributo.java,Victor Freire,Diego Cavalcanti,Vladwoguer Bezerra
+.././src/main/br/gov/dpf/epol/model/peca/AtributoHQL.java,Eduardo Colaço,Pedro Henriques,Diego Cavalcanti
+.././src/main/br/gov/dpf/epol/model/peca/AtributoImutavel.java,Vladwoguer Bezerra,Andre Abrantes,NA
+.././src/main/br/gov/dpf/epol/model/peca/AtributoLE.java,Diego Cavalcanti,Leticia Wanderlei,Samuel
+.././src/main/br/gov/dpf/epol/model/peca/AtributoValorInvalidoException.java,Victor Freire,NA,NA
+.././src/main/br/gov/dpf/epol/model/peca/Conversor.java,Diego Cavalcanti,Eduardo Colaço,Gabriel Brito
+.././src/main/br/gov/dpf/epol/model/peca/DataAtual.java,Diego Cavalcanti,Gabriel Bezerra,Gabriel Brito
+.././src/main/br/gov/dpf/epol/model/peca/FormatoPeca.java,Andre Abrantes,NA,NA
+.././src/main/br/gov/dpf/epol/model/peca/NaoVisualizavelException.java,Gabriel Bezerra,Victor Freire,NA
+.././src/main/br/gov/dpf/epol/model/peca/Peca.java,Victor Freire,Diogo,Jarbas Pereira
+.././src/main/br/gov/dpf/epol/model/peca/PecaBuilder.java,Victor Freire,Vladwoguer Bezerra,Andre Abrantes
+.././src/main/br/gov/dpf/epol/model/peca/TemplateAtributo.java,Vladwoguer Bezerra,Victor Freire,Andre Abrantes
+.././src/main/br/gov/dpf/epol/model/peca/TemplateAtributoHQL.java,Victor Freire,Andre Abrantes,NA
+.././src/main/br/gov/dpf/epol/model/peca/TemplateAtributoLE.java,Samuel,Andre Abrantes,NA
+.././src/main/br/gov/dpf/epol/model/peca/TemplatePeca.java,Diego Cavalcanti,Vladwoguer Bezerra,Diogo
+.././src/main/br/gov/dpf/epol/model/peca/TipoPeca.java,Raquel Guimaraes,Diogo,Izabela Melo
+.././src/main/br/gov/dpf/epol/model/peca/TipoTemplateAtributo.java,Eduardo Colaço,Pedro Henriques,Gabriel Brito
+.././src/main/br/gov/dpf/epol/model/peca/VisualizacaoData.java,Erickson Filipe,Gabriel Brito,NA
+.././src/main/br/gov/dpf/epol/model/peca/VisualizadorFormato.java,Diego Cavalcanti,Gabriel Bezerra,Gabriel Brito
+.././src/main/br/gov/dpf/epol/model/peca/VisualizadorFormatoHTML.java,Gabriel Bezerra,Gabriel Brito,NA
+.././src/main/br/gov/dpf/epol/model/peca/VisualizadorFormatoOutro.java,Gabriel Bezerra,Gabriel Brito,NA
+.././src/main/br/gov/dpf/epol/model/peca/VisualizadorFormatoTXT.java,Clemilson Morais,Gabriel Brito,NA
+.././src/main/br/gov/dpf/epol/model/procedimento/Procedimento.java,Raquel Guimaraes,Gabriel Brito,Vladwoguer Bezerra
+.././src/main/br/gov/dpf/epol/model/procedimento/TipoProcedimento.java,Felipe Diogenes,Ana Lacerda,NA
+.././src/main/br/gov/dpf/epol/model/tarefa/AguardarRespostaRepresentacaoJudicial.java,Carla Sukeyosi,Vladwoguer Bezerra,Demontie Junior
+.././src/main/br/gov/dpf/epol/model/tarefa/AnalisarApensamento.java,Vladwoguer Bezerra,Marcos Candeia,Filipe Wesley
+.././src/main/br/gov/dpf/epol/model/tarefa/AnalisarDocumentoEnviadoParaAnalise.java,Carla Sukeyosi,Demontie Junior,Ana Lacerda
+.././src/main/br/gov/dpf/epol/model/tarefa/AnalisarFimDeRedistribuicaoTemporaria.java,Carla Sukeyosi,Marcos Candeia,NA
+.././src/main/br/gov/dpf/epol/model/tarefa/AnalisarFlagrante.java,Marcos Candeia,Samuel Wesley,Gabriel Brito
+.././src/main/br/gov/dpf/epol/model/tarefa/AnalisarPecaAdicionada.java,Marcos Candeia,NA,NA
+.././src/main/br/gov/dpf/epol/model/tarefa/AnalisarPedidoDeReconsideracao.java,Felipe Diogenes,NA,NA
+.././src/main/br/gov/dpf/epol/model/tarefa/Anotacao.java,Andre Abrantes,Carla Sukeyosi,NA
+.././src/main/br/gov/dpf/epol/model/tarefa/ArbitrarFianca.java,Erickson Filipe,Ana Lacerda,Pedro Henriques
+.././src/main/br/gov/dpf/epol/model/tarefa/AtoPresencial.java,Erickson Filipe,Marcos Candeia,Felipe Diogenes
+.././src/main/br/gov/dpf/epol/model/tarefa/AtributoTarefa.java,Diego Cavalcanti,Raquel Guimaraes,Carla Sukeyosi
+.././src/main/br/gov/dpf/epol/model/tarefa/ComunicarFlagrante.java,Demontie Junior,Carla Sukeyosi,NA
+.././src/main/br/gov/dpf/epol/model/tarefa/DepoimentoCondutor.java,Vladwoguer Bezerra,Felipe Diogenes,NA
+.././src/main/br/gov/dpf/epol/model/tarefa/DepoimentoFlagrante.java,Pedro Henriques,Vladwoguer Bezerra,Gabriel Brito
+.././src/main/br/gov/dpf/epol/model/tarefa/DepoimentoPreso.java,Felipe Diogenes,Vladwoguer Bezerra,NA
+.././src/main/br/gov/dpf/epol/model/tarefa/DepoimentoTestemunha.java,Vladwoguer Bezerra,Felipe Diogenes,NA
+.././src/main/br/gov/dpf/epol/model/tarefa/DestinacaoDeCustodia.java,Carla Sukeyosi,NA,NA
+.././src/main/br/gov/dpf/epol/model/tarefa/DistribuirNoticiaCrime.java,Andre Abrantes,Clemilson Morais,Samuel
+.././src/main/br/gov/dpf/epol/model/tarefa/DistribuirRegistroEspecial.java,Vladwoguer Bezerra,NA,NA
+.././src/main/br/gov/dpf/epol/model/tarefa/ElaborarLaudoPericial.java,Demontie Junior,Carla Sukeyosi,NA
+.././src/main/br/gov/dpf/epol/model/tarefa/EncaminharProcedimento.java,Vladwoguer Bezerra,Joao Batista,Carla Sukeyosi
+.././src/main/br/gov/dpf/epol/model/tarefa/EstadoTarefa.java,Rigel Melo,Ana Lacerda,Felipe Diogenes
+.././src/main/br/gov/dpf/epol/model/tarefa/Flagrante.java,Demontie Junior,Pedro Henriques,NA
+.././src/main/br/gov/dpf/epol/model/tarefa/InstaurarInquerito.java,Carla Sukeyosi,Samuel,Ana Lacerda
+.././src/main/br/gov/dpf/epol/model/tarefa/Intimar.java,Marcos Candeia,Samuel Wesley,Jarbas Pereira
+.././src/main/br/gov/dpf/epol/model/tarefa/Justificativa.java,Erickson Filipe,Felipe Diogenes,NA
+.././src/main/br/gov/dpf/epol/model/tarefa/ModalidadeIntimacao.java,Felipe Diogenes,NA,NA
+.././src/main/br/gov/dpf/epol/model/tarefa/PedirPrazo.java,Amaury Medeiros,Felipe Diogenes,NA
+.././src/main/br/gov/dpf/epol/model/tarefa/PermitirAcesso.java,Jarbas Pereira,Pedro Henriques,NA
+.././src/main/br/gov/dpf/epol/model/tarefa/ProduzirAQI.java,Diego Cavalcanti,Samuel,Samuel Wesley
+.././src/main/br/gov/dpf/epol/model/tarefa/ProduzirAutoApreensao.java,Demontie Junior,Felipe Diogenes,NA
+.././src/main/br/gov/dpf/epol/model/tarefa/ProduzirAutoDeApresentacaoEApreensao.java,Ana Lacerda,Felipe Diogenes,NA
+.././src/main/br/gov/dpf/epol/model/tarefa/ProduzirBoletimIdentificacaoCriminal.java,Victor Freire,Diego Cavalcanti,Samuel
+.././src/main/br/gov/dpf/epol/model/tarefa/ProduzirBoletimVidaPregressa.java,Diego Cavalcanti,Ana Lacerda,Samuel
+.././src/main/br/gov/dpf/epol/model/tarefa/ProduzirDespachoFundamentado.java,Samuel,Leticia Wanderlei,Samuel Wesley
+.././src/main/br/gov/dpf/epol/model/tarefa/ProduzirNotaCiencia.java,Demontie Junior,Diego Cavalcanti,Ricardo Oliveira
+.././src/main/br/gov/dpf/epol/model/tarefa/ProduzirNotaCulpa.java,Amaury Medeiros,Pedro Henriques,NA
+.././src/main/br/gov/dpf/epol/model/tarefa/ProduzirRelatorioFinal.java,Daniel Boni,Samuel,Ricardo Oliveira
+.././src/main/br/gov/dpf/epol/model/tarefa/ProduzirTCOFlagrancial.java,Erickson Filipe,Pedro Henriques,NA
+.././src/main/br/gov/dpf/epol/model/tarefa/ProrrogarPrazo.java,Diego Cavalcanti,Amaury Medeiros,Pedro Henriques
+.././src/main/br/gov/dpf/epol/model/tarefa/RealizarApensamento.java,Filipe Wesley,Andre Abrantes,Carla Sukeyosi
+.././src/main/br/gov/dpf/epol/model/tarefa/RevisarAnalise.java,Demontie Junior,Diego Cavalcanti,Leticia Wanderlei
+.././src/main/br/gov/dpf/epol/model/tarefa/RevisarPermissoesDeAcesso.java,Jarbas Pereira,Felipe Diogenes,NA
+.././src/main/br/gov/dpf/epol/model/tarefa/SugestaoTarefa.java,Diego Cavalcanti,Erickson Filipe,Jarbas Pereira
+.././src/main/br/gov/dpf/epol/model/tarefa/TransferenciaDeCustodia.java,Jarbas Pereira,Carla Sukeyosi,Pedro Henriques
+.././test/br/gov/dpf/epol/interfaces/selenium/TestaLogar.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/interfaces/selenium/elementos/TabelaDeAbasEI.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/interfaces/selenium/elementos/listagem/AjudaSEI.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/interfaces/selenium/elementos/listagem/ListagemEI.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/interfaces/selenium/elementos/menuPrincipal/BuscarSEI.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/interfaces/selenium/elementos/menuPrincipal/CasoSEI.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/interfaces/selenium/elementos/menuPrincipal/EnvolvidoSEI.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/interfaces/selenium/elementos/menuPrincipal/MenuPrincipalEI.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/interfaces/selenium/elementos/menuPrincipal/NovoSEI.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/interfaces/selenium/util/AbstractTesteInterfaces.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/interfaces/selenium/util/TesteInterfacesUtils.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/agenda/AgendaRequestURLActionTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/agenda/AgendaServiceTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/caso/AlterarSegredoJusticaActionTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/caso/AnalisarApensarActionTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/caso/ApensarActionTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/caso/BuscarCasoActionTest.java,Marcos Candeia,Guilherme Emmanuel,NA
+.././test/br/gov/dpf/epol/sistema/caso/CasoActionAvocarTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/caso/CasoActionTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/caso/CasoServiceTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/caso/CasoTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/caso/DefinirPermissoesSegredoDeJusticaTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/caso/DesapensarActionTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/caso/DesmembrarCasoActionTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/caso/ListaDeDistribuicaoTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/caso/ListarRepresentacoesJudiciaisActionTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/caso/ProrrogarCasoActionTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/caso/RedistribuirCargaActionTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/caso/RepresentacaoJudicialActionTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/caso/VerProcedimentoActionTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/cenario/GrupoCenarioTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/cenario/PopulaCenarioTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/componentes/CamposComplementaresTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/componentes/EGPServiceTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/componentes/FatoServiceTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/componentes/NormaServiceTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/distribuicao/CadastrarListaDeDistribuicaoDeTarefaTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/distribuicao/DistribuicaoServiceTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/distribuicao/DistribuirNoticiaCrimeActionTemporarioTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/distribuicao/DistribuirNoticiaCrimeActionTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/envolvimento/AdvogadoActionTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/envolvimento/BuscarEnvolvidoActionTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/envolvimento/CondutaActionTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/envolvimento/EnvolvidoServiceTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/envolvimento/EnvolvimentoActionTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/envolvimento/PessoaFisicaActionTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/envolvimento/PessoaFisicaTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/envolvimento/PessoaJuridicaActionTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/envolvimento/PessoaJuridicaTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/envolvimento/TipoEnvolvimentoServiceTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/envolvimento/TipoPenalActionTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/envolvimento/TipoPenalFilterTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/indefinido/AnalisarPedidoDeReconsideracaoActionTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/indefinido/CasoDaoTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/indefinido/CompetenciaPersistenceTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/indefinido/EGPDaoTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/indefinido/InstaurarInqueritoServiceTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/indefinido/ListagemEmBancoTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/indefinido/RepresentacaoJudicialPersistenciaTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/indefinido/TesteIntegracao.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/indefinido/TipoReferenciaServiceTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/logica/AtributoHQLPesquisaTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/logica/AtributoLEPesquisaTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/logica/AutenticadorTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/logica/CadastrarCamposComplementaresActionTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/logica/CadastrarPapelServidorActionTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/logica/CnpjValidatorTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/logica/CpfValidatorTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/logica/DefinirPermissoesDeAcessoCasoActionTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/logica/DefinirPermissoesDeAcessoPecaActionTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/logica/ExibirNotificacoesActionTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/logica/FieldTableActionTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/logica/FieldTableTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/logica/FiltrosDeListagemMostrarDadosUsuarioTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/logica/IExibicaoConfiguravelTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/logica/MostrarDadosDoUsuarioActionTest.java,Marcos Candeia,Guilherme Emmanuel,NA
+.././test/br/gov/dpf/epol/sistema/logica/MostrarDadosUsuarioFacesTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/logica/RuntimeEnumTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/logica/TemplateAtributoHQLPersistenciaTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/logica/TemplateAtributoLEPersistenciaTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/logica/TemplateAtributoPersistenciaTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/material/ApreenderMaterialActionTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/material/BuscarMaterialActionTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/material/CategoriaMaterialFilterTest.java,Vladwoguer Bezerra,Guilherme Emmanuel,NA
+.././test/br/gov/dpf/epol/sistema/material/EstadoMaterialTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/material/IndicarInconsistenciaMaterialActionTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/material/LacrarMaterialActionTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/material/MaterialActionTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/material/MovimentarMaterialActionTest.java,Marcos Candeia,Guilherme Emmanuel,NA
+.././test/br/gov/dpf/epol/sistema/material/RegistrarDecisaoJudicialActionTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/material/RemoverLacreActionTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/mock/CasoMock.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/peca/CadastrarTemplatePecaTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/peca/CriarPecaActionTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/peca/MarcarPecaSegredoDeJusticaTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/peca/PecaActionTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/peca/PecaPersistenciaTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/peca/PecaServiceTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/peca/TemplatePecaPersistenciaTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/peca/TemplatePecaServiceTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/peca/VerPecaTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/peca/VisualizarPecasActionTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/tarefa/BuscarTarefaActionTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/tarefa/CadastrarTarefaActionTest.java,Marcos Candeia,Guilherme Emmanuel,NA
+.././test/br/gov/dpf/epol/sistema/tarefa/CadastrarTarefaRelacionadaTest.java,Marcos Candeia,Guilherme Emmanuel,NA
+.././test/br/gov/dpf/epol/sistema/tarefa/IndiciamentoActionTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/tarefa/RemarcarAtoPresencialTest.java,Marcos Candeia,Guilherme Emmanuel,NA
+.././test/br/gov/dpf/epol/sistema/tarefa/ResponderTarefaActionTest.java,Marcos Candeia,Guilherme Emmanuel,NA
+.././test/br/gov/dpf/epol/sistema/tarefa/ResponderTarefaAguardarRespostaRepresentacaoJudicialTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/tarefa/ResponderTarefaAnalisarDocumentoEnviadoParaAnaliseTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/tarefa/ResponderTarefaAnalisarFlagranteTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/tarefa/ResponderTarefaArbitrarFiancaTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/tarefa/ResponderTarefaPedirPrazoTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/tarefa/ResponderTarefaProrrogarPrazoTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/tarefa/RevisarTarefaAnalisarNoticiaCrimeAnaliseTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/tarefa/RoteiroDeInvestigacaoActionTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/tarefa/SugestaoTarefaServiceTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/tarefa/TarefaServiceTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/tarefa/TipoTarefaServiceTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/tarefa/TipoTarefaTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/tarefa/VerTarefaActionTest.java,Marcos Candeia,Guilherme Emmanuel,NA
+.././test/br/gov/dpf/epol/sistema/util/AbstractTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/util/ComponentesEPolTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/util/ComponentesTest.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/util/SQLUtils.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/util/TesteComponentes.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/sistema/util/TesteComponentesEPol.java,Vladwoguer Bezerra,Jessica Sousa,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/sistema/util/TesteFacesEpol.java,Marcos Candeia,Vladwoguer Bezerra,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/unidade/AdvogadoTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/AnotacaoTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/AtributoTarefaTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/AtributoTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/CadastrarTemplatePecaTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/CalendarAfterValidatorTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/CalendarBeforeValidatorTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/CalendarBetweenValidatorTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/CasoTestCase.java,Felipe Diogenes,Marcos Candeia,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/unidade/CategoriaTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/CepConverterTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/CepValidatorTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/CnpjConverterTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/CompetenciaTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/CompetenciaTipoPenalFilterTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/ComunicarFlagranteTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/CondutaTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/ConstraintCompositionTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/ConversorTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/CpfConverterTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/DataAtualTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/DecisaoJudicialTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/DepoimentoFlagranteTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/DistribuirNoticiaCrimeTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/DocumentoTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/EmailValidatorTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/EnderecoTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/EnvolvimentoTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/ExceptionsTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/FieldTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/FilterFieldTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/HorarioConverterTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/InstituicaoConverterTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/InstituicaoTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/IntimarTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/ItemNormaTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/LengthValidatorTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/Log4jUtilTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/MaterialTestCase.java,Marcos Candeia,Guilherme Emmanuel,NA
+.././test/br/gov/dpf/epol/unidade/MaxValidatorTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/MensagensTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/MinValidatorTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/MunicipioEGPTestCase.java,Felipe Diogenes,Guilherme Emmanuel,NA
+.././test/br/gov/dpf/epol/unidade/NaturezaAtoPresencialTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/NormaTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/NotBlankValidatorTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/NotEmptyValidatorTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/NotNullValidatorTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/NotificacaoTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/PatternValidatorTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/PecaTestCase.java,Felipe Diogenes,Marcos Candeia,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/unidade/PedidoTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/PedirPrazoTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/PessoaFisicaTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/PessoaJuridicaTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/ProcessoTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/ProduzirAQITestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/ProduzirBoletimIdentificacaoCriminalTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/ProduzirBoletimVidaPregressaTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/ProduzirDespachoFundamentadoTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/ProduzirNotaCienciaTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/ProduzirRelatorioFinalTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/ProrrogarPrazoTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/RangeValidatorTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/ReflectionUtilTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/RepresentacaoJudicialTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/RoteiroDeInvestigacaoTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/RuntimeEnumTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/SeamDaoTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/ServidorTestCase.java,Felipe Diogenes,Marcos Candeia,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/unidade/StatusCasoTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/TarefaTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/TelefoneTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/TemplateAtributoHQLTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/TemplateAtributoLETestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/TemplatePecaTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/TesteUnidade.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/TipoDocumentoTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/TipoIndiciamentoTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/TipoPenalTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/TipoTarefaTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/UsuarioExternoTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/UtilsTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/VisualizadorFormatoHTMLTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/VisualizadorFormatoOutroTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/VisualizadorFormatoTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/session/DocumentoDTOTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/unidade/session/SistemaProtocoloBeanTestCase.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/utilTest/Log4jUtil.java,Guilherme Emmanuel,NA,NA
+.././test/br/gov/dpf/epol/utilTest/ReflectionUtil.java,Guilherme Emmanuel,NA,NA

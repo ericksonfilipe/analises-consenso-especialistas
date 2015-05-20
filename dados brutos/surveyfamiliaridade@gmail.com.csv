@@ -1,0 +1,51 @@
+path|chave|certeza|talvez|timestamp
+../epol/src/hot/br/gov/dpf/epol/cenario/PopulaCenario.java|surveyfamiliaridade|Jessica Sousa,Andre Abrantes,Guilherme Emmanuel,Marcos Candeia ||1401293717966
+../epol/src/main/br/gov/dpf/epol/model/peca/TemplatePeca.java|surveyfamiliaridade|Leticia Wanderlei,Pedro Henriques,Vladwoguer Bezerra||1401293831063
+../epol/src/main/br/gov/dpf/epol/model/egp/AtribuicoesServidor.java|surveyfamiliaridade|Igleson Freire,Vladwoguer Bezerra||1401294039157
+../epol/src/hot/br/gov/dpf/epol/session/corporativo/EnderecoCorporativoService.java|surveyfamiliaridade|Felipe Diogenes,Marcos Candeia |Carla Sukeyosi|1401294100136
+../epol/src/hot/br/gov/dpf/epol/cenario/CenarioAnalisarPedidoReconsideracao.java|surveyfamiliaridade||Jessica Sousa,Guilherme Emmanuel|1401294265878
+../epol/src/hot/br/gov/dpf/epol/session/CompetenciaBean.java|surveyfamiliaridade|Igleson Freire||1401294322192
+../epol/src/hot/br/gov/dpf/epol/session/CmisTesteBean.java|surveyfamiliaridade|Igleson Freire,Andre Abrantes||1401294365699
+../epol/src/hot/br/gov/dpf/epol/session/corporativo/ServidorCorporativoService.java|surveyfamiliaridade|Marcos Candeia |Felipe Diogenes,Carla Sukeyosi,Pedro Henriques|1401294437739
+../epol/src/hot/br/gov/dpf/epol/action/tarefa/AnalisarApensamentoAction.java|surveyfamiliaridade|Vladwoguer Bezerra|Igleson Freire|1401294629085
+../epol/src/main/br/gov/dpf/epol/model/envolvido/Envolvimento.java|surveyfamiliaridade|Carla Sukeyosi,Vladwoguer Bezerra,Andre Abrantes,Gabriel Brito||1401294708188
+../epol/src/hot/br/gov/dpf/epol/session/corporativo/ServidorCorporativoBean.java|surveyfamiliaridade|Marcos Candeia |Felipe Diogenes,Carla Sukeyosi,Pedro Henriques|1401294739600
+../epol/src/hot/br/gov/dpf/epol/action/peca/PecaAction.java|surveyfamiliaridade|Leticia Wanderlei,Pedro Henriques,Igleson Freire||1401294784906
+../epol/src/main/br/gov/dpf/epol/model/tarefa/Anotacao.java|surveyfamiliaridade|Andre Abrantes|Marcos Candeia ,Vladwoguer Bezerra|1401294856857
+../epol/src/main/br/gov/dpf/epol/model/Envolvivel.java|surveyfamiliaridade|Gabriel Brito,Carla Sukeyosi|Andre Abrantes,Vladwoguer Bezerra|1401294901497
+../epol/src/hot/br/gov/dpf/epol/session/PapelService.java|surveyfamiliaridade|Marcos Candeia ||1401294975007
+../epol/src/hot/br/gov/dpf/epol/session/AutenticadorBean.java|surveyfamiliaridade|Igleson Freire,Marcos Candeia ,Andre Abrantes||1401295052634
+../epol/src/hot/br/gov/dpf/epol/cenario/CenarioCasoFaseAnalise.java|surveyfamiliaridade|Vladwoguer Bezerra|Jessica Sousa,Guilherme Emmanuel|1401295143909
+../epol/src/hot/br/gov/dpf/epol/action/tarefa/AnalisarFlagranteAction.java|surveyfamiliaridade|Leticia Wanderlei|Vladwoguer Bezerra|1401295195133
+../epol/src/hot/br/gov/dpf/epol/session/corporativo/ProfissaoCorporativoBean.java|surveyfamiliaridade|Carla Sukeyosi|Marcos Candeia ,Pedro Henriques,Felipe Diogenes|1401295283642
+../epol/src/hot/br/gov/dpf/epol/action/tarefa/AnalisarDocumentoEnviadoParaAnaliseAction.java|surveyfamiliaridade||Vladwoguer Bezerra,Andre Abrantes,Filipe Wesley,Marcos Candeia ,Pedro Henriques,Igleson Freire|1401295478600
+../epol/src/main/br/gov/dpf/epol/model/tarefa/AnalisarFlagrante.java|surveyfamiliaridade|Vladwoguer Bezerra|Andre Abrantes|1401295570729
+../epol/src/hot/br/gov/dpf/epol/action/RepresentacaoJudicialAction.java|surveyfamiliaridade|Igleson Freire||1401295645684
+../epol/src/hot/br/gov/dpf/epol/action/converter/CepConverter.java|surveyfamiliaridade|Filipe Wesley,Marcos Candeia ||1401295715616
+../epol/src/hot/br/gov/dpf/epol/action/IndicarInconsistenciaMaterialAction.java|surveyfamiliaridade|Gabriel Brito||1401295750285
+../epol/src/main/br/gov/dpf/epol/model/Rascunho.java|surveyfamiliaridade|Igleson Freire,Andre Abrantes,Vladwoguer Bezerra|Leticia Wanderlei,Pedro Henriques|1401295825871
+../epol/src/main/br/gov/dpf/epol/model/EntidadeCRUDEPol.java|surveyfamiliaridade|||1401295914489
+../epol/src/main/br/gov/dpf/epol/action/arvoreVisualizacao/ListavelEmArvore.java|surveyfamiliaridade|Igleson Freire||1401295957304
+../epol/src/hot/br/gov/dpf/epol/cenario/CenarioNotificacoes.java|surveyfamiliaridade||Jessica Sousa,Guilherme Emmanuel,Vladwoguer Bezerra|1401296023580
+../epol/src/main/br/gov/dpf/epol/model/egp/CargoPoliciaFederal.java|surveyfamiliaridade||Marcos Candeia |1401296132709
+../epol/src/hot/br/gov/dpf/epol/session/TarefaService.java|surveyfamiliaridade|Andre Abrantes|Carla Sukeyosi,Igleson Freire|1401296221915
+../epol/src/main/br/gov/dpf/epol/model/custodia/Material.java|surveyfamiliaridade|Gabriel Brito,Pedro Henriques||1401296267968
+../epol/src/hot/br/gov/dpf/epol/session/NormaBean.java|surveyfamiliaridade|Vladwoguer Bezerra|Marcos Candeia |1401296339062
+../epol/src/main/br/gov/dpf/epol/model/envolvido/NaturezaPJ.java|surveyfamiliaridade||Pedro Henriques,Andre Abrantes|1401296434191
+../epol/src/hot/br/gov/dpf/epol/pesquisa/pp/filtro/FiltroPropertyEquals.java|surveyfamiliaridade||Carla Sukeyosi|1401296490392
+../epol/src/hot/br/gov/dpf/epol/action/custom/FilterAction.java|surveyfamiliaridade|||1401296547644
+../epol/src/main/br/gov/dpf/epol/model/TipoDeDistribuicao.java|surveyfamiliaridade|||1401296638483
+../epol/src/main/br/gov/dpf/epol/model/custom/Filter.java|surveyfamiliaridade|||1401296664538
+../epol/src/hot/br/gov/dpf/epol/action/BuscarMaterialAction.java|surveyfamiliaridade||Pedro Henriques,Vladwoguer Bezerra|1401296712813
+../epol/src/hot/br/gov/dpf/epol/action/listagem/ListagemSelecionar.java|surveyfamiliaridade|Pedro Henriques||1401296738682
+../epol/src/hot/br/gov/dpf/epol/action/FatoAction.java|surveyfamiliaridade||Vladwoguer Bezerra|1401296801408
+../epol/src/main/br/gov/dpf/epol/model/OperacaoNaoPermitidaException.java|surveyfamiliaridade||Marcos Candeia |1401296888992
+../epol/src/hot/br/gov/dpf/epol/action/PedirRedistribuicaoAction.java|surveyfamiliaridade|||1401296923506
+../epol/src/main/br/gov/dpf/epol/model/custom/RuntimeEnum.java|surveyfamiliaridade||Vladwoguer Bezerra,Igleson Freire|1401296978678
+../epol/src/hot/br/gov/dpf/epol/pesquisa/AbstractBooleanSearchFilter.java|surveyfamiliaridade|||1401297024333
+../epol/src/hot/br/gov/dpf/epol/pesquisa/pp/filtro/FiltroRejeitaTudo.java|surveyfamiliaridade|||1401297038862
+../epol/src/main/br/gov/dpf/epol/model/tarefa/DepoimentoCondutor.java|surveyfamiliaridade|||1401297127175
+../epol/src/hot/br/gov/dpf/epol/pesquisa/AbstractRadioSearchFilter.java|surveyfamiliaridade|||1401297138006
+../epol/src/hot/br/gov/dpf/epol/util/ComparadorSelecionavel.java|surveyfamiliaridade|||1401297205390
+../epol/src/main/br/gov/dpf/epol/model/tarefa/ProduzirNotaCiencia.java|surveyfamiliaridade|||1401297218117
+../epol/src/main/br/gov/dpf/epol/model/TipoReferencia.java|surveyfamiliaridade|||1401297317852

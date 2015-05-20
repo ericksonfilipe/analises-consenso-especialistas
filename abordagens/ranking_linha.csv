@@ -1,0 +1,690 @@
+.././src/hot/br/gov/dpf/epol/action/Action.java,Felipe Diogenes,Claudivan Filho <j.claudivan.filho@gmail.com>,rigelbm@gmail.com,Filipe Wesley,Pedro Henriques,joaolucas.epol@gmail.com,aninhaa182@gmail.com,Leticia Wanderlei,Diego Cavalcanti <diego@diegocavalcanti.com>
+.././src/hot/br/gov/dpf/epol/session/PecaService.java,Felipe Diogenes,victorclf@live.com,izabela.vmelo@gmail.com,jarbas.byakuya@gmail.com,Vladwoguer Bezerra,anderson.rui@gmail.com,Igleson Freire,ccc.samuel@gmail.com,diogoaos@gmail.com
+.././src/main/br/gov/dpf/epol/model/custodia/Material.java,Andre Abrantes,Pedro Henriques,Felipe Diogenes,Leticia Wanderlei,Gabriel Brito,Carla Sukeyosi,aninhaa182@gmail.com,Diego Cavalcanti <diego@diegocavalcanti.com>
+.././src/main/br/gov/dpf/epol/model/custom/FilterField.java,Vladwoguer Bezerra,aninhaa182@gmail.com,samuelwjr@gmail.com
+.././src/main/br/gov/dpf/epol/model/peca/FormatoPeca.java,Andre Abrantes
+.././src/main/br/gov/dpf/epol/model/custom/validator/NotBlank.java,Marcos Candeia,rigelbm@gmail.com
+.././test/br/gov/dpf/epol/sistema/logica/AtributoLEPesquisaTest.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/sistema/distribuicao/DistribuirNoticiaCrimeActionTemporarioTest.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/action/RoteiroDeInvestigacaoAction.java,Marcos Candeia
+.././src/main/br/gov/dpf/epol/model/tarefa/DistribuirNoticiaCrime.java,Pedro Henriques,Vladwoguer Bezerra,Gabriel Brito,Felipe Diogenes,raquelrag@gmail.com,diogoaos@gmail.com,Carla Sukeyosi,Marcos Candeia,demontiejunior@gmail.com,ericksonfilipe@gmail.com,clemilsonmorais@gmail.com,aninhaa182@gmail.com,ccc.samuel@gmail.com,Andre Abrantes
+.././test/br/gov/dpf/epol/sistema/cenario/GrupoCenarioTest.java,Guilherme Emmanuel
+.././src/main/br/gov/dpf/epol/model/tarefa/ElaborarLaudoPericial.java,Carla Sukeyosi,demontiejunior@gmail.com
+.././src/main/br/gov/dpf/epol/model/custom/Filter.java,aninhaa182@gmail.com,samuelwjr@gmail.com,rigelbm@gmail.com
+.././src/hot/br/gov/dpf/epol/action/custom/FilterAction.java,Vladwoguer Bezerra,rigelbm@gmail.com,jarbas.byakuya@gmail.com
+.././src/hot/br/gov/dpf/epol/action/converter/InstituicaoConverter.java,ccc.samuel@gmail.com,samuelwjr@gmail.com
+.././src/main/br/gov/dpf/epol/model/PreferenciaExibicaoDados.java,Carla Sukeyosi,Marcos Candeia,Igleson Freire
+.././src/hot/br/gov/dpf/epol/action/ICrudCreateAction.java,Felipe Diogenes,Diego Cavalcanti <diego@diegocavalcanti.com>
+.././src/hot/br/gov/dpf/epol/cenario/CenarioCasoFaseDistribuicao.java,Pedro Henriques,Guilherme Emmanuel,Marcos Candeia,raquelrag@gmail.com,Vladwoguer Bezerra,Felipe Diogenes,Andre Abrantes
+.././test/br/gov/dpf/epol/sistema/logica/CadastrarPapelServidorActionTest.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/sistema/caso/RepresentacaoJudicialActionTest.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/util/CachedMethodResultInterceptor.java,Carla Sukeyosi
+.././test/br/gov/dpf/epol/sistema/caso/ApensarActionTest.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/sistema/logica/DefinirPermissoesDeAcessoPecaActionTest.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/sistema/util/SQLUtils.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/sistema/cenario/PopulaCenarioTest.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/unidade/TemplateAtributoHQLTestCase.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/session/CMISIndisponivelBean.java,Igleson Freire,Andre Abrantes
+.././test/br/gov/dpf/epol/sistema/material/RegistrarDecisaoJudicialActionTest.java,Guilherme Emmanuel
+.././src/main/br/gov/dpf/epol/model/tarefa/Anotacao.java,Carla Sukeyosi,Andre Abrantes
+.././src/hot/br/gov/dpf/epol/action/ProrrogarCasoAction.java,Claudivan Filho <j.claudivan.filho@gmail.com>,amaurymedeiros@gmail.com,Andre Abrantes
+.././test/br/gov/dpf/epol/sistema/logica/TemplateAtributoPersistenciaTest.java,Guilherme Emmanuel
+.././src/main/br/gov/dpf/epol/model/custodia/CategoriaMaterialFilter.java,aninhaa182@gmail.com,Andre Abrantes,ericksonfilipe@gmail.com,demontiejunior@gmail.com,Pedro Henriques
+.././test/br/gov/dpf/epol/sistema/caso/DesapensarActionTest.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/action/listagem/pp/ListagemString.java,Pedro Henriques,jbsneto23@gmail.com,Vladwoguer Bezerra
+.././src/hot/br/gov/dpf/epol/action/tarefa/CamposFormularioProrrogarPrazo.java,Marcos Candeia
+.././src/main/br/gov/dpf/epol/model/ElaborarPeca.java,Gabriel Brito
+.././src/hot/br/gov/dpf/epol/dao/SeamDAO.java,Vladwoguer Bezerra,diogoaos@gmail.com,raquelrag@gmail.com
+.././src/hot/br/gov/dpf/epol/pesquisa/pp/filtro/FiltroSituacaoTarefa.java,Vladwoguer Bezerra,Marcos Candeia,Leticia Wanderlei
+.././test/br/gov/dpf/epol/unidade/CalendarBeforeValidatorTestCase.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/sistema/logica/FiltrosDeListagemMostrarDadosUsuarioTest.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/unidade/RangeValidatorTestCase.java,Guilherme Emmanuel
+.././src/main/br/gov/dpf/epol/model/tarefa/ModalidadeIntimacao.java,Felipe Diogenes,jbsneto23@gmail.com
+.././test/br/gov/dpf/epol/sistema/tarefa/ResponderTarefaAnalisarDocumentoEnviadoParaAnaliseTest.java,Guilherme Emmanuel
+.././src/main/br/gov/dpf/epol/model/RegistroDeDistribuicao.java,Claudivan Filho <j.claudivan.filho@gmail.com>,Leticia Wanderlei,aninhaa182@gmail.com
+.././src/hot/br/gov/dpf/epol/action/peca/CadastrarTemplatePecaAction.java,Samuel Wesley <samuelwjr@gmail.com>,Diego Cavalcanti <diego@diegocavalcanti.com>,eduardojmc@gmail.com,joaolucas.epol@gmail.com,jbsneto23@gmail.com,Pedro Henriques
+.././src/hot/br/gov/dpf/epol/session/TipoPenalBean.java,Igleson Freire
+.././src/hot/br/gov/dpf/epol/session/corporativo/UnidadeCorporativoService.java,Marcos Candeia
+.././src/hot/br/gov/dpf/epol/action/tarefa/GerenciarDistribuicaoAction.java,Igleson Freire
+.././src/main/br/gov/dpf/epol/model/peca/Peca.java,Vladwoguer Bezerra,Marcos Candeia,Gabriel Brito,Igleson Freire,Andre Abrantes,eduardojmc@gmail.com,jbsneto23@gmail.com,Pedro Henriques,Carla Sukeyosi,diogoaos@gmail.com,jarbas.byakuya@gmail.com,victorclf@live.com
+.././test/br/gov/dpf/epol/unidade/CondutaTestCase.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/sistema/tarefa/RoteiroDeInvestigacaoActionTest.java,Guilherme Emmanuel
+.././src/main/br/gov/dpf/epol/action/material/DestruicaoMaterial.java,Gabriel Brito
+.././test/br/gov/dpf/epol/unidade/CasoTestCase.java,Guilherme Emmanuel,Marcos Candeia,Felipe Diogenes
+.././src/main/br/gov/dpf/epol/model/tarefa/PermitirAcesso.java,Pedro Henriques,jarbas.byakuya@gmail.com
+.././test/br/gov/dpf/epol/sistema/tarefa/TarefaServiceTest.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/unidade/TelefoneTestCase.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/action/tarefa/AnalisarApensamentoAction.java,Vladwoguer Bezerra,Carla Sukeyosi,Felipe Diogenes,Gabriel Brito,samuelwjr@gmail.com,Diego Cavalcanti <diego@diegocavalcanti.com>,Leticia Wanderlei
+.././src/main/br/gov/dpf/epol/model/tarefa/DepoimentoTestemunha.java,Felipe Diogenes,Vladwoguer Bezerra
+.././src/hot/br/gov/dpf/epol/externo/protocolo/SistemaProtocoloService.java,victorclf@live.com
+.././src/hot/br/gov/dpf/epol/session/EnvolvimentoService.java,Filipe Wesley
+.././src/main/br/gov/dpf/epol/model/MunicipioEstrangeiro.java,Claudivan Filho <j.claudivan.filho@gmail.com>,demontiejunior@gmail.com
+.././src/main/br/gov/dpf/epol/model/peca/VisualizadorFormato.java,Gabriel Brito,gabriel.bezerra@gmail.com,Diego Cavalcanti <diego@diegocavalcanti.com>
+.././src/hot/br/gov/dpf/epol/session/peca/TemplatePecaService.java,Felipe Diogenes,eduardojmc@gmail.com,ccc.samuel@gmail.com
+.././src/main/br/gov/dpf/epol/model/tarefa/ProduzirBoletimVidaPregressa.java,Pedro Henriques,rigelbm@gmail.com,ccc.samuel@gmail.com,Diego Cavalcanti <diego@diegocavalcanti.com>,aninhaa182@gmail.com
+.././src/hot/br/gov/dpf/epol/util/ExibidorCamposUtils.java,Carla Sukeyosi,Marcos Candeia
+.././test/br/gov/dpf/epol/unidade/AtributoTestCase.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/session/CmisBean.java,Igleson Freire,Andre Abrantes,Gabriel Brito
+.././src/hot/br/gov/dpf/epol/action/event/GerenciadorEvento.java,Gabriel Brito
+.././src/main/br/gov/dpf/epol/model/egp/Pessoa.java,Claudivan Filho <j.claudivan.filho@gmail.com>,Marcos Candeia,rigelbm@gmail.com,jbsneto23@gmail.com,eduardojmc@gmail.com
+.././test/br/gov/dpf/epol/unidade/AtributoTarefaTestCase.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/unidade/UtilsTestCase.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/action/CadastrarTarefaAction.java,Igleson Freire,Felipe Diogenes,Gabriel Brito,Marcos Candeia,Vladwoguer Bezerra,Pedro Henriques,Carla Sukeyosi,Leticia Wanderlei,ericksonfilipe@gmail.com,demontiejunior@gmail.com,Diego Cavalcanti <diego@diegocavalcanti.com>,Filipe Wesley,aninhaa182@gmail.com,izabela.vmelo@gmail.com,Andre Abrantes,jarbas.byakuya@gmail.com,raquelrag@gmail.com,samuelwjr@gmail.com,joaolucas.epol@gmail.com
+.././test/br/gov/dpf/epol/sistema/logica/TemplateAtributoHQLPersistenciaTest.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/cenario/CenarioCasoFaseFinalizacao.java,Pedro Henriques,Marcos Candeia,Guilherme Emmanuel,raquelrag@gmail.com,Vladwoguer Bezerra,Andre Abrantes
+.././src/hot/br/gov/dpf/epol/session/peca/TemplatePecaBean.java,eduardojmc@gmail.com,Felipe Diogenes,Pedro Henriques,periclesmacedo@gmail.com
+.././src/hot/br/gov/dpf/epol/action/validator/ValidacaoException.java,Jessica Sousa,Andre Abrantes
+.././src/hot/br/gov/dpf/epol/action/custom/CategoriaMaterialFilterAction.java,aninhaa182@gmail.com,Vladwoguer Bezerra,dinatalrn@gmail.com
+.././test/br/gov/dpf/epol/sistema/logica/AtributoHQLPesquisaTest.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/pesquisa/Filtro.java,Vladwoguer Bezerra,gabriel.bezerra@gmail.com,diogoaos@gmail.com
+.././src/hot/br/gov/dpf/epol/action/ApensarAction.java,Samuel Wesley <samuelwjr@gmail.com>,Carla Sukeyosi,Gabriel Brito,Marcos Candeia,Leticia Wanderlei,jarbas.byakuya@gmail.com,Andre Abrantes,Vladwoguer Bezerra,joaolucas.epol@gmail.com,Diego Cavalcanti <diego@diegocavalcanti.com>,demontiejunior@gmail.com,Filipe Wesley
+.././src/hot/br/gov/dpf/epol/pesquisa/pp/filtro/FiltroMemoria.java,Vladwoguer Bezerra,Diego Cavalcanti <diego@diegocavalcanti.com>
+.././test/br/gov/dpf/epol/sistema/componentes/NormaServiceTest.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/unidade/MaxValidatorTestCase.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/session/CMISService.java,Andre Abrantes,Igleson Freire
+.././src/hot/br/gov/dpf/epol/action/AlterarSegredoJusticaAction.java,Pedro Henriques,Leticia Wanderlei,ericksonfilipe@gmail.com
+.././test/br/gov/dpf/epol/unidade/NotNullValidatorTestCase.java,Guilherme Emmanuel
+.././src/main/br/gov/dpf/epol/model/annotations/CachedMethodResult.java,Carla Sukeyosi
+.././src/hot/br/gov/dpf/epol/session/corporativo/UnidadeCorporativoBean.java,Marcos Candeia
+.././src/hot/br/gov/dpf/epol/action/ExibirNotificacoesAction.java,Carla Sukeyosi,amaurymedeiros@gmail.com,Vladwoguer Bezerra,Pedro Henriques,Leticia Wanderlei,Diego Cavalcanti <diego@diegocavalcanti.com>,Claudivan Filho <j.claudivan.filho@gmail.com>
+.././src/hot/br/gov/dpf/epol/session/CategoriaBean.java,Igleson Freire
+.././src/hot/br/gov/dpf/epol/util/Function.java,Marcos Candeia,rigelbm@gmail.com
+.././test/br/gov/dpf/epol/sistema/envolvimento/EnvolvidoServiceTest.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/unidade/MinValidatorTestCase.java,Guilherme Emmanuel
+.././src/main/br/gov/dpf/epol/model/custom/RuntimeEnum.java,Felipe Diogenes,Marcos Candeia,rigelbm@gmail.com,samuelwjr@gmail.com
+.././src/hot/br/gov/dpf/epol/pesquisa/Pesquisa.java,Vladwoguer Bezerra,Marcos Candeia,diogoaos@gmail.com,jbsneto23@gmail.com,joaolucas.epol@gmail.com
+.././test/br/gov/dpf/epol/unidade/CadastrarTemplatePecaTestCase.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/pesquisa/pp/filtro/FiltroCompareTo.java,Vladwoguer Bezerra,Diego Cavalcanti <diego@diegocavalcanti.com>
+.././test/br/gov/dpf/epol/sistema/envolvimento/TipoPenalFilterTest.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/util/AgendaDownload.java,Marcos Candeia,demontiejunior@gmail.com,Vladwoguer Bezerra,Igleson Freire
+.././src/main/br/gov/dpf/epol/model/egp/Cargo.java,Pedro Henriques,Marcos Candeia,Diego Cavalcanti <diego@diegocavalcanti.com>,rigelbm@gmail.com,eduardojmc@gmail.com
+.././test/br/gov/dpf/epol/unidade/EmailValidatorTestCase.java,Guilherme Emmanuel
+.././src/main/br/gov/dpf/epol/model/tarefa/Intimar.java,Pedro Henriques,ccc.samuel@gmail.com,Vladwoguer Bezerra,Andre Abrantes,Samuel Wesley <samuelwjr@gmail.com>,Marcos Candeia,jarbas.byakuya@gmail.com
+.././src/hot/br/gov/dpf/epol/session/corporativo/ProfissaoCorporativoBean.java,Carla Sukeyosi
+.././src/hot/br/gov/dpf/epol/session/InstaurarInqueritoBean.java,Carla Sukeyosi
+.././src/hot/br/gov/dpf/epol/action/BuscarMaterialAction.java,Marcos Candeia,demontiejunior@gmail.com,aninhaa182@gmail.com,samuelwjr@gmail.com,Carla Sukeyosi
+.././src/hot/br/gov/dpf/epol/session/EstadoMaterialService.java,Igleson Freire,ericksonfilipe@gmail.com
+.././src/main/br/gov/dpf/epol/model/envolvido/EstadoCivil.java,eduardojmc@gmail.com
+.././test/br/gov/dpf/epol/unidade/TarefaTestCase.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/action/DefinirPermissoesDeAcessoAction.java,Marcos Candeia,jarbas.byakuya@gmail.com,ccc.samuel@gmail.com,jbsneto23@gmail.com,Carla Sukeyosi,aninhaa182@gmail.com,rigelbm@gmail.com,Vladwoguer Bezerra,joaolucas.epol@gmail.com
+.././src/hot/br/gov/dpf/epol/action/listagem/pp/SeletorCampos.java,Vladwoguer Bezerra,Carla Sukeyosi,Andre Abrantes,Diego Cavalcanti <diego@diegocavalcanti.com>,Pedro Henriques,raquelrag@gmail.com,Felipe Diogenes
+.././src/hot/br/gov/dpf/epol/util/ToStringComparator.java,Marcos Candeia,eduardojmc@gmail.com
+.././src/hot/br/gov/dpf/epol/action/listagem/ListagemSelecionar.java,Vladwoguer Bezerra,aninhaa182@gmail.com,Samuel Wesley <samuelwjr@gmail.com>
+.././src/main/br/gov/dpf/epol/model/lei/TipoPenalFilter.java,rigelbm@gmail.com,samuelwjr@gmail.com,ericksonfilipe@gmail.com,joaolucas.epol@gmail.com
+.././src/hot/br/gov/dpf/epol/cenario/CenarioCasoFaseFinalizacaoAtrasado.java,Pedro Henriques,Marcos Candeia,Vladwoguer Bezerra,Guilherme Emmanuel,Andre Abrantes
+.././src/hot/br/gov/dpf/epol/action/listagem/pp/ListagemEmMemoria.java,Felipe Diogenes,raquelrag@gmail.com,Vladwoguer Bezerra
+.././src/main/br/gov/dpf/epol/model/EPolException.java,Claudivan Filho <j.claudivan.filho@gmail.com>,Jessica Sousa
+.././src/hot/br/gov/dpf/epol/session/EnvolvidoService.java,Igleson Freire,Diego Cavalcanti <diego@diegocavalcanti.com>,aninhaa182@gmail.com,demontiejunior@gmail.com
+.././src/main/br/gov/dpf/epol/model/Fato.java,Gabriel Brito,Felipe Diogenes,rigelbm@gmail.com,Diego Cavalcanti <diego@diegocavalcanti.com>,jarbas.byakuya@gmail.com,eduardojmc@gmail.com,Pedro Henriques
+.././test/br/gov/dpf/epol/sistema/caso/CasoActionAvocarTest.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/session/TipoTarefaService.java,Diego Cavalcanti <diego@diegocavalcanti.com>,ericksonfilipe@gmail.com
+.././src/hot/br/gov/dpf/epol/session/PecaBean.java,Igleson Freire,victorclf@live.com,Felipe Diogenes,ccc.samuel@gmail.com
+.././test/br/gov/dpf/epol/sistema/envolvimento/PessoaFisicaTest.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/util/OutjectCenario.java,Marcos Candeia,Diego Cavalcanti <diego@diegocavalcanti.com>
+.././src/main/br/gov/dpf/epol/model/custodia/CategoriaMaterial.java,aninhaa182@gmail.com,Andre Abrantes
+.././src/main/br/gov/dpf/epol/model/custom/validator/CompositionType.java,Marcos Candeia,rigelbm@gmail.com
+.././test/br/gov/dpf/epol/sistema/caso/CasoTest.java,Guilherme Emmanuel
+.././src/main/br/gov/dpf/epol/model/UsuarioExterno.java,Claudivan Filho <j.claudivan.filho@gmail.com>,Gabriel Brito,jbsneto23@gmail.com,demontiejunior@gmail.com
+.././test/br/gov/dpf/epol/unidade/AdvogadoTestCase.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/sistema/distribuicao/DistribuirNoticiaCrimeActionTest.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/pesquisa/FiltroOr.java,diogoaos@gmail.com,gabriel.bezerra@gmail.com,Vladwoguer Bezerra
+.././test/br/gov/dpf/epol/sistema/indefinido/CompetenciaPersistenceTest.java,Guilherme Emmanuel
+.././src/main/br/gov/dpf/epol/model/tarefa/ProduzirDespachoFundamentado.java,Carla Sukeyosi,rigelbm@gmail.com,samuelwjr@gmail.com,Leticia Wanderlei,ccc.samuel@gmail.com
+.././src/hot/br/gov/dpf/epol/session/NotificacaoService.java,Igleson Freire,amaurymedeiros@gmail.com,Diego Cavalcanti <diego@diegocavalcanti.com>,Claudivan Filho <j.claudivan.filho@gmail.com>
+.././src/main/br/gov/dpf/epol/model/lei/ItemNorma.java,rigelbm@gmail.com,samuelwjr@gmail.com,eduardojmc@gmail.com,victorclf@live.com,joaolucas.epol@gmail.com,aninhaa182@gmail.com,indoed.lts@gmail.com
+.././src/hot/br/gov/dpf/epol/session/CondutaService.java,Filipe Wesley
+.././src/hot/br/gov/dpf/epol/action/tarefa/IResponderTarefaAction.java,Vladwoguer Bezerra
+.././src/main/br/gov/dpf/epol/model/Conduta.java,Gabriel Brito,Carla Sukeyosi,rigelbm@gmail.com,Claudivan Filho <j.claudivan.filho@gmail.com>,ericksonfilipe@gmail.com,gustavosizilio@gmail.com,jarbas.byakuya@gmail.com,Filipe Wesley
+.././src/hot/br/gov/dpf/epol/session/TipoEnvolvimentoService.java,Diego Cavalcanti <diego@diegocavalcanti.com>,ccc.samuel@gmail.com
+.././src/hot/br/gov/dpf/epol/action/peca/PecaAction.java,Samuel Wesley <samuelwjr@gmail.com>,Leticia Wanderlei,Vladwoguer Bezerra,Andre Abrantes,Carla Sukeyosi,Pedro Henriques,ericksonfilipe@gmail.com,Felipe Diogenes,Filipe Wesley,Gabriel Brito,ccc.samuel@gmail.com
+.././test/br/gov/dpf/epol/unidade/FilterFieldTestCase.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/unidade/ProduzirBoletimVidaPregressaTestCase.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/unidade/PedidoTestCase.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/action/event/Evento.java,Gabriel Brito
+.././src/main/br/gov/dpf/epol/model/lei/Categoria.java,rigelbm@gmail.com,samuelwjr@gmail.com,jbsneto23@gmail.com,raquelrag@gmail.com,gustavosizilio@gmail.com,Vladwoguer Bezerra
+.././src/hot/br/gov/dpf/epol/cenario/CenarioCasoDesapensamento.java,Pedro Henriques,Marcos Candeia,Guilherme Emmanuel,Vladwoguer Bezerra,indoed.lts@gmail.com,Andre Abrantes
+.././src/hot/br/gov/dpf/epol/util/AdaptadorDeLista.java,Igleson Freire
+.././test/br/gov/dpf/epol/unidade/ConstraintCompositionTestCase.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/action/event/GerenciadorEventoLog.java,Gabriel Brito
+.././src/main/br/gov/dpf/epol/model/envolvido/Envolvimento.java,Igleson Freire,Gabriel Brito,rigelbm@gmail.com,gustavosizilio@gmail.com,Vladwoguer Bezerra
+.././src/main/br/gov/dpf/epol/model/TipoDocumentoIdentificacao.java,Claudivan Filho <j.claudivan.filho@gmail.com>,raquelrag@gmail.com,victorclf@live.com
+.././src/hot/br/gov/dpf/epol/session/PapelService.java,Igleson Freire,Vladwoguer Bezerra
+.././src/main/br/gov/dpf/epol/model/envolvido/NaturezaPJ.java,Pedro Henriques,Carla Sukeyosi,samuelwjr@gmail.com,gustavosizilio@gmail.com,Marcos Candeia
+.././src/hot/br/gov/dpf/epol/cenario/CenarioRepresentacaoJudicial.java,Pedro Henriques,Felipe Diogenes,Marcos Candeia,Vladwoguer Bezerra,Guilherme Emmanuel,Andre Abrantes
+.././src/hot/br/gov/dpf/epol/session/corporativo/EnderecoCorporativoService.java,Felipe Diogenes
+.././src/hot/br/gov/dpf/epol/session/RegistrarDecisaoJudicialService.java,gustavosizilio@gmail.com,Diego Cavalcanti <diego@diegocavalcanti.com>
+.././test/br/gov/dpf/epol/interfaces/selenium/elementos/menuPrincipal/CasoSEI.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/sistema/envolvimento/EnvolvimentoActionTest.java,Guilherme Emmanuel
+.././src/main/br/gov/dpf/epol/action/material/MovimentacaoMaterial.java,Gabriel Brito,Filipe Wesley
+.././test/br/gov/dpf/epol/unidade/TipoDocumentoTestCase.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/unidade/ReflectionUtilTestCase.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/sistema/util/TesteComponentes.java,Guilherme Emmanuel
+.././src/main/br/gov/dpf/epol/model/custom/validator/Email.java,Marcos Candeia,rigelbm@gmail.com,Filipe Wesley
+.././src/hot/br/gov/dpf/corporativo/client/security/CorporativoIdentity.java,Diego Cavalcanti <diego@diegocavalcanti.com>
+.././src/main/br/gov/dpf/epol/action/material/DevolucaoMaterial.java,Gabriel Brito,Carla Sukeyosi
+.././src/main/br/gov/dpf/epol/model/custom/validator/Range.java,Marcos Candeia,rigelbm@gmail.com
+.././test/br/gov/dpf/epol/unidade/TesteUnidade.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/unidade/PessoaFisicaTestCase.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/action/EnvolvidoAbstractAction.java,Andre Abrantes,Carla Sukeyosi,Igleson Freire,Diego Cavalcanti <diego@diegocavalcanti.com>,Marcos Candeia
+.././test/br/gov/dpf/epol/sistema/material/MaterialActionTest.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/action/event/EventHandler.java,Andre Abrantes,ccc.samuel@gmail.com,rigelbm@gmail.com
+.././src/main/br/gov/dpf/epol/model/envolvido/TipoLogradouro.java,jbsneto23@gmail.com,Gabriel Brito,rigelbm@gmail.com
+.././src/main/br/gov/dpf/epol/model/tarefa/AnalisarFimDeRedistribuicaoTemporaria.java,Marcos Candeia,Carla Sukeyosi
+.././test/br/gov/dpf/epol/sistema/tarefa/BuscarTarefaActionTest.java,Guilherme Emmanuel
+.././src/main/br/gov/dpf/epol/model/tarefa/ProduzirNotaCiencia.java,Carla Sukeyosi,ericksonfilipe@gmail.com,Diego Cavalcanti <diego@diegocavalcanti.com>,ricardo.oliveira1307@gmail.com,demontiejunior@gmail.com
+.././src/main/br/gov/dpf/epol/model/tarefa/Justificativa.java,Felipe Diogenes,ericksonfilipe@gmail.com,jbsneto23@gmail.com
+.././src/hot/br/gov/dpf/epol/cenario/CenarioAnalisarPedidoReconsideracao.java,Jessica Sousa
+.././src/hot/br/gov/dpf/epol/action/ICrudAction.java,Felipe Diogenes
+.././src/main/br/gov/dpf/epol/model/DocumentoGerenciavel.java,Andre Abrantes,Igleson Freire
+.././test/br/gov/dpf/epol/sistema/indefinido/RepresentacaoJudicialPersistenciaTest.java,Guilherme Emmanuel
+.././src/main/br/gov/dpf/epol/model/peca/PecaBuilder.java,Andre Abrantes,Vladwoguer Bezerra,victorclf@live.com,joaolucas.epol@gmail.com
+.././test/br/gov/dpf/epol/unidade/RepresentacaoJudicialTestCase.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/sistema/tarefa/CadastrarTarefaRelacionadaTest.java,Guilherme Emmanuel,Marcos Candeia
+.././test/br/gov/dpf/epol/unidade/ConversorTestCase.java,Guilherme Emmanuel
+.././src/main/br/gov/dpf/epol/model/TipoIndiciamento.java,Claudivan Filho <j.claudivan.filho@gmail.com>,eduardojmc@gmail.com
+.././test/br/gov/dpf/epol/sistema/logica/AutenticadorTest.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/session/EGPCorporativoBean.java,Marcos Candeia,Carla Sukeyosi,Felipe Diogenes
+.././src/hot/br/gov/dpf/epol/jobs/QuartzMailerKicker.java,Diego Cavalcanti <diego@diegocavalcanti.com>
+.././test/br/gov/dpf/epol/sistema/tarefa/RemarcarAtoPresencialTest.java,Guilherme Emmanuel,Marcos Candeia
+.././src/main/br/gov/dpf/epol/model/envolvido/Sexo.java,eduardojmc@gmail.com,periclesmacedo@gmail.com,Igleson Freire
+.././src/hot/br/gov/dpf/epol/action/AdvogadoAction.java,Andre Abrantes,Marcos Candeia
+.././src/hot/br/gov/dpf/epol/action/tarefa/RevisarAnaliseAction.java,Leticia Wanderlei,Carla Sukeyosi
+.././src/hot/br/gov/dpf/epol/pesquisa/pp/filtro/AbstractFiltro.java,Vladwoguer Bezerra
+.././test/br/gov/dpf/epol/unidade/RuntimeEnumTestCase.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/session/TipoReferenciaService.java,Diego Cavalcanti <diego@diegocavalcanti.com>,ccc.samuel@gmail.com
+.././src/main/br/gov/dpf/epol/model/custodia/StatusLacre.java,izabela.vmelo@gmail.com,Andre Abrantes
+.././src/main/br/gov/dpf/epol/model/envolvido/GrauInstrucao.java,Andre Abrantes,Vladwoguer Bezerra,eduardojmc@gmail.com
+.././src/hot/br/gov/dpf/epol/action/event/MaterialEvent.java,Vladwoguer Bezerra,Andre Abrantes,izabela.vmelo@gmail.com
+.././test/br/gov/dpf/epol/interfaces/selenium/elementos/TabelaDeAbasEI.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/sistema/peca/CriarPecaActionTest.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/unidade/NotificacaoTestCase.java,Guilherme Emmanuel
+.././src/main/br/gov/dpf/epol/model/MunicipioEGP.java,Claudivan Filho <j.claudivan.filho@gmail.com>,demontiejunior@gmail.com,Vladwoguer Bezerra
+.././test/br/gov/dpf/epol/sistema/peca/PecaActionTest.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/action/listagem/pp/ListagemEnvolvidosEPol.java,Claudivan Filho <j.claudivan.filho@gmail.com>
+.././test/br/gov/dpf/epol/sistema/logica/IExibicaoConfiguravelTestCase.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/session/EGPService.java,Marcos Candeia,Carla Sukeyosi,Diego Cavalcanti <diego@diegocavalcanti.com>,Felipe Diogenes,demontiejunior@gmail.com
+.././src/hot/br/gov/dpf/epol/pesquisa/pp/IPesquisaBanco.java,Vladwoguer Bezerra,Diego Cavalcanti <diego@diegocavalcanti.com>
+.././src/main/br/gov/dpf/epol/model/annotations/CampoNaoSelecionavel.java,demontiejunior@gmail.com,samuelwjr@gmail.com
+.././src/main/br/gov/dpf/epol/model/tarefa/ProduzirBoletimIdentificacaoCriminal.java,Felipe Diogenes,rigelbm@gmail.com,ccc.samuel@gmail.com,Diego Cavalcanti <diego@diegocavalcanti.com>,victorclf@live.com
+.././test/br/gov/dpf/epol/sistema/tarefa/ResponderTarefaAguardarRespostaRepresentacaoJudicialTest.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/unidade/NormaTestCase.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/sistema/envolvimento/TipoPenalActionTest.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/unidade/FieldTestCase.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/unidade/CpfConverterTestCase.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/pesquisa/FiltroDePaginacao.java,Vladwoguer Bezerra,diogoaos@gmail.com,gabriel.bezerra@gmail.com,Marcos Candeia
+.././src/hot/br/gov/dpf/epol/action/converter/CpfConverter.java,samuelwjr@gmail.com,raquelrag@gmail.com,Gabriel Brito,Diego Cavalcanti <diego@diegocavalcanti.com>
+.././src/main/br/gov/dpf/epol/model/Indiciamento.java,Claudivan Filho <j.claudivan.filho@gmail.com>,victorclf@live.com,eduardojmc@gmail.com,gustavosizilio@gmail.com,jbsneto23@gmail.com
+.././test/br/gov/dpf/epol/sistema/tarefa/ResponderTarefaActionTest.java,Guilherme Emmanuel,Marcos Candeia
+.././src/main/br/gov/dpf/epol/model/tarefa/ProduzirAQI.java,Carla Sukeyosi,rigelbm@gmail.com,samuelwjr@gmail.com,Diego Cavalcanti <diego@diegocavalcanti.com>,ccc.samuel@gmail.com
+.././src/hot/br/gov/dpf/epol/session/AutenticadorBean.java,Igleson Freire,Marcos Candeia,Felipe Diogenes,Carla Sukeyosi,Diego Cavalcanti <diego@diegocavalcanti.com>
+.././src/main/br/gov/dpf/epol/model/tarefa/RevisarAnalise.java,Pedro Henriques,joaolucas.epol@gmail.com,jarbas.byakuya@gmail.com,Marcos Candeia,Leticia Wanderlei,Diego Cavalcanti <diego@diegocavalcanti.com>,demontiejunior@gmail.com
+.././test/br/gov/dpf/epol/unidade/PatternValidatorTestCase.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/action/CadastrarListaDeDistribuicaoAction.java,Pedro Henriques,Carla Sukeyosi,jbsneto23@gmail.com,Marcos Candeia,Diego Cavalcanti <diego@diegocavalcanti.com>,aninhaa182@gmail.com,rigelbm@gmail.com,Andre Abrantes,gustavosizilio@gmail.com,jarbas.byakuya@gmail.com
+.././src/hot/br/gov/dpf/epol/action/AgendaRequestURLAction.java,Claudivan Filho <j.claudivan.filho@gmail.com>,demontiejunior@gmail.com,dinatalrn@gmail.com,jbsneto23@gmail.com
+.././src/hot/br/gov/dpf/epol/jobs/QuartzMailer.java,Diego Cavalcanti <diego@diegocavalcanti.com>,Marcos Candeia
+.././src/hot/br/gov/dpf/epol/action/SelecionarEnvolvidoAction.java,Claudivan Filho <j.claudivan.filho@gmail.com>,Leticia Wanderlei
+.././src/main/br/gov/dpf/epol/model/tarefa/TransferenciaDeCustodia.java,Pedro Henriques,Carla Sukeyosi,jarbas.byakuya@gmail.com
+.././src/main/br/gov/dpf/epol/model/egp/Unidade.java,Claudivan Filho <j.claudivan.filho@gmail.com>,Marcos Candeia,Felipe Diogenes,rigelbm@gmail.com,Igleson Freire,eduardojmc@gmail.com,joaolucas.epol@gmail.com,diogoaos@gmail.com,gabriel.bezerra@gmail.com
+.././src/main/br/gov/dpf/epol/model/tarefa/ArbitrarFianca.java,Pedro Henriques,joaolucas.epol@gmail.com,jbsneto23@gmail.com,aninhaa182@gmail.com,ericksonfilipe@gmail.com
+.././src/main/br/gov/dpf/epol/model/custodia/EstadoMaterial.java,Diego Cavalcanti <diego@diegocavalcanti.com>,ericksonfilipe@gmail.com,Andre Abrantes,Pedro Henriques
+.././src/main/br/gov/dpf/epol/model/peca/TemplateAtributoLE.java,Andre Abrantes,ccc.samuel@gmail.com
+.././src/main/br/gov/dpf/epol/model/tarefa/AnalisarPecaAdicionada.java,Marcos Candeia
+.././test/br/gov/dpf/epol/unidade/CepConverterTestCase.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/action/FatoAction.java,Pedro Henriques,Felipe Diogenes,Carla Sukeyosi,rigelbm@gmail.com,Diego Cavalcanti <diego@diegocavalcanti.com>,periclesmacedo@gmail.com,Marcos Candeia,jarbas.byakuya@gmail.com,Filipe Wesley,Leticia Wanderlei,Gabriel Brito,ccc.samuel@gmail.com
+.././src/main/br/gov/dpf/epol/model/envolvido/Envolvido.java,Igleson Freire,Diego Cavalcanti <diego@diegocavalcanti.com>,eduardojmc@gmail.com,Andre Abrantes,Marcos Candeia,ericksonfilipe@gmail.com,gustavosizilio@gmail.com,Gabriel Brito,jbsneto23@gmail.com,periclesmacedo@gmail.com,rigelbm@gmail.com
+.././src/hot/br/gov/dpf/epol/action/listagem/ListagemMultivalorada.java,Vladwoguer Bezerra,aninhaa182@gmail.com
+.././test/br/gov/dpf/epol/sistema/envolvimento/AdvogadoActionTest.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/action/PageflowEPol.java,Marcos Candeia,Pedro Henriques,raquelrag@gmail.com
+.././src/hot/br/gov/dpf/epol/util/ComparadorSelecionavel.java,Marcos Candeia,dinatalrn@gmail.com,Pedro Henriques
+.././src/main/br/gov/dpf/epol/model/custodia/TipoInconsistencia.java,Andre Abrantes
+.././test/br/gov/dpf/epol/sistema/material/EstadoMaterialTest.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/action/CrudMode.java,Felipe Diogenes
+.././src/hot/br/gov/dpf/epol/session/CasoService.java,Igleson Freire,Marcos Candeia,Filipe Wesley,Carla Sukeyosi,Leticia Wanderlei,rigelbm@gmail.com,Vladwoguer Bezerra,Diego Cavalcanti <diego@diegocavalcanti.com>,victorclf@live.com,ccc.samuel@gmail.com
+.././test/br/gov/dpf/epol/sistema/logica/DefinirPermissoesDeAcessoCasoActionTest.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/sistema/distribuicao/DistribuicaoServiceTest.java,Guilherme Emmanuel
+.././src/main/br/gov/dpf/epol/model/Papel.java,Claudivan Filho <j.claudivan.filho@gmail.com>,Vladwoguer Bezerra,Pedro Henriques
+.././src/main/br/gov/dpf/epol/action/material/TransferenciaExterna.java,Gabriel Brito,Carla Sukeyosi
+.././src/hot/br/gov/dpf/epol/session/ServidorService.java,Diego Cavalcanti <diego@diegocavalcanti.com>,Igleson Freire,raquelrag@gmail.com,Marcos Candeia
+.././src/hot/br/gov/dpf/epol/session/NormaService.java,Igleson Freire,victorclf@live.com
+.././src/main/br/gov/dpf/epol/model/tarefa/PedirPrazo.java,Felipe Diogenes,amaurymedeiros@gmail.com
+.././test/br/gov/dpf/epol/interfaces/selenium/TestaLogar.java,Guilherme Emmanuel
+.././src/main/br/gov/dpf/epol/model/tarefa/DepoimentoCondutor.java,Felipe Diogenes,Vladwoguer Bezerra
+.././src/hot/br/gov/dpf/epol/util/ListView.java,Marcos Candeia,rigelbm@gmail.com
+.././src/hot/br/gov/dpf/epol/util/SelectItemComparator.java,Marcos Candeia,eduardojmc@gmail.com
+.././src/hot/br/gov/dpf/epol/action/tarefa/AnalisarFlagranteAction.java,Leticia Wanderlei,Carla Sukeyosi
+.././src/hot/br/gov/dpf/epol/action/BuscarEnvolvidoAction.java,Claudivan Filho <j.claudivan.filho@gmail.com>,Pedro Henriques,dinatalrn@gmail.com,Marcos Candeia,demontiejunior@gmail.com,jbsneto23@gmail.com,Andre Abrantes,samuelwjr@gmail.com,Gabriel Brito,aninhaa182@gmail.com,Carla Sukeyosi,jarbas.byakuya@gmail.com
+.././src/main/br/gov/dpf/epol/model/peca/AtributoImutavel.java,Andre Abrantes,Vladwoguer Bezerra,joaolucas.epol@gmail.com
+.././src/main/br/gov/dpf/epol/action/arvoreVisualizacao/ListavelEmArvore.java,Igleson Freire
+.././src/main/br/gov/dpf/epol/action/arvoreVisualizacao/Nodo.java,Igleson Freire,Diego Cavalcanti <diego@diegocavalcanti.com>
+.././src/main/br/gov/dpf/epol/model/tarefa/ProduzirRelatorioFinal.java,Felipe Diogenes,raquelrag@gmail.com,Leticia Wanderlei,danielboni@gmail.com,ricardo.oliveira1307@gmail.com,ccc.samuel@gmail.com,Pedro Henriques
+.././src/main/br/gov/dpf/epol/model/tarefa/EncaminharProcedimento.java,Carla Sukeyosi,jbsneto23@gmail.com,Vladwoguer Bezerra
+.././src/main/br/gov/dpf/epol/model/TipoTarefa.java,Gabriel Brito,Diego Cavalcanti <diego@diegocavalcanti.com>,Marcos Candeia,ericksonfilipe@gmail.com,raquelrag@gmail.com,Pedro Henriques,Vladwoguer Bezerra,Felipe Diogenes,Leticia Wanderlei,jbsneto23@gmail.com,Carla Sukeyosi,demontiejunior@gmail.com,Andre Abrantes
+.././src/hot/br/gov/dpf/epol/session/CompetenciaService.java,Igleson Freire
+.././src/main/br/gov/dpf/epol/model/lei/Norma.java,eduardojmc@gmail.com,samuelwjr@gmail.com,rigelbm@gmail.com,jbsneto23@gmail.com,ericksonfilipe@gmail.com
+.././test/br/gov/dpf/epol/unidade/ProduzirAQITestCase.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/unidade/TemplatePecaTestCase.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/sistema/componentes/FatoServiceTest.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/sistema/distribuicao/CadastrarListaDeDistribuicaoDeTarefaTest.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/pesquisa/pp/filtro/FiltroRejeitaTudo.java,Vladwoguer Bezerra
+.././src/main/br/gov/dpf/epol/model/TipoPedido.java,Claudivan Filho <j.claudivan.filho@gmail.com>,ericksonfilipe@gmail.com,rigelbm@gmail.com
+.././test/br/gov/dpf/epol/sistema/material/LacrarMaterialActionTest.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/action/CondutaAction.java,Marcos Candeia,Leticia Wanderlei,Claudivan Filho <j.claudivan.filho@gmail.com>,Filipe Wesley,Carla Sukeyosi,Felipe Diogenes,rigelbm@gmail.com,Pedro Henriques,Gabriel Brito,Vladwoguer Bezerra,jbsneto23@gmail.com,ericksonfilipe@gmail.com,Guilherme Emmanuel,samuelwjr@gmail.com
+.././src/hot/br/gov/dpf/epol/session/corporativo/ProfissaoCorporativoService.java,Carla Sukeyosi
+.././test/br/gov/dpf/epol/unidade/ComunicarFlagranteTestCase.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/sistema/envolvimento/PessoaJuridicaActionTest.java,Guilherme Emmanuel
+.././src/main/br/gov/dpf/epol/model/envolvido/Telefone.java,Gabriel Brito,eduardojmc@gmail.com,gustavosizilio@gmail.com
+.././src/hot/br/gov/dpf/epol/session/EnvolvimentoBean.java,Filipe Wesley
+.././test/br/gov/dpf/epol/unidade/ExceptionsTestCase.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/sistema/util/ComponentesEPolTest.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/sistema/tarefa/ResponderTarefaPedirPrazoTest.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/sistema/envolvimento/PessoaFisicaActionTest.java,Guilherme Emmanuel
+.././src/main/br/gov/dpf/epol/model/NaturezaAtoPresencial.java,Claudivan Filho <j.claudivan.filho@gmail.com>,aninhaa182@gmail.com
+.././src/hot/br/gov/dpf/epol/cenario/PopulaCenario.java,Marcos Candeia,raquelrag@gmail.com,Pedro Henriques
+.././src/main/br/gov/dpf/epol/action/material/ExtravioQuantitativoMaterial.java,Gabriel Brito
+.././src/hot/br/gov/dpf/epol/util/VersaoBuildMessages.java,Marcos Candeia
+.././src/hot/br/gov/dpf/epol/action/IndiciamentoAction.java,Claudivan Filho <j.claudivan.filho@gmail.com>,Leticia Wanderlei,Carla Sukeyosi,Vladwoguer Bezerra,rigelbm@gmail.com,ericksonfilipe@gmail.com,demontiejunior@gmail.com,aninhaa182@gmail.com,Diego Cavalcanti <diego@diegocavalcanti.com>,Pedro Henriques,Filipe Wesley
+.././src/hot/br/gov/dpf/epol/action/RetornoListener.java,Pedro Henriques,victorclf@live.com
+.././src/hot/br/gov/dpf/epol/action/MostrarDadosDoUsuarioAction.java,Claudivan Filho <j.claudivan.filho@gmail.com>,Vladwoguer Bezerra,Felipe Diogenes,Igleson Freire,ericksonfilipe@gmail.com,raquelrag@gmail.com,demontiejunior@gmail.com,Carla Sukeyosi,jbsneto23@gmail.com,Marcos Candeia,aninhaa182@gmail.com,joaolucas.epol@gmail.com,Jessica Sousa,ccc.samuel@gmail.com,diogoaos@gmail.com
+.././src/main/br/gov/dpf/epol/model/egp/Estado.java,Pedro Henriques,Marcos Candeia,rigelbm@gmail.com,Felipe Diogenes,Vladwoguer Bezerra,izabela.vmelo@gmail.com
+.././src/hot/br/gov/dpf/epol/action/listagem/pp/ListagemMemoriaEPol.java,Pedro Henriques,raquelrag@gmail.com,Vladwoguer Bezerra
+.././src/hot/br/gov/dpf/epol/cenario/ITesteCenario.java,Marcos Candeia,Diego Cavalcanti <diego@diegocavalcanti.com>
+.././src/hot/br/gov/dpf/epol/session/DistribuicaoBean.java,Igleson Freire,Leticia Wanderlei,aninhaa182@gmail.com,Marcos Candeia
+.././src/hot/br/gov/dpf/epol/action/PedirRedistribuicaoAction.java,Felipe Diogenes,jarbas.byakuya@gmail.com,Leticia Wanderlei
+.././src/hot/br/gov/dpf/epol/session/corporativo/EnderecoCorporativoBean.java,Felipe Diogenes,Leticia Wanderlei
+.././src/hot/br/gov/dpf/epol/session/ProcedimentoService.java,Diego Cavalcanti <diego@diegocavalcanti.com>,aninhaa182@gmail.com
+.././test/br/gov/dpf/epol/sistema/material/RemoverLacreActionTest.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/util/MyFacesSecurityEvents.java,Marcos Candeia,aninhaa182@gmail.com
+.././test/br/gov/dpf/epol/unidade/IntimarTestCase.java,Guilherme Emmanuel
+.././src/main/br/gov/dpf/epol/model/custom/FieldTable.java,Felipe Diogenes,rigelbm@gmail.com,Pedro Henriques,samuelwjr@gmail.com,Filipe Wesley,Marcos Candeia
+.././src/hot/br/gov/dpf/epol/util/EscapableMessagesRenderer.java,demontiejunior@gmail.com,ccc.samuel@gmail.com
+.././src/main/br/gov/dpf/epol/model/peca/Atributo.java,Andre Abrantes,eduardojmc@gmail.com,Vladwoguer Bezerra,Diego Cavalcanti <diego@diegocavalcanti.com>,victorclf@live.com
+.././src/main/br/gov/dpf/epol/model/Caso.java,Gabriel Brito,Carla Sukeyosi,Vladwoguer Bezerra,Marcos Candeia,Igleson Freire,Felipe Diogenes,Leticia Wanderlei,jarbas.byakuya@gmail.com,eduardojmc@gmail.com,Pedro Henriques,aninhaa182@gmail.com,Samuel Wesley <samuelwjr@gmail.com>,rigelbm@gmail.com,Diego Cavalcanti <diego@diegocavalcanti.com>,ericksonfilipe@gmail.com,jbsneto23@gmail.com,raquelrag@gmail.com,victorclf@live.com,periclesmacedo@gmail.com,ricardo.oliveira1307@gmail.com
+.././src/hot/br/gov/dpf/epol/action/custom/FieldTableAction.java,Felipe Diogenes,Marcos Candeia,Vladwoguer Bezerra,rigelbm@gmail.com,amaurymedeiros@gmail.com,jbsneto23@gmail.com
+.././test/br/gov/dpf/epol/sistema/agenda/AgendaRequestURLActionTest.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/action/ICrudReadAction.java,Diego Cavalcanti <diego@diegocavalcanti.com>,Felipe Diogenes
+.././src/hot/br/gov/dpf/epol/session/AnalisarApensamentoBean.java,Filipe Wesley
+.././src/main/br/gov/dpf/epol/model/envolvido/TipoEndereco.java,eduardojmc@gmail.com,rigelbm@gmail.com,Gabriel Brito
+.././src/main/br/gov/dpf/epol/model/peca/TemplatePeca.java,victorclf@live.com,Felipe Diogenes,eduardojmc@gmail.com,diogoaos@gmail.com,Diego Cavalcanti <diego@diegocavalcanti.com>,Vladwoguer Bezerra
+.././test/br/gov/dpf/epol/sistema/componentes/CamposComplementaresTest.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/action/PessoaFisicaAction.java,Andre Abrantes,Felipe Diogenes,Carla Sukeyosi,Leticia Wanderlei,Pedro Henriques,Filipe Wesley,Diego Cavalcanti <diego@diegocavalcanti.com>,Vladwoguer Bezerra,Igleson Freire
+.././src/main/br/gov/dpf/epol/model/peca/Conversor.java,Gabriel Brito,eduardojmc@gmail.com,Diego Cavalcanti <diego@diegocavalcanti.com>
+.././src/hot/br/gov/dpf/epol/action/event/EventoCriarPeca.java,Gabriel Brito,Leticia Wanderlei
+.././src/main/br/gov/dpf/epol/model/procedimento/Procedimento.java,aninhaa182@gmail.com,Felipe Diogenes,demontiejunior@gmail.com,Vladwoguer Bezerra,Gabriel Brito,raquelrag@gmail.com,rigelbm@gmail.com
+.././test/br/gov/dpf/epol/unidade/EnvolvimentoTestCase.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/action/tarefa/AnalisarFimDeRedistribuicaoTemporariaAction.java,Carla Sukeyosi,Leticia Wanderlei
+.././src/main/br/gov/dpf/epol/model/envolvido/QualificadorEnvolvimento.java,Pedro Henriques,ccc.samuel@gmail.com,gustavosizilio@gmail.com
+.././src/hot/br/gov/dpf/epol/session/CompetenciaBean.java,Igleson Freire
+.././test/br/gov/dpf/epol/unidade/VisualizadorFormatoHTMLTestCase.java,Guilherme Emmanuel
+.././src/main/br/gov/dpf/epol/model/tarefa/Flagrante.java,Pedro Henriques,demontiejunior@gmail.com
+.././test/br/gov/dpf/epol/unidade/PessoaJuridicaTestCase.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/sistema/caso/CasoServiceTest.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/cenario/CenarioDadosFixos.java,Pedro Henriques,Marcos Candeia,Guilherme Emmanuel,raquelrag@gmail.com,rigelbm@gmail.com,aninhaa182@gmail.com
+.././test/br/gov/dpf/epol/sistema/componentes/EGPServiceTest.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/action/peca/FazerUploadPecaAction.java,Samuel Wesley <samuelwjr@gmail.com>,Vladwoguer Bezerra,Marcos Candeia,victorclf@live.com,Felipe Diogenes,izabela.vmelo@gmail.com,Leticia Wanderlei,jarbas.byakuya@gmail.com,gabriel.bezerra@gmail.com,Diego Cavalcanti <diego@diegocavalcanti.com>,demontiejunior@gmail.com
+.././src/main/br/gov/dpf/epol/model/tarefa/AnalisarDocumentoEnviadoParaAnalise.java,Felipe Diogenes,Vladwoguer Bezerra,Marcos Candeia,joaolucas.epol@gmail.com,jarbas.byakuya@gmail.com,Gabriel Brito,Diego Cavalcanti <diego@diegocavalcanti.com>,jbsneto23@gmail.com,Carla Sukeyosi,aninhaa182@gmail.com,demontiejunior@gmail.com
+.././test/br/gov/dpf/epol/sistema/caso/AnalisarApensarActionTest.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/pesquisa/FiltroAnd.java,diogoaos@gmail.com,gabriel.bezerra@gmail.com,Vladwoguer Bezerra
+.././src/main/br/gov/dpf/epol/model/peca/VisualizadorFormatoTXT.java,Gabriel Brito,clemilsonmorais@gmail.com
+.././test/br/gov/dpf/epol/interfaces/selenium/elementos/menuPrincipal/NovoSEI.java,Guilherme Emmanuel
+.././src/main/br/gov/dpf/epol/model/Distribuivel.java,Claudivan Filho <j.claudivan.filho@gmail.com>,Marcos Candeia,aninhaa182@gmail.com
+.././src/hot/br/gov/dpf/epol/session/InstaurarInqueritoService.java,Carla Sukeyosi
+.././src/hot/br/gov/dpf/epol/pesquisa/pp/filtro/FiltroPropertyEquals.java,Vladwoguer Bezerra,Diego Cavalcanti <diego@diegocavalcanti.com>
+.././src/hot/br/gov/dpf/epol/action/listagem/pp/ListagemTarefaPesquisa.java,Vladwoguer Bezerra,samuelwjr@gmail.com,Andre Abrantes
+.././test/br/gov/dpf/epol/sistema/tarefa/TipoTarefaServiceTest.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/unidade/ProduzirNotaCienciaTestCase.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/pesquisa/pp/IPesquisa.java,Vladwoguer Bezerra,Diego Cavalcanti <diego@diegocavalcanti.com>
+.././test/br/gov/dpf/epol/sistema/logica/CnpjValidatorTestCase.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/unidade/TipoTarefaTestCase.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/action/VisualizarPecasAction.java,Claudivan Filho <j.claudivan.filho@gmail.com>,Felipe Diogenes
+.././src/main/br/gov/dpf/epol/model/Instituicao.java,Claudivan Filho <j.claudivan.filho@gmail.com>,raquelrag@gmail.com,Pedro Henriques,Carla Sukeyosi,Diego Cavalcanti <diego@diegocavalcanti.com>,Vladwoguer Bezerra,ccc.samuel@gmail.com
+.././src/main/br/gov/dpf/epol/model/envolvido/TipoEnvolvimento.java,Pedro Henriques,ccc.samuel@gmail.com,eduardojmc@gmail.com,raquelrag@gmail.com,gustavosizilio@gmail.com
+.././src/hot/br/gov/dpf/epol/session/AnalisarApensamentoService.java,Filipe Wesley
+.././src/hot/br/gov/dpf/epol/action/IExibicaoConfiguravel.java,Carla Sukeyosi
+.././test/br/gov/dpf/epol/sistema/util/AbstractTest.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/unidade/VisualizadorFormatoTestCase.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/unidade/CategoriaTestCase.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/unidade/DepoimentoFlagranteTestCase.java,Guilherme Emmanuel
+.././src/main/br/gov/dpf/epol/model/egp/Ator.java,Claudivan Filho <j.claudivan.filho@gmail.com>,Marcos Candeia,eduardojmc@gmail.com,rigelbm@gmail.com
+.././src/hot/br/gov/dpf/epol/dao/TestDAO.java,Vladwoguer Bezerra,raquelrag@gmail.com,Felipe Diogenes,Pedro Henriques
+.././src/hot/br/gov/dpf/epol/action/converter/CnpjConverter.java,samuelwjr@gmail.com,raquelrag@gmail.com,Diego Cavalcanti <diego@diegocavalcanti.com>,Gabriel Brito
+.././test/br/gov/dpf/epol/unidade/AnotacaoTestCase.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/util/ServicesContainer.java,Felipe Diogenes,Carla Sukeyosi,Marcos Candeia
+.././src/main/br/gov/dpf/epol/model/peca/VisualizadorFormatoHTML.java,Gabriel Brito,gabriel.bezerra@gmail.com
+.././src/main/br/gov/dpf/epol/model/custom/validator/Length.java,Marcos Candeia,rigelbm@gmail.com,Filipe Wesley
+.././test/br/gov/dpf/epol/sistema/logica/CpfValidatorTestCase.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/action/RenderAction.java,Filipe Wesley
+.././src/hot/br/gov/dpf/epol/action/tarefa/RemarcarAtoPresencialAction.java,Marcos Candeia,izabela.vmelo@gmail.com,Felipe Diogenes,demontiejunior@gmail.com,jbsneto23@gmail.com,periclesmacedo@gmail.com,rigelbm@gmail.com,jarbas.byakuya@gmail.com
+.././test/br/gov/dpf/epol/sistema/tarefa/IndiciamentoActionTest.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/unidade/DistribuirNoticiaCrimeTestCase.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/sistema/tarefa/CadastrarTarefaActionTest.java,Guilherme Emmanuel,Marcos Candeia
+.././src/hot/br/gov/dpf/epol/cenario/CenarioCasoFinalizado.java,Pedro Henriques,Marcos Candeia,Guilherme Emmanuel,joaolucas.epol@gmail.com,Vladwoguer Bezerra,Andre Abrantes
+.././src/hot/br/gov/dpf/epol/session/TipoEnvolvimentoBean.java,ccc.samuel@gmail.com
+.././src/main/br/gov/dpf/epol/model/RoteiroDeInvestigacao.java,Marcos Candeia
+.././src/hot/br/gov/dpf/epol/action/DesmembrarCasoAction.java,Carla Sukeyosi,Pedro Henriques,aninhaa182@gmail.com,joaolucas.epol@gmail.com,Marcos Candeia,jbsneto23@gmail.com,Andre Abrantes
+.././src/hot/br/gov/dpf/epol/cenario/CenarioUtil.java,Pedro Henriques,Gabriel Brito,Vladwoguer Bezerra,Felipe Diogenes,raquelrag@gmail.com,Marcos Candeia,Diego Cavalcanti <diego@diegocavalcanti.com>,Andre Abrantes,Carla Sukeyosi
+.././test/br/gov/dpf/epol/unidade/MunicipioEGPTestCase.java,Guilherme Emmanuel,Felipe Diogenes
+.././test/br/gov/dpf/epol/sistema/logica/MostrarDadosDoUsuarioActionTest.java,Guilherme Emmanuel,Marcos Candeia
+.././src/hot/br/gov/dpf/epol/action/listagem/pp/ListagemPP.java,Vladwoguer Bezerra,raquelrag@gmail.com
+.././src/hot/br/gov/dpf/epol/session/SugestaoTarefaBean.java,Marcos Candeia,Igleson Freire,Carla Sukeyosi,aninhaa182@gmail.com,ericksonfilipe@gmail.com,raquelrag@gmail.com
+.././test/br/gov/dpf/epol/sistema/material/BuscarMaterialActionTest.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/session/RegistrarDecisaoJudicialBean.java,gustavosizilio@gmail.com,Leticia Wanderlei
+.././src/main/br/gov/dpf/epol/model/Pedido.java,Claudivan Filho <j.claudivan.filho@gmail.com>,Vladwoguer Bezerra,izabela.vmelo@gmail.com,ericksonfilipe@gmail.com,Pedro Henriques,Diego Cavalcanti <diego@diegocavalcanti.com>,Felipe Diogenes
+.././test/br/gov/dpf/epol/sistema/logica/ExibirNotificacoesActionTest.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/sistema/util/ComponentesTest.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/action/ICrudEditAction.java,Felipe Diogenes
+.././src/main/br/gov/dpf/epol/model/peca/NaoVisualizavelException.java,victorclf@live.com,gabriel.bezerra@gmail.com
+.././src/main/br/gov/dpf/epol/model/custom/validator/CalendarAfter.java,Marcos Candeia
+.././test/br/gov/dpf/epol/unidade/PedirPrazoTestCase.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/action/validator/CnpjValidator.java,Andre Abrantes,raquelrag@gmail.com
+.././test/br/gov/dpf/epol/sistema/logica/CadastrarCamposComplementaresActionTest.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/action/CadastrarPapelServidorAction.java,Samuel Wesley <samuelwjr@gmail.com>,Carla Sukeyosi,Vladwoguer Bezerra,Marcos Candeia
+.././test/br/gov/dpf/epol/sistema/material/MovimentarMaterialActionTest.java,Guilherme Emmanuel,Marcos Candeia
+.././src/hot/br/gov/dpf/epol/action/tarefa/CamposFormularioTarefaInominada.java,Marcos Candeia,Vladwoguer Bezerra,Diego Cavalcanti <diego@diegocavalcanti.com>
+.././src/main/br/gov/dpf/epol/model/custom/validator/CalendarBetween.java,Marcos Candeia
+.././src/main/br/gov/dpf/epol/model/custom/ClassFilter.java,aninhaa182@gmail.com,samuelwjr@gmail.com,rigelbm@gmail.com,joaolucas.epol@gmail.com
+.././src/main/br/gov/dpf/epol/model/tarefa/DestinacaoDeCustodia.java,Carla Sukeyosi
+.././src/hot/br/gov/dpf/epol/action/listagem/pp/ListagemBancoEPol.java,Pedro Henriques,raquelrag@gmail.com,Vladwoguer Bezerra
+.././src/main/br/gov/dpf/epol/model/envolvido/TipoTelefone.java,eduardojmc@gmail.com,rigelbm@gmail.com,Gabriel Brito
+.././test/br/gov/dpf/epol/sistema/material/ApreenderMaterialActionTest.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/unidade/CalendarBetweenValidatorTestCase.java,Guilherme Emmanuel
+.././src/main/br/gov/dpf/epol/model/tarefa/AnalisarApensamento.java,Carla Sukeyosi,joaolucas.epol@gmail.com,Filipe Wesley,Marcos Candeia,Vladwoguer Bezerra
+.././src/main/br/gov/dpf/epol/model/tarefa/DepoimentoPreso.java,Vladwoguer Bezerra,Felipe Diogenes
+.././test/br/gov/dpf/epol/unidade/session/SistemaProtocoloBeanTestCase.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/cenario/CenarioCasoIndiciar.java,Pedro Henriques,Vladwoguer Bezerra,Marcos Candeia,Guilherme Emmanuel,Andre Abrantes,Gabriel Brito
+.././test/br/gov/dpf/epol/unidade/NotBlankValidatorTestCase.java,Guilherme Emmanuel
+.././src/main/br/gov/dpf/epol/model/DadosParecer.java,Claudivan Filho <j.claudivan.filho@gmail.com>,ericksonfilipe@gmail.com,raquelrag@gmail.com,Marcos Candeia,jbsneto23@gmail.com
+.././test/br/gov/dpf/epol/sistema/logica/FieldTableTest.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/sistema/tarefa/TipoTarefaTest.java,Guilherme Emmanuel
+.././src/main/br/gov/dpf/epol/model/envolvido/Documento.java,Igleson Freire,jbsneto23@gmail.com,gustavosizilio@gmail.com,Claudivan Filho <j.claudivan.filho@gmail.com>
+.././src/hot/br/gov/dpf/epol/action/IndicarInconsistenciaMaterialAction.java,Carla Sukeyosi,Marcos Candeia,izabela.vmelo@gmail.com,Leticia Wanderlei,Vladwoguer Bezerra,Igleson Freire,Gabriel Brito
+.././test/br/gov/dpf/epol/sistema/util/TesteComponentesEPol.java,Guilherme Emmanuel,Jessica Sousa,Vladwoguer Bezerra
+.././test/br/gov/dpf/epol/unidade/PecaTestCase.java,Guilherme Emmanuel,Marcos Candeia,Felipe Diogenes
+.././src/main/br/gov/dpf/epol/model/lei/TipoItemNorma.java,victorclf@live.com,eduardojmc@gmail.com
+.././test/br/gov/dpf/epol/unidade/DataAtualTestCase.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/util/Mensagens.java,Diego Cavalcanti <diego@diegocavalcanti.com>
+.././src/main/br/gov/dpf/epol/model/custom/validator/Min.java,Marcos Candeia,rigelbm@gmail.com
+.././src/main/br/gov/dpf/epol/model/lei/TipoPenal.java,Carla Sukeyosi,victorclf@live.com,rigelbm@gmail.com,aninhaa182@gmail.com,gustavosizilio@gmail.com,jbsneto23@gmail.com,samuelwjr@gmail.com
+.././test/br/gov/dpf/epol/sistema/caso/VerProcedimentoActionTest.java,Guilherme Emmanuel
+.././src/main/br/gov/dpf/epol/model/egp/AtribuicoesServidor.java,Igleson Freire
+.././src/hot/br/gov/dpf/epol/action/validator/CpfValidator.java,Andre Abrantes,raquelrag@gmail.com,Vladwoguer Bezerra
+.././src/main/br/gov/dpf/epol/model/custom/validator/NotNull.java,Marcos Candeia,rigelbm@gmail.com,Filipe Wesley
+.././src/main/br/gov/dpf/epol/model/peca/AtributoLE.java,Andre Abrantes,ccc.samuel@gmail.com,Diego Cavalcanti <diego@diegocavalcanti.com>,Leticia Wanderlei
+.././src/hot/br/gov/dpf/epol/cenario/CenarioCasoFaseInstauracao.java,Pedro Henriques,Marcos Candeia,Guilherme Emmanuel,raquelrag@gmail.com,Vladwoguer Bezerra,ccc.samuel@gmail.com,Andre Abrantes
+.././test/br/gov/dpf/epol/unidade/TemplateAtributoLETestCase.java,Guilherme Emmanuel
+.././src/main/br/gov/dpf/epol/model/tarefa/ProduzirTCOFlagrancial.java,Pedro Henriques,ericksonfilipe@gmail.com
+.././test/br/gov/dpf/epol/sistema/peca/PecaServiceTest.java,Guilherme Emmanuel
+.././src/main/br/gov/dpf/epol/model/StatusCaso.java,Claudivan Filho <j.claudivan.filho@gmail.com>,amaurymedeiros@gmail.com
+.././src/hot/br/gov/dpf/epol/cenario/CenarioNotificacoes.java,Pedro Henriques,Marcos Candeia,amaurymedeiros@gmail.com
+.././src/hot/br/gov/dpf/epol/cenario/CenarioFlagranteFaseInquerito.java,Pedro Henriques,Marcos Candeia,Vladwoguer Bezerra,Guilherme Emmanuel,Andre Abrantes,Claudivan Filho <j.claudivan.filho@gmail.com>
+.././src/hot/br/gov/dpf/epol/util/LogEpol.java,Pedro Henriques
+.././src/hot/br/gov/dpf/epol/action/TipoPenalAction.java,Claudivan Filho <j.claudivan.filho@gmail.com>,Gabriel Brito,rigelbm@gmail.com,samuelwjr@gmail.com,Vladwoguer Bezerra,Felipe Diogenes,amaurymedeiros@gmail.com
+.././src/main/br/gov/dpf/epol/model/annotations/StringFilterType.java,samuelwjr@gmail.com,demontiejunior@gmail.com
+.././src/hot/br/gov/dpf/epol/util/ELUtil.java,Marcos Candeia,raquelrag@gmail.com
+.././test/br/gov/dpf/epol/unidade/MaterialTestCase.java,Guilherme Emmanuel,Marcos Candeia
+.././src/hot/br/gov/dpf/epol/action/ApreenderMaterialAction.java,Marcos Candeia,demontiejunior@gmail.com,Leticia Wanderlei,Igleson Freire
+.././src/main/br/gov/dpf/epol/model/procedimento/TipoProcedimento.java,aninhaa182@gmail.com,Felipe Diogenes
+.././src/hot/com/vocado/services/hibernate/HibernateWorkaroundHH2763.java,Pedro Henriques,jarbas.byakuya@gmail.com
+.././src/hot/br/gov/dpf/epol/pesquisa/pp/filtro/IFiltroBanco.java,Vladwoguer Bezerra,Diego Cavalcanti <diego@diegocavalcanti.com>
+.././test/br/gov/dpf/epol/sistema/logica/RuntimeEnumTest.java,Guilherme Emmanuel
+.././src/main/br/gov/dpf/epol/model/RelacionamentoCaso.java,Marcos Candeia,Carla Sukeyosi,Vladwoguer Bezerra
+.././src/hot/br/gov/dpf/epol/util/LabelConverter.java,Marcos Candeia,eduardojmc@gmail.com,victorclf@live.com
+.././src/hot/br/gov/dpf/epol/session/NormaBean.java,Igleson Freire,Vladwoguer Bezerra,eduardojmc@gmail.com,victorclf@live.com,rigelbm@gmail.com
+.././src/main/br/gov/dpf/epol/model/TipoDeDistribuicao.java,Claudivan Filho <j.claudivan.filho@gmail.com>,aninhaa182@gmail.com
+.././src/hot/br/gov/dpf/epol/pesquisa/AbstractSearchFilter.java,Vladwoguer Bezerra,demontiejunior@gmail.com
+.././src/hot/br/gov/dpf/epol/action/BuscarAction.java,Marcos Candeia,Filipe Wesley,demontiejunior@gmail.com,Claudivan Filho <j.claudivan.filho@gmail.com>,aninhaa182@gmail.com
+.././src/main/br/gov/dpf/epol/model/envolvido/TipoEnvolvido.java,Carla Sukeyosi,raquelrag@gmail.com
+.././src/hot/br/gov/dpf/epol/util/Utils.java,Igleson Freire,Gabriel Brito,Carla Sukeyosi,Vladwoguer Bezerra,Diego Cavalcanti <diego@diegocavalcanti.com>,Pedro Henriques
+.././src/hot/br/gov/dpf/epol/session/TarefaBean.java,Marcos Candeia,Felipe Diogenes,Filipe Wesley,raquelrag@gmail.com,Carla Sukeyosi,Igleson Freire,Vladwoguer Bezerra,demontiejunior@gmail.com,aninhaa182@gmail.com,ericksonfilipe@gmail.com,Gabriel Brito,Claudivan Filho <j.claudivan.filho@gmail.com>,Diego Cavalcanti <diego@diegocavalcanti.com>,izabela.vmelo@gmail.com,ccc.samuel@gmail.com
+.././src/hot/br/gov/dpf/epol/cenario/CenarioFlagranteTarefaConcluida.java,Pedro Henriques,Vladwoguer Bezerra,Marcos Candeia,Guilherme Emmanuel,Andre Abrantes,Claudivan Filho <j.claudivan.filho@gmail.com>
+.././test/br/gov/dpf/epol/sistema/indefinido/AnalisarPedidoDeReconsideracaoActionTest.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/sistema/indefinido/TesteIntegracao.java,Guilherme Emmanuel
+.././src/main/br/gov/dpf/epol/model/tarefa/AtributoTarefa.java,Carla Sukeyosi,raquelrag@gmail.com,Diego Cavalcanti <diego@diegocavalcanti.com>
+.././test/br/gov/dpf/epol/sistema/caso/RedistribuirCargaActionTest.java,Guilherme Emmanuel
+.././src/main/br/gov/dpf/epol/model/TipoJustificativa.java,Claudivan Filho <j.claudivan.filho@gmail.com>,ericksonfilipe@gmail.com,Felipe Diogenes
+.././src/hot/br/gov/dpf/epol/action/event/CriarPecaEvent.java,Andre Abrantes,ericksonfilipe@gmail.com
+.././test/br/gov/dpf/epol/sistema/tarefa/ResponderTarefaProrrogarPrazoTest.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/unidade/HorarioConverterTestCase.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/action/tarefa/ICamposFormularioTarefa.java,Marcos Candeia,demontiejunior@gmail.com
+.././src/main/br/gov/dpf/epol/model/tarefa/ProduzirAutoDeApresentacaoEApreensao.java,Felipe Diogenes,aninhaa182@gmail.com
+.././test/br/gov/dpf/epol/unidade/LengthValidatorTestCase.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/interfaces/selenium/elementos/menuPrincipal/MenuPrincipalEI.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/unidade/RoteiroDeInvestigacaoTestCase.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/sistema/indefinido/CasoDaoTest.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/sistema/peca/TemplatePecaServiceTest.java,Guilherme Emmanuel
+.././src/main/br/gov/dpf/epol/model/peca/DataAtual.java,Gabriel Brito,gabriel.bezerra@gmail.com,Diego Cavalcanti <diego@diegocavalcanti.com>
+.././src/hot/br/gov/dpf/epol/pesquisa/FiltroValorNotNull.java,diogoaos@gmail.com,gabriel.bezerra@gmail.com,Vladwoguer Bezerra,raquelrag@gmail.com,Jessica Sousa,aninhaa182@gmail.com
+.././src/hot/br/gov/dpf/epol/action/ListarRepresentacoesJudiciaisAction.java,Claudivan Filho <j.claudivan.filho@gmail.com>,izabela.vmelo@gmail.com
+.././src/hot/br/gov/dpf/epol/action/tarefa/CamposArbitrarFianca.java,Marcos Candeia,Carla Sukeyosi,Claudivan Filho <j.claudivan.filho@gmail.com>,Diego Cavalcanti <diego@diegocavalcanti.com>,jbsneto23@gmail.com,joaolucas.epol@gmail.com,Leticia Wanderlei,Vladwoguer Bezerra
+.././src/hot/br/gov/dpf/epol/action/converter/HorarioConverter.java,samuelwjr@gmail.com
+.././test/br/gov/dpf/epol/sistema/mock/CasoMock.java,Guilherme Emmanuel
+.././src/main/br/gov/dpf/epol/model/Apensamento.java,Claudivan Filho <j.claudivan.filho@gmail.com>,Carla Sukeyosi,jarbas.byakuya@gmail.com
+.././test/br/gov/dpf/epol/utilTest/ReflectionUtil.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/action/tarefa/AnalisarPedidoDeReconsideracaoAction.java,Felipe Diogenes
+.././src/main/br/gov/dpf/epol/model/custodia/Lacre.java,Andre Abrantes,aninhaa182@gmail.com,Vladwoguer Bezerra,izabela.vmelo@gmail.com
+.././src/main/br/gov/dpf/epol/model/peca/TemplateAtributoHQL.java,Andre Abrantes,victorclf@live.com,jbsneto23@gmail.com
+.././src/main/br/gov/dpf/epol/model/DecisaoJudicial.java,Gabriel Brito,jarbas.byakuya@gmail.com,Vladwoguer Bezerra
+.././src/main/br/gov/dpf/epol/model/tarefa/ProrrogarPrazo.java,Pedro Henriques,amaurymedeiros@gmail.com,Diego Cavalcanti <diego@diegocavalcanti.com>
+.././test/br/gov/dpf/epol/sistema/agenda/AgendaServiceTestCase.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/sistema/material/CategoriaMaterialFilterTest.java,Guilherme Emmanuel,Vladwoguer Bezerra
+.././src/hot/br/gov/dpf/epol/session/CamposComplementaresBean.java,Igleson Freire,Pedro Henriques
+.././src/hot/br/gov/dpf/epol/action/LacrarMaterialAction.java,Felipe Diogenes,aninhaa182@gmail.com,Carla Sukeyosi,Leticia Wanderlei,ericksonfilipe@gmail.com,Marcos Candeia,Andre Abrantes,dinatalrn@gmail.com
+.././src/main/br/gov/dpf/epol/model/tarefa/RevisarPermissoesDeAcesso.java,Felipe Diogenes,jarbas.byakuya@gmail.com
+.././src/hot/br/gov/dpf/epol/action/converter/CepConverter.java,Marcos Candeia,samuelwjr@gmail.com,raquelrag@gmail.com,Diego Cavalcanti <diego@diegocavalcanti.com>
+.././src/main/br/gov/dpf/epol/model/TipoDocumento.java,Claudivan Filho <j.claudivan.filho@gmail.com>,victorclf@live.com,eduardojmc@gmail.com
+.././src/main/br/gov/dpf/epol/model/tarefa/AnalisarFlagrante.java,Carla Sukeyosi,Pedro Henriques,dinatalrn@gmail.com,demontiejunior@gmail.com,Gabriel Brito,samuelwjr@gmail.com,Marcos Candeia,joaolucas.epol@gmail.com
+.././src/main/br/gov/dpf/epol/model/peca/TipoTemplateAtributo.java,Gabriel Brito,Pedro Henriques,eduardojmc@gmail.com
+.././src/main/br/gov/dpf/epol/model/envolvido/PessoaFisica.java,Marcos Candeia,Igleson Freire,Andre Abrantes,Felipe Diogenes,Gabriel Brito,Samuel Wesley <samuelwjr@gmail.com>,eduardojmc@gmail.com,Diego Cavalcanti <diego@diegocavalcanti.com>,Vladwoguer Bezerra,Carla Sukeyosi,jarbas.byakuya@gmail.com,jbsneto23@gmail.com,gustavosizilio@gmail.com,izabela.vmelo@gmail.com,ericksonfilipe@gmail.com,Pedro Henriques
+.././src/main/br/gov/dpf/epol/model/EntidadeCRUDEPol.java,Claudivan Filho <j.claudivan.filho@gmail.com>,raquelrag@gmail.com
+.././src/hot/br/gov/dpf/epol/cenario/CenarioCasoApensamento.java,Pedro Henriques,Marcos Candeia,Guilherme Emmanuel,Vladwoguer Bezerra,periclesmacedo@gmail.com,joaolucas.epol@gmail.com,Andre Abrantes
+.././src/main/br/gov/dpf/epol/model/envolvido/TipoOutroNome.java,Carla Sukeyosi,aninhaa182@gmail.com
+.././src/main/br/gov/dpf/epol/model/annotations/DateFilterType.java,samuelwjr@gmail.com,demontiejunior@gmail.com
+.././src/main/br/gov/dpf/epol/model/TipoRepresentacaoJudicial.java,Claudivan Filho <j.claudivan.filho@gmail.com>,dinatalrn@gmail.com
+.././src/hot/br/gov/dpf/epol/action/custom/TipoPenalFilterAction.java,Felipe Diogenes,rigelbm@gmail.com,Vladwoguer Bezerra
+.././src/hot/br/gov/dpf/epol/action/BuscarTarefaAction.java,Marcos Candeia,demontiejunior@gmail.com,Carla Sukeyosi,samuelwjr@gmail.com
+.././src/main/br/gov/dpf/epol/model/annotations/ReferenceFilterType.java,samuelwjr@gmail.com,demontiejunior@gmail.com
+.././test/br/gov/dpf/epol/unidade/ServidorTestCase.java,Guilherme Emmanuel,Marcos Candeia,Felipe Diogenes
+.././src/main/br/gov/dpf/epol/model/envolvido/OutroNome.java,Carla Sukeyosi,aninhaa182@gmail.com,gustavosizilio@gmail.com
+.././src/hot/br/gov/dpf/epol/action/CrudAction.java,Felipe Diogenes,Leticia Wanderlei
+.././src/hot/br/gov/dpf/epol/action/RegistrarDecisaoJudicialAction.java,Marcos Candeia,Diego Cavalcanti <diego@diegocavalcanti.com>,jarbas.byakuya@gmail.com,Leticia Wanderlei,joaolucas.epol@gmail.com
+.././src/main/br/gov/dpf/epol/model/lei/TipoNorma.java,victorclf@live.com,eduardojmc@gmail.com,rigelbm@gmail.com
+.././test/br/gov/dpf/epol/unidade/ProduzirBoletimIdentificacaoCriminalTestCase.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/session/NotificacaoBean.java,Igleson Freire,amaurymedeiros@gmail.com,Felipe Diogenes,Claudivan Filho <j.claudivan.filho@gmail.com>,Vladwoguer Bezerra
+.././test/br/gov/dpf/epol/sistema/material/IndicarInconsistenciaMaterialActionTest.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/util/Predicate.java,Marcos Candeia,rigelbm@gmail.com
+.././src/hot/br/gov/dpf/epol/cenario/CenarioConstantes.java,Guilherme Emmanuel,Jessica Sousa
+.././test/br/gov/dpf/epol/sistema/envolvimento/BuscarEnvolvidoActionTest.java,Guilherme Emmanuel
+.././src/main/br/gov/dpf/epol/model/egp/CargoPoliciaFederal.java,Pedro Henriques,Marcos Candeia,eduardojmc@gmail.com
+.././src/hot/br/gov/dpf/epol/session/FatoService.java,Igleson Freire,victorclf@live.com
+.././test/br/gov/dpf/epol/unidade/CalendarAfterValidatorTestCase.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/action/VerTarefaRenderAction.java,Filipe Wesley,Felipe Diogenes,Leticia Wanderlei,Carla Sukeyosi
+.././test/br/gov/dpf/epol/sistema/peca/CadastrarTemplatePecaTest.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/unidade/ProcessoTestCase.java,Guilherme Emmanuel
+.././src/main/br/gov/dpf/epol/model/tarefa/EstadoTarefa.java,Felipe Diogenes,aninhaa182@gmail.com,rigelbm@gmail.com
+.././src/main/br/gov/dpf/epol/model/lei/Competencia.java,joaolucas.epol@gmail.com,samuelwjr@gmail.com
+.././src/main/br/gov/dpf/epol/model/peca/TipoPeca.java,joaolucas.epol@gmail.com,Gabriel Brito,victorclf@live.com,Andre Abrantes,samuelwjr@gmail.com,demontiejunior@gmail.com,izabela.vmelo@gmail.com,raquelrag@gmail.com,Pedro Henriques,diogoaos@gmail.com
+.././src/main/br/gov/dpf/epol/action/material/IncineracaoMaterial.java,Gabriel Brito
+.././src/hot/br/gov/dpf/epol/session/TipoTarefaBean.java,Carla Sukeyosi,ericksonfilipe@gmail.com,raquelrag@gmail.com
+.././src/hot/br/gov/dpf/epol/action/listagem/ListagemFiltravelCaso.java,Vladwoguer Bezerra,Felipe Diogenes
+.././src/main/br/gov/dpf/epol/model/tarefa/ComunicarFlagrante.java,Carla Sukeyosi,demontiejunior@gmail.com
+.././test/br/gov/dpf/epol/sistema/tarefa/VerTarefaActionTest.java,Guilherme Emmanuel,Marcos Candeia
+.././src/hot/br/gov/dpf/epol/action/RemoverLacreMaterialAction.java,Samuel Wesley <samuelwjr@gmail.com>,Gabriel Brito,izabela.vmelo@gmail.com,Leticia Wanderlei,Marcos Candeia,Filipe Wesley
+.././src/hot/br/gov/dpf/epol/session/ServidorBean.java,Igleson Freire,raquelrag@gmail.com,Marcos Candeia
+.././src/hot/br/gov/dpf/epol/externo/protocolo/SistemaProtocoloBean.java,Marcos Candeia,victorclf@live.com,Samuel Wesley <samuelwjr@gmail.com>,ccc.samuel@gmail.com
+.././src/hot/br/gov/dpf/epol/action/SimpleIndexConverter.java,Marcos Candeia,raquelrag@gmail.com
+.././src/main/br/gov/dpf/epol/model/egp/Municipio.java,Claudivan Filho <j.claudivan.filho@gmail.com>,Marcos Candeia,rigelbm@gmail.com,Diego Cavalcanti <diego@diegocavalcanti.com>,Felipe Diogenes,clemilsonmorais@gmail.com,gabriel.bezerra@gmail.com,demontiejunior@gmail.com
+.././src/hot/br/gov/dpf/epol/pesquisa/pp/filtro/IFiltroValorColuna.java,Vladwoguer Bezerra
+.././src/main/br/gov/dpf/epol/model/peca/VisualizacaoData.java,Gabriel Brito,ericksonfilipe@gmail.com
+.././test/br/gov/dpf/epol/unidade/ProrrogarPrazoTestCase.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/unidade/StatusCasoTestCase.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/cenario/CenarioFlagranteTarefaAberta.java,Pedro Henriques,Vladwoguer Bezerra,Guilherme Emmanuel,Marcos Candeia,Andre Abrantes,Claudivan Filho <j.claudivan.filho@gmail.com>
+.././test/br/gov/dpf/epol/sistema/envolvimento/TipoEnvolvimentoServiceTest.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/action/custom/CadastrarCamposComplementaresAction.java,Vladwoguer Bezerra,Filipe Wesley,rigelbm@gmail.com,Pedro Henriques,jbsneto23@gmail.com,jarbas.byakuya@gmail.com
+.././src/hot/br/gov/dpf/epol/session/TipoReferenciaBean.java,ccc.samuel@gmail.com
+.././test/br/gov/dpf/epol/unidade/DocumentoTestCase.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/action/CasoAction.java,Marcos Candeia,Carla Sukeyosi,Igleson Freire,Gabriel Brito,Felipe Diogenes,Pedro Henriques,rigelbm@gmail.com,Vladwoguer Bezerra,Leticia Wanderlei,Samuel Wesley <samuelwjr@gmail.com>,Claudivan Filho <j.claudivan.filho@gmail.com>,Filipe Wesley,periclesmacedo@gmail.com,ericksonfilipe@gmail.com,jarbas.byakuya@gmail.com,Diego Cavalcanti <diego@diegocavalcanti.com>,aninhaa182@gmail.com,Andre Abrantes,joaolucas.epol@gmail.com
+.././src/hot/br/gov/dpf/epol/pesquisa/pp/filtro/FiltroAceitaTudo.java,Vladwoguer Bezerra
+.././src/hot/br/gov/dpf/epol/action/InstaurarInqueritoAction.java,Carla Sukeyosi,Felipe Diogenes
+.././src/main/br/gov/dpf/epol/model/Tarefa.java,Gabriel Brito,Marcos Candeia,Igleson Freire,Vladwoguer Bezerra,Diego Cavalcanti <diego@diegocavalcanti.com>,Leticia Wanderlei,Felipe Diogenes,Andre Abrantes,eduardojmc@gmail.com,Samuel Wesley <samuelwjr@gmail.com>,Carla Sukeyosi,ccc.samuel@gmail.com,jarbas.byakuya@gmail.com,aninhaa182@gmail.com,raquelrag@gmail.com,jbsneto23@gmail.com,Pedro Henriques,Filipe Wesley,ericksonfilipe@gmail.com,clemilsonmorais@gmail.com,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/unidade/DecisaoJudicialTestCase.java,Guilherme Emmanuel
+.././src/main/br/gov/dpf/epol/model/custom/Field.java,Vladwoguer Bezerra,rigelbm@gmail.com,Filipe Wesley,Pedro Henriques,samuelwjr@gmail.com
+.././src/hot/br/gov/dpf/epol/dao/SeamDAOLocal.java,Vladwoguer Bezerra,Diego Cavalcanti <diego@diegocavalcanti.com>,rigelbm@gmail.com
+.././src/hot/br/gov/dpf/epol/session/CmisTesteBean.java,Igleson Freire
+.././src/main/br/gov/dpf/epol/model/egp/Servidor.java,Pedro Henriques,Marcos Candeia,Carla Sukeyosi,Igleson Freire,rigelbm@gmail.com,Vladwoguer Bezerra,jarbas.byakuya@gmail.com
+.././test/br/gov/dpf/epol/sistema/caso/BuscarCasoActionTest.java,Guilherme Emmanuel,Marcos Candeia
+.././test/br/gov/dpf/epol/unidade/CompetenciaTestCase.java,Guilherme Emmanuel
+.././src/main/br/gov/dpf/epol/model/tarefa/RealizarApensamento.java,Carla Sukeyosi,Andre Abrantes,Filipe Wesley
+.././src/hot/br/gov/dpf/epol/externo/protocolo/DocumentoDTO.java,victorclf@live.com,Vladwoguer Bezerra,joaolucas.epol@gmail.com,Samuel Wesley <samuelwjr@gmail.com>
+.././src/main/br/gov/dpf/epol/model/peca/TemplateAtributo.java,Andre Abrantes,victorclf@live.com,Vladwoguer Bezerra
+.././src/hot/br/gov/dpf/epol/pesquisa/pp/PesquisaEmBanco.java,Vladwoguer Bezerra,Marcos Candeia,raquelrag@gmail.com,Diego Cavalcanti <diego@diegocavalcanti.com>
+.././src/main/br/gov/dpf/epol/model/custom/validator/ConstraintComposition.java,Marcos Candeia,rigelbm@gmail.com
+.././test/br/gov/dpf/epol/unidade/MensagensTestCase.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/action/event/GerenciadorEventosEPol.java,Gabriel Brito
+.././src/hot/br/gov/dpf/epol/pesquisa/pp/BDList.java,Vladwoguer Bezerra,raquelrag@gmail.com,Pedro Henriques,Diego Cavalcanti <diego@diegocavalcanti.com>
+.././test/br/gov/dpf/epol/unidade/CepValidatorTestCase.java,Guilherme Emmanuel
+.././src/main/br/gov/dpf/epol/model/Protegivel.java,Gabriel Brito,rigelbm@gmail.com
+.././src/hot/br/gov/dpf/epol/pesquisa/pp/PesquisaEmMemoria.java,Vladwoguer Bezerra,Marcos Candeia,raquelrag@gmail.com,Diego Cavalcanti <diego@diegocavalcanti.com>
+.././src/main/br/gov/dpf/epol/model/custom/validator/Validator.java,Marcos Candeia,rigelbm@gmail.com,demontiejunior@gmail.com
+.././src/hot/br/gov/dpf/epol/action/validator/CepValidator.java,Marcos Candeia,Andre Abrantes,jbsneto23@gmail.com
+.././test/br/gov/dpf/epol/unidade/NaturezaAtoPresencialTestCase.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/session/Autenticador.java,Igleson Freire
+.././src/hot/br/gov/dpf/epol/action/tarefa/AnalisarDocumentoEnviadoParaAnaliseAction.java,Vladwoguer Bezerra,Gabriel Brito,Filipe Wesley,Carla Sukeyosi,Felipe Diogenes,Leticia Wanderlei,Marcos Candeia,victorclf@live.com,raquelrag@gmail.com,demontiejunior@gmail.com,Diego Cavalcanti <diego@diegocavalcanti.com>,jbsneto23@gmail.com,rigelbm@gmail.com
+.././src/hot/br/gov/dpf/epol/session/EnvolvidoBean.java,Igleson Freire,demontiejunior@gmail.com
+.././test/br/gov/dpf/epol/sistema/indefinido/TipoReferenciaServiceTest.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/util/PecaUploadRetornoListener.java,Marcos Candeia,joaolucas.epol@gmail.com
+.././src/main/br/gov/dpf/epol/model/envolvido/PessoaJuridica.java,Marcos Candeia,Igleson Freire,Gabriel Brito,Andre Abrantes,eduardojmc@gmail.com,Diego Cavalcanti <diego@diegocavalcanti.com>,Carla Sukeyosi,Samuel Wesley <samuelwjr@gmail.com>,gustavosizilio@gmail.com
+.././src/hot/br/gov/dpf/epol/action/tarefa/ResponderAnalisarPecaAdicionadaAction.java,Marcos Candeia,Carla Sukeyosi,Leticia Wanderlei
+.././src/hot/br/gov/dpf/epol/util/UtilsMock.java,Carla Sukeyosi
+.././test/br/gov/dpf/epol/sistema/caso/DefinirPermissoesSegredoDeJusticaTest.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/unidade/Log4jUtilTestCase.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/sistema/peca/MarcarPecaSegredoDeJusticaTest.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/session/CategoriaService.java,Igleson Freire
+.././src/main/br/gov/dpf/epol/model/custodia/UnidadeMedida.java,aninhaa182@gmail.com,Andre Abrantes,Marcos Candeia
+.././test/br/gov/dpf/epol/unidade/EnderecoTestCase.java,Guilherme Emmanuel
+.././src/main/br/gov/dpf/epol/model/Envolvivel.java,Gabriel Brito
+.././test/br/gov/dpf/epol/unidade/NotEmptyValidatorTestCase.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/action/tarefa/CamposFormularioAtoPresencial.java,Marcos Candeia,Gabriel Brito,Vladwoguer Bezerra,demontiejunior@gmail.com,Diego Cavalcanti <diego@diegocavalcanti.com>,Igleson Freire,ccc.samuel@gmail.com,Carla Sukeyosi,Samuel Wesley <samuelwjr@gmail.com>,rigelbm@gmail.com,Andre Abrantes,Pedro Henriques,samuelwjr@gmail.com
+.././src/main/br/gov/dpf/epol/model/custom/validator/CalendarBefore.java,Marcos Candeia
+.././test/br/gov/dpf/epol/sistema/envolvimento/CondutaActionTest.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/action/listagem/pp/ListagemEmBanco.java,raquelrag@gmail.com,Vladwoguer Bezerra,samuelwjr@gmail.com
+.././src/hot/br/gov/dpf/epol/session/SugestaoTarefaService.java,Igleson Freire,ericksonfilipe@gmail.com
+.././src/hot/br/gov/dpf/epol/cenario/CenarioAgenda.java,Pedro Henriques,Marcos Candeia,demontiejunior@gmail.com
+.././src/main/br/gov/dpf/epol/model/tarefa/DistribuirRegistroEspecial.java,Vladwoguer Bezerra
+.././src/hot/br/gov/dpf/epol/pesquisa/pp/IPesquisaMemoria.java,Vladwoguer Bezerra,Diego Cavalcanti <diego@diegocavalcanti.com>
+.././src/main/br/gov/dpf/epol/model/annotations/CampoNaoFiltravel.java,Vladwoguer Bezerra
+.././src/hot/br/gov/dpf/epol/pesquisa/PesquisaCampo.java,Vladwoguer Bezerra,Marcos Candeia,raquelrag@gmail.com
+.././src/hot/br/gov/dpf/epol/session/ProcedimentoBean.java,Marcos Candeia,aninhaa182@gmail.com
+.././src/hot/br/gov/dpf/epol/session/corporativo/ServidorCorporativoService.java,Marcos Candeia
+.././test/br/gov/dpf/epol/unidade/ProduzirRelatorioFinalTestCase.java,Guilherme Emmanuel
+.././src/main/br/gov/dpf/epol/model/annotations/Filterable.java,demontiejunior@gmail.com,samuelwjr@gmail.com
+.././src/hot/br/gov/dpf/epol/session/CasoBean.java,Igleson Freire,Filipe Wesley,Marcos Candeia,victorclf@live.com,Carla Sukeyosi,Vladwoguer Bezerra,ccc.samuel@gmail.com,Felipe Diogenes,amaurymedeiros@gmail.com,ericksonfilipe@gmail.com,Pedro Henriques,Leticia Wanderlei,rigelbm@gmail.com
+.././src/main/br/gov/dpf/epol/model/peca/AtributoHQL.java,Andre Abrantes,victorclf@live.com,Diego Cavalcanti <diego@diegocavalcanti.com>,Pedro Henriques,eduardojmc@gmail.com
+.././test/br/gov/dpf/epol/unidade/TipoPenalTestCase.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/pesquisa/FiltroComposto.java,Vladwoguer Bezerra,gabriel.bezerra@gmail.com,diogoaos@gmail.com
+.././test/br/gov/dpf/epol/sistema/caso/DesmembrarCasoActionTest.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/pesquisa/AbstractBooleanSearchFilter.java,demontiejunior@gmail.com,Vladwoguer Bezerra
+.././src/main/br/gov/dpf/epol/model/tarefa/ProduzirNotaCulpa.java,Pedro Henriques,amaurymedeiros@gmail.com
+.././src/main/br/gov/dpf/epol/model/Rascunho.java,Claudivan Filho <j.claudivan.filho@gmail.com>,Igleson Freire,Gabriel Brito,izabela.vmelo@gmail.com,demontiejunior@gmail.com
+.././src/hot/br/gov/dpf/epol/session/CondutaBean.java,Filipe Wesley
+.././src/main/br/gov/dpf/epol/model/Processo.java,Claudivan Filho <j.claudivan.filho@gmail.com>,clemilsonmorais@gmail.com,demontiejunior@gmail.com
+.././src/hot/br/gov/dpf/epol/session/TarefaService.java,Marcos Candeia,Felipe Diogenes,Filipe Wesley,Diego Cavalcanti <diego@diegocavalcanti.com>,raquelrag@gmail.com
+.././test/br/gov/dpf/epol/unidade/UsuarioExternoTestCase.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/sistema/caso/AlterarSegredoJusticaActionTest.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/session/AgendaService.java,Igleson Freire,Marcos Candeia,demontiejunior@gmail.com,Diego Cavalcanti <diego@diegocavalcanti.com>
+.././test/br/gov/dpf/epol/sistema/indefinido/ListagemEmBancoTest.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/unidade/CompetenciaTipoPenalFilterTestCase.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/pesquisa/pp/filtro/FiltrosEncadeados.java,Vladwoguer Bezerra
+.././src/main/br/gov/dpf/epol/model/annotations/CachedMethods.java,Carla Sukeyosi
+.././test/br/gov/dpf/epol/sistema/tarefa/ResponderTarefaAnalisarFlagranteTest.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/action/BuscarCasoAction.java,Marcos Candeia,Carla Sukeyosi,demontiejunior@gmail.com,Felipe Diogenes,Vladwoguer Bezerra,izabela.vmelo@gmail.com,aninhaa182@gmail.com,jarbas.byakuya@gmail.com,samuelwjr@gmail.com,Diego Cavalcanti <diego@diegocavalcanti.com>,Claudivan Filho <j.claudivan.filho@gmail.com>,diego.cavalcanti
+.././src/main/br/gov/dpf/epol/model/tarefa/AguardarRespostaRepresentacaoJudicial.java,Felipe Diogenes,ericksonfilipe@gmail.com,demontiejunior@gmail.com,Carla Sukeyosi,Vladwoguer Bezerra
+.././src/hot/br/gov/dpf/epol/action/RedistribuirCargaAction.java,Claudivan Filho <j.claudivan.filho@gmail.com>,Marcos Candeia,indoed.lts@gmail.com,jbsneto23@gmail.com,Diego Cavalcanti <diego@diegocavalcanti.com>,Leticia Wanderlei,Vladwoguer Bezerra
+.././src/main/br/gov/dpf/epol/model/tarefa/ProduzirAutoApreensao.java,Felipe Diogenes,demontiejunior@gmail.com
+.././src/main/br/gov/dpf/epol/model/tarefa/SugestaoTarefa.java,Carla Sukeyosi,raquelrag@gmail.com,ericksonfilipe@gmail.com,Diego Cavalcanti <diego@diegocavalcanti.com>,jbsneto23@gmail.com,jarbas.byakuya@gmail.com
+.././src/hot/br/gov/dpf/epol/util/JavaBeanUtils.java,Marcos Candeia,Carla Sukeyosi,Diego Cavalcanti <diego@diegocavalcanti.com>,eduardojmc@gmail.com,raquelrag@gmail.com,joaolucas.epol@gmail.com,demontiejunior@gmail.com,Andre Abrantes
+.././src/hot/br/gov/dpf/epol/pesquisa/AbstractRadioSearchFilter.java,demontiejunior@gmail.com,Vladwoguer Bezerra
+.././test/br/gov/dpf/epol/sistema/envolvimento/PessoaJuridicaTest.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/sistema/indefinido/EGPDaoTest.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/interfaces/selenium/util/TesteInterfacesUtils.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/sistema/tarefa/ResponderTarefaArbitrarFiancaTest.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/session/DistribuicaoService.java,Igleson Freire,Leticia Wanderlei,aninhaa182@gmail.com,Diego Cavalcanti <diego@diegocavalcanti.com>
+.././src/hot/br/gov/dpf/epol/cenario/GrupoCenario.java,Pedro Henriques,Marcos Candeia,raquelrag@gmail.com,Jessica Sousa
+.././src/hot/br/gov/dpf/epol/action/listagem/pp/AbstractListagemPP.java,Pedro Henriques,Vladwoguer Bezerra,raquelrag@gmail.com,Felipe Diogenes,aninhaa182@gmail.com
+.././src/main/br/gov/dpf/epol/model/OperacaoNaoPermitidaException.java,Claudivan Filho <j.claudivan.filho@gmail.com>,Jessica Sousa
+.././src/main/br/gov/dpf/epol/model/tarefa/AnalisarPedidoDeReconsideracao.java,Felipe Diogenes
+.././src/hot/br/gov/dpf/epol/session/EstadoMaterialBean.java,Igleson Freire,ericksonfilipe@gmail.com
+.././src/main/br/gov/dpf/epol/model/peca/AtributoValorInvalidoException.java,victorclf@live.com
+.././src/hot/br/gov/dpf/epol/action/PessoaJuridicaAction.java,Andre Abrantes,Diego Cavalcanti <diego@diegocavalcanti.com>,Pedro Henriques,Carla Sukeyosi
+.././src/hot/br/gov/dpf/epol/pesquisa/FiltroAdapter.java,raquelrag@gmail.com,Vladwoguer Bezerra
+.././src/main/br/gov/dpf/epol/model/tarefa/DepoimentoFlagrante.java,Felipe Diogenes,demontiejunior@gmail.com,Marcos Candeia,Gabriel Brito,Vladwoguer Bezerra,Pedro Henriques
+.././src/main/br/gov/dpf/epol/model/custom/Customizable.java,rigelbm@gmail.com,samuelwjr@gmail.com
+.././src/main/br/gov/dpf/epol/model/Agenda.java,Claudivan Filho <j.claudivan.filho@gmail.com>,Marcos Candeia,demontiejunior@gmail.com,jbsneto23@gmail.com
+.././test/br/gov/dpf/epol/unidade/VisualizadorFormatoOutroTestCase.java,Guilherme Emmanuel
+.././src/main/br/gov/dpf/epol/model/envolvido/Profissao.java,Pedro Henriques,Carla Sukeyosi,Vladwoguer Bezerra,eduardojmc@gmail.com,gustavosizilio@gmail.com,jbsneto23@gmail.com
+.././src/hot/br/gov/dpf/epol/action/tarefa/VerTarefaAction.java,Andre Abrantes,Carla Sukeyosi,Vladwoguer Bezerra,Igleson Freire,Samuel Wesley <samuelwjr@gmail.com>,Felipe Diogenes,Filipe Wesley,Diego Cavalcanti <diego@diegocavalcanti.com>,Gabriel Brito,Marcos Candeia,Leticia Wanderlei,ericksonfilipe@gmail.com,izabela.vmelo@gmail.com,demontiejunior@gmail.com,Jessica Sousa,Pedro Henriques,raquelrag@gmail.com
+.././src/main/br/gov/dpf/epol/model/custom/validator/NotEmpty.java,Marcos Candeia,rigelbm@gmail.com
+.././src/hot/br/gov/dpf/epol/session/TipoPenalService.java,Igleson Freire
+.././test/br/gov/dpf/epol/sistema/peca/TemplatePecaPersistenciaTest.java,Guilherme Emmanuel
+.././src/main/br/gov/dpf/epol/model/custodia/Inconsistencia.java,izabela.vmelo@gmail.com,Andre Abrantes
+.././src/main/br/gov/dpf/epol/action/material/TransferenciaInterna.java,Gabriel Brito,Carla Sukeyosi
+.././src/main/br/gov/dpf/epol/model/Notificacao.java,Claudivan Filho <j.claudivan.filho@gmail.com>,Vladwoguer Bezerra,amaurymedeiros@gmail.com,Pedro Henriques,Diego Cavalcanti <diego@diegocavalcanti.com>
+.././test/br/gov/dpf/epol/interfaces/selenium/util/AbstractTesteInterfaces.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/action/DesapensarAction.java,Marcos Candeia,Igleson Freire,Vladwoguer Bezerra,indoed.lts@gmail.com,Leticia Wanderlei
+.././test/br/gov/dpf/epol/sistema/tarefa/RevisarTarefaAnalisarNoticiaCrimeAnaliseTest.java,Guilherme Emmanuel
+.././src/main/br/gov/dpf/epol/model/custom/validator/Max.java,Marcos Candeia,rigelbm@gmail.com
+.././src/main/br/gov/dpf/epol/model/envolvido/Advogado.java,Carla Sukeyosi,Igleson Freire,eduardojmc@gmail.com,Diego Cavalcanti <diego@diegocavalcanti.com>,Andre Abrantes,gustavosizilio@gmail.com,Pedro Henriques,Marcos Candeia,demontiejunior@gmail.com
+.././src/main/br/gov/dpf/epol/model/custodia/Identificador.java,Leticia Wanderlei
+.././test/br/gov/dpf/epol/unidade/InstituicaoTestCase.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/sistema/caso/CasoActionTest.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/session/CamposComplementaresService.java,Igleson Freire,Pedro Henriques
+.././test/br/gov/dpf/epol/unidade/ProduzirDespachoFundamentadoTestCase.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/sistema/logica/TemplateAtributoLEPersistenciaTest.java,Guilherme Emmanuel
+.././src/main/br/gov/dpf/epol/model/custom/validator/Pattern.java,Marcos Candeia,rigelbm@gmail.com
+.././src/hot/br/gov/dpf/epol/action/MaterialAction.java,Marcos Candeia,Carla Sukeyosi,Felipe Diogenes,Pedro Henriques,Leticia Wanderlei,Filipe Wesley,Gabriel Brito,Andre Abrantes,Igleson Freire,aninhaa182@gmail.com,Diego Cavalcanti <diego@diegocavalcanti.com>,izabela.vmelo@gmail.com
+.././src/hot/br/gov/dpf/epol/session/corporativo/ServidorCorporativoBean.java,Marcos Candeia
+.././src/hot/br/gov/dpf/epol/action/tarefa/ResponderTarefaAction.java,Vladwoguer Bezerra,Gabriel Brito,Carla Sukeyosi,Leticia Wanderlei,Felipe Diogenes,victorclf@live.com,Diego Cavalcanti <diego@diegocavalcanti.com>,Marcos Candeia,jarbas.byakuya@gmail.com,Pedro Henriques,ericksonfilipe@gmail.com,raquelrag@gmail.com,Andre Abrantes,periclesmacedo@gmail.com,amaurymedeiros@gmail.com
+.././src/hot/br/gov/dpf/epol/action/event/Event.java,rigelbm@gmail.com,Andre Abrantes
+.././src/main/br/gov/dpf/epol/model/Documentavel.java,Claudivan Filho <j.claudivan.filho@gmail.com>,Carla Sukeyosi,Igleson Freire,Felipe Diogenes,izabela.vmelo@gmail.com
+.././test/br/gov/dpf/epol/interfaces/selenium/elementos/listagem/AjudaSEI.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/action/VerProcedimentoAction.java,Samuel Wesley <samuelwjr@gmail.com>,Felipe Diogenes,Pedro Henriques,aninhaa182@gmail.com,Diego Cavalcanti <diego@diegocavalcanti.com>,raquelrag@gmail.com,jarbas.byakuya@gmail.com,willielawrence1@gmail.com
+.././test/br/gov/dpf/epol/unidade/ItemNormaTestCase.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/session/EGPBean.java,Marcos Candeia,Carla Sukeyosi,Vladwoguer Bezerra,Felipe Diogenes,demontiejunior@gmail.com,Claudivan Filho <j.claudivan.filho@gmail.com>,rigelbm@gmail.com,Gabriel Brito,aninhaa182@gmail.com,ccc.samuel@gmail.com,jbsneto23@gmail.com
+.././test/br/gov/dpf/epol/interfaces/selenium/elementos/menuPrincipal/BuscarSEI.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/cenario/CenarioCasoFaseAnalise.java,Pedro Henriques,Marcos Candeia,Vladwoguer Bezerra,Guilherme Emmanuel,Carla Sukeyosi,Felipe Diogenes,raquelrag@gmail.com,Andre Abrantes,Gabriel Brito,aninhaa182@gmail.com,izabela.vmelo@gmail.com
+.././test/br/gov/dpf/epol/utilTest/Log4jUtil.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/action/MovimentarMaterialAction.java,Pedro Henriques,Gabriel Brito,ericksonfilipe@gmail.com,Diego Cavalcanti <diego@diegocavalcanti.com>,Vladwoguer Bezerra,Leticia Wanderlei,Filipe Wesley,Carla Sukeyosi
+.././test/br/gov/dpf/epol/sistema/logica/FieldTableActionTest.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/unidade/session/DocumentoDTOTestCase.java,Guilherme Emmanuel
+.././src/main/br/gov/dpf/epol/model/RepresentacaoJudicial.java,Claudivan Filho <j.claudivan.filho@gmail.com>,Igleson Freire,Diego Cavalcanti <diego@diegocavalcanti.com>,izabela.vmelo@gmail.com,Vladwoguer Bezerra,Felipe Diogenes,Pedro Henriques
+.././src/hot/br/gov/dpf/epol/pesquisa/SearchFilterType.java,demontiejunior@gmail.com,Vladwoguer Bezerra
+.././src/hot/br/gov/dpf/epol/action/listagem/pp/StringValue.java,jbsneto23@gmail.com,Vladwoguer Bezerra
+.././test/br/gov/dpf/epol/unidade/InstituicaoConverterTestCase.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/unidade/CnpjConverterTestCase.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/sistema/peca/VerPecaTest.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/sistema/peca/VisualizarPecasActionTest.java,Guilherme Emmanuel
+.././src/main/br/gov/dpf/epol/model/tarefa/InstaurarInquerito.java,Pedro Henriques,raquelrag@gmail.com,Marcos Candeia,joaolucas.epol@gmail.com,aninhaa182@gmail.com,ccc.samuel@gmail.com,Carla Sukeyosi,jbsneto23@gmail.com
+.././src/hot/br/gov/dpf/epol/session/FatoBean.java,Igleson Freire,victorclf@live.com,Diego Cavalcanti <diego@diegocavalcanti.com>
+.././src/main/br/gov/dpf/epol/model/envolvido/Endereco.java,Gabriel Brito,Diego Cavalcanti <diego@diegocavalcanti.com>,Felipe Diogenes,aninhaa182@gmail.com,eduardojmc@gmail.com,Pedro Henriques,Leticia Wanderlei,gustavosizilio@gmail.com,jbsneto23@gmail.com
+.././src/main/br/gov/dpf/epol/model/tarefa/AtoPresencial.java,Pedro Henriques,Igleson Freire,rigelbm@gmail.com,Felipe Diogenes,Marcos Candeia,ericksonfilipe@gmail.com
+.././test/br/gov/dpf/epol/sistema/caso/ListarRepresentacoesJudiciaisActionTest.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/action/RepresentacaoJudicialAction.java,Marcos Candeia,Felipe Diogenes,Gabriel Brito,izabela.vmelo@gmail.com,Leticia Wanderlei,Diego Cavalcanti <diego@diegocavalcanti.com>,Vladwoguer Bezerra,periclesmacedo@gmail.com,Pedro Henriques,ericksonfilipe@gmail.com
+.././test/br/gov/dpf/epol/interfaces/selenium/elementos/menuPrincipal/EnvolvidoSEI.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/sistema/util/TesteFacesEpol.java,Guilherme Emmanuel,Vladwoguer Bezerra,Marcos Candeia
+.././test/br/gov/dpf/epol/unidade/TipoIndiciamentoTestCase.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/sistema/tarefa/SugestaoTarefaServiceTest.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/sistema/peca/PecaPersistenciaTest.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/dao/TestDAOLocal.java,Diego Cavalcanti <diego@diegocavalcanti.com>,Vladwoguer Bezerra,raquelrag@gmail.com
+.././test/br/gov/dpf/epol/sistema/indefinido/InstaurarInqueritoServiceTest.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/sistema/caso/ListaDeDistribuicaoTestCase.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/session/AgendaBean.java,Marcos Candeia,Igleson Freire,demontiejunior@gmail.com
+.././src/main/br/gov/dpf/epol/model/TipoReferencia.java,Claudivan Filho <j.claudivan.filho@gmail.com>,ccc.samuel@gmail.com
+.././src/hot/br/gov/dpf/epol/action/EnvolvimentoAction.java,Carla Sukeyosi,Andre Abrantes,Gabriel Brito,Filipe Wesley,rigelbm@gmail.com,Samuel Wesley <samuelwjr@gmail.com>,Pedro Henriques,Marcos Candeia,jbsneto23@gmail.com,Leticia Wanderlei,Diego Cavalcanti <diego@diegocavalcanti.com>,Vladwoguer Bezerra,Felipe Diogenes,dinatalrn@gmail.com,samuelwjr@gmail.com,demontiejunior@gmail.com,Claudivan Filho <j.claudivan.filho@gmail.com>,ccc.samuel@gmail.com,ericksonfilipe@gmail.com
+.././src/main/br/gov/dpf/epol/model/ListaDeDistribuicao.java,Gabriel Brito,jbsneto23@gmail.com,Igleson Freire,Vladwoguer Bezerra
+.././src/hot/br/gov/dpf/epol/pesquisa/FiltroStringNaoVazia.java,Vladwoguer Bezerra,Jessica Sousa,Diego Cavalcanti <diego@diegocavalcanti.com>
+.././test/br/gov/dpf/epol/sistema/caso/ProrrogarCasoActionTest.java,Guilherme Emmanuel
+.././src/hot/br/gov/dpf/epol/session/PapelBean.java,Igleson Freire,Vladwoguer Bezerra
+.././src/main/br/gov/dpf/epol/model/TipoData.java,Claudivan Filho <j.claudivan.filho@gmail.com>,jarbas.byakuya@gmail.com
+.././src/main/br/gov/dpf/epol/model/peca/VisualizadorFormatoOutro.java,Gabriel Brito,gabriel.bezerra@gmail.com
+.././src/hot/br/gov/dpf/epol/util/ComparadorSelecionavelTipoTarefa.java,Marcos Candeia,dinatalrn@gmail.com,Pedro Henriques
+.././test/br/gov/dpf/epol/interfaces/selenium/elementos/listagem/ListagemEI.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/unidade/SeamDaoTestCase.java,Guilherme Emmanuel
+.././test/br/gov/dpf/epol/sistema/logica/MostrarDadosUsuarioFacesTest.java,Guilherme Emmanuel

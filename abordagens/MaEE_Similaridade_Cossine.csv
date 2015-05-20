@@ -1,0 +1,907 @@
+br.gov.dpf.corporativo.client.security.CorporativoIdentity,NA,NA,NA
+br.gov.dpf.epol.action.Action,Felipe Diogenes,NA,NA
+br.gov.dpf.epol.action.AdvogadoAction,NA,NA,NA
+br.gov.dpf.epol.action.AdvogadoAction.ListagemClientesAdvogado,NA,NA,NA
+br.gov.dpf.epol.action.AgendaRequestURLAction,NA,NA,NA
+br.gov.dpf.epol.action.AlterarSegredoJusticaAction,NA,NA,NA
+br.gov.dpf.epol.action.ApensarAction,Marcos Candeia,Felipe Diogenes,Carla Sukeyosi
+br.gov.dpf.epol.action.ApensarAction.ListagemTarefaCasoPP,Felipe Diogenes,Gabriel Brito,Carla Sukeyosi
+br.gov.dpf.epol.action.ApreenderMaterialAction,NA,NA,NA
+br.gov.dpf.epol.action.ApreenderMaterialAction.ApreenderMaterialEventHandler,NA,NA,NA
+br.gov.dpf.epol.action.ApreenderMaterialAction.ListagemMateriaisPP,NA,NA,NA
+br.gov.dpf.epol.action.arvoreVisualizacao.ListavelEmArvore,NA,NA,NA
+br.gov.dpf.epol.action.arvoreVisualizacao.Nodo,NA,NA,NA
+br.gov.dpf.epol.action.BuscarAction,NA,NA,NA
+br.gov.dpf.epol.action.BuscarAction.DateSearchFilter,NA,NA,NA
+br.gov.dpf.epol.action.BuscarAction.EnumSearchFilter,NA,NA,NA
+br.gov.dpf.epol.action.BuscarAction.SearchFilter,NA,NA,NA
+br.gov.dpf.epol.action.BuscarCasoAction,NA,NA,NA
+br.gov.dpf.epol.action.BuscarCasoAction.EnvolvidoFilter,Carla Sukeyosi,Felipe Diogenes,NA
+br.gov.dpf.epol.action.BuscarCasoAction.FiltroCategoria,NA,NA,NA
+br.gov.dpf.epol.action.BuscarCasoAction.FiltroComunicante,NA,NA,NA
+br.gov.dpf.epol.action.BuscarCasoAction.FiltroNorma,NA,NA,NA
+br.gov.dpf.epol.action.BuscarCasoAction.FiltroTipoPenal,NA,NA,NA
+br.gov.dpf.epol.action.BuscarCasoAction.ListagemCasosInterna,Carla Sukeyosi,NA,NA
+br.gov.dpf.epol.action.BuscarCasoAction.NomeOperacaoFilter,NA,NA,NA
+br.gov.dpf.epol.action.BuscarCasoAction.ProcessoFilter,NA,NA,NA
+br.gov.dpf.epol.action.BuscarCasoAction.SituacaoCaso,NA,NA,NA
+br.gov.dpf.epol.action.BuscarCasoAction.SituacaoCasoFilter,NA,NA,NA
+br.gov.dpf.epol.action.BuscarCasoAction.TipoCaso,NA,NA,NA
+br.gov.dpf.epol.action.BuscarCasoAction.TipoCasoFilter,NA,NA,NA
+br.gov.dpf.epol.action.BuscarCasoAction.UnidadeDeRegistroFilter,NA,NA,NA
+br.gov.dpf.epol.action.BuscarCasoAction.UnidadeFilter,NA,NA,NA
+br.gov.dpf.epol.action.BuscarEnvolvidoAction,Marcos Candeia,Carla Sukeyosi,Felipe Diogenes
+br.gov.dpf.epol.action.BuscarEnvolvidoAction.BuscarAdvogado,NA,NA,NA
+br.gov.dpf.epol.action.BuscarEnvolvidoAction.BuscarPF,NA,NA,NA
+br.gov.dpf.epol.action.BuscarEnvolvidoAction.BuscarPJ,NA,NA,NA
+br.gov.dpf.epol.action.BuscarEnvolvidoAction.FiltroDocumentoEnvolvido,NA,NA,NA
+br.gov.dpf.epol.action.BuscarEnvolvidoAction.FiltroEnvolvidoCaso,NA,NA,NA
+br.gov.dpf.epol.action.BuscarEnvolvidoAction.FiltroEnvolvidoIndiciadoCaso,NA,NA,NA
+br.gov.dpf.epol.action.BuscarMaterialAction,NA,NA,NA
+br.gov.dpf.epol.action.BuscarMaterialAction.FiltroCaso,NA,NA,NA
+br.gov.dpf.epol.action.BuscarMaterialAction.ListagemInterna,NA,NA,NA
+br.gov.dpf.epol.action.BuscarTarefaAction,NA,NA,NA
+br.gov.dpf.epol.action.BuscarTarefaAction.FiltroCaso,NA,NA,NA
+br.gov.dpf.epol.action.BuscarTarefaAction.ServidorFilter,NA,NA,NA
+br.gov.dpf.epol.action.CadastrarListaDeDistribuicaoAction,Felipe Diogenes,Pedro Henriques,Marcos Candeia
+br.gov.dpf.epol.action.CadastrarListaDeDistribuicaoAction.ListagemServidoresPorUnidadePP,NA,NA,NA
+br.gov.dpf.epol.action.CadastrarListaDeDistribuicaoAction.ListagemTarefasEspecificadasPP,NA,NA,NA
+br.gov.dpf.epol.action.CadastrarListaDeDistribuicaoAction.UnidadeConverter,NA,NA,NA
+br.gov.dpf.epol.action.CadastrarPapelServidorAction,Marcos Candeia,Carla Sukeyosi,NA
+br.gov.dpf.epol.action.CadastrarPapelServidorAction.UnidadeConverter,NA,NA,NA
+br.gov.dpf.epol.action.CadastrarTarefaAction,Marcos Candeia,Andre Abrantes,Pedro Henriques
+br.gov.dpf.epol.action.CadastrarTarefaAction.Confirma,NA,NA,NA
+br.gov.dpf.epol.action.CadastrarTarefaAction.FiltroTipoTarefa,NA,NA,NA
+br.gov.dpf.epol.action.CadastrarTarefaAction.FormularioCadastroTarefa,Felipe Diogenes,Leticia Wanderlei,Vladwoguer Bezerra
+br.gov.dpf.epol.action.CadastrarTarefaAction.FormularioCadastroTarefa.ListagemEnvolvidos,NA,NA,NA
+br.gov.dpf.epol.action.CadastrarTarefaAction.FormularioCadastroTarefa.ListagemEnvolvimentos,NA,NA,NA
+br.gov.dpf.epol.action.CadastrarTarefaAction.FormularioCadastroTarefa.ListagemPecasEmCriacao,NA,NA,NA
+br.gov.dpf.epol.action.CadastrarTarefaAction.ListagemConduta,NA,NA,NA
+br.gov.dpf.epol.action.CadastrarTarefaAction.ListagemEnvolvimentosTestemunhaLeitura,NA,NA,NA
+br.gov.dpf.epol.action.CadastrarTarefaAction.ListagemTarefasCriadas,NA,NA,NA
+br.gov.dpf.epol.action.CadastrarTarefaAction.ModoCadastro,NA,NA,NA
+br.gov.dpf.epol.action.CadastrarTarefaAction.TipoUpload,NA,NA,NA
+br.gov.dpf.epol.action.CasoAction,Felipe Diogenes,Marcos Candeia,Carla Sukeyosi
+br.gov.dpf.epol.action.CasoAction.FiltroMaterial,NA,NA,NA
+br.gov.dpf.epol.action.CasoAction.FiltroNumeroCaso,NA,NA,NA
+br.gov.dpf.epol.action.CasoAction.FiltroPecas,NA,NA,NA
+br.gov.dpf.epol.action.CasoAction.FiltroTarefa,NA,NA,NA
+br.gov.dpf.epol.action.CasoAction.ListagemCasosRelacionados,Carla Sukeyosi,NA,NA
+br.gov.dpf.epol.action.CasoAction.ListagemConduta,NA,NA,NA
+br.gov.dpf.epol.action.CasoAction.ListagemEnvolvimento,Marcos Candeia,Pedro Henriques,NA
+br.gov.dpf.epol.action.CasoAction.ListagemMateriais,NA,NA,NA
+br.gov.dpf.epol.action.CasoAction.ListagemPeca,Carla Sukeyosi,Pedro Henriques,NA
+br.gov.dpf.epol.action.CasoAction.ListagemRascunho,NA,NA,NA
+br.gov.dpf.epol.action.CasoAction.ListagemTarefa,NA,NA,NA
+br.gov.dpf.epol.action.CasoAction.MostraCasoRelacionado,Carla Sukeyosi,NA,NA
+br.gov.dpf.epol.action.CasoAction.TipoAvocacao,NA,NA,NA
+br.gov.dpf.epol.action.CondutaAction,Felipe Diogenes,Gabriel Brito,NA
+br.gov.dpf.epol.action.CondutaAction.ListagemEnvolvimento,NA,NA,NA
+br.gov.dpf.epol.action.converter.CepConverter,NA,NA,NA
+br.gov.dpf.epol.action.converter.CnpjConverter,NA,NA,NA
+br.gov.dpf.epol.action.converter.CpfConverter,NA,NA,NA
+br.gov.dpf.epol.action.converter.HorarioConverter,NA,NA,NA
+br.gov.dpf.epol.action.converter.InstituicaoConverter,NA,NA,NA
+br.gov.dpf.epol.action.CrudAction,NA,NA,NA
+br.gov.dpf.epol.action.CrudAction.Cancela,NA,NA,NA
+br.gov.dpf.epol.action.CrudAction.Confirma,NA,NA,NA
+br.gov.dpf.epol.action.CrudAction.ConfirmaInvalido,NA,NA,NA
+br.gov.dpf.epol.action.CrudMode,NA,NA,NA
+br.gov.dpf.epol.action.custom.CadastrarCamposComplementaresAction,NA,NA,NA
+br.gov.dpf.epol.action.custom.CadastrarCamposComplementaresAction.ListagemFields,NA,NA,NA
+br.gov.dpf.epol.action.custom.CategoriaMaterialFilterAction,NA,NA,NA
+br.gov.dpf.epol.action.custom.FieldTableAction,Felipe Diogenes,Gabriel Brito,Pedro Henriques
+br.gov.dpf.epol.action.custom.FilterAction,NA,NA,NA
+br.gov.dpf.epol.action.custom.TipoPenalFilterAction,NA,NA,NA
+br.gov.dpf.epol.action.DefinirPermissoesDeAcessoAction,NA,NA,NA
+br.gov.dpf.epol.action.DefinirPermissoesDeAcessoAction.ListagemServidoresPP,Marcos Candeia,NA,NA
+br.gov.dpf.epol.action.DesapensarAction,NA,NA,NA
+br.gov.dpf.epol.action.DesmembrarCasoAction,NA,NA,NA
+br.gov.dpf.epol.action.DesmembrarCasoAction.ListagemConduta,NA,NA,NA
+br.gov.dpf.epol.action.DesmembrarCasoAction.ListagemEnvolvimento,NA,NA,NA
+br.gov.dpf.epol.action.DesmembrarCasoAction.ListagemInvestigado,NA,NA,NA
+br.gov.dpf.epol.action.DesmembrarCasoAction.ListagemPeca,NA,NA,NA
+br.gov.dpf.epol.action.EnvolvidoAbstractAction,Marcos Candeia,Carla Sukeyosi,NA
+br.gov.dpf.epol.action.EnvolvidoAbstractAction.ListagemEnderecos,NA,NA,NA
+br.gov.dpf.epol.action.EnvolvidoAbstractAction.ListagemTelefones,NA,NA,NA
+br.gov.dpf.epol.action.EnvolvimentoAction,Gabriel Brito,Felipe Diogenes,Marcos Candeia
+br.gov.dpf.epol.action.EnvolvimentoAction.AdvogadoRetornoListener,NA,NA,NA
+br.gov.dpf.epol.action.EnvolvimentoAction.AlterarEventHandler,NA,NA,NA
+br.gov.dpf.epol.action.EnvolvimentoAction.CadastrarAdvogadoEventHandler,NA,NA,NA
+br.gov.dpf.epol.action.EnvolvimentoAction.IniciaUploadPecaEventHandler,NA,NA,NA
+br.gov.dpf.epol.action.EnvolvimentoAction.ListagemAdvogados,NA,NA,NA
+br.gov.dpf.epol.action.EnvolvimentoAction.ListagemPecasEmCriacao,Gabriel Brito,NA,NA
+br.gov.dpf.epol.action.EnvolvimentoAction.SelecionarEnvolvidoRetornoListener,NA,NA,NA
+br.gov.dpf.epol.action.EnvolvimentoAction.TipoEnvolvimentoConverter,NA,NA,NA
+br.gov.dpf.epol.action.event.CriarPecaEvent,NA,NA,NA
+br.gov.dpf.epol.action.event.Event,NA,NA,NA
+br.gov.dpf.epol.action.event.EventHandler,NA,NA,NA
+br.gov.dpf.epol.action.event.Evento,Andre Abrantes,Felipe Diogenes,Gabriel Brito
+br.gov.dpf.epol.action.event.EventoCriarPeca,NA,NA,NA
+br.gov.dpf.epol.action.event.GerenciadorEvento,Andre Abrantes,Felipe Diogenes,Gabriel Brito
+br.gov.dpf.epol.action.event.GerenciadorEventoLog,Andre Abrantes,Felipe Diogenes,Gabriel Brito
+br.gov.dpf.epol.action.event.GerenciadorEventosEPol,Andre Abrantes,Felipe Diogenes,Gabriel Brito
+br.gov.dpf.epol.action.event.MaterialEvent,NA,NA,NA
+br.gov.dpf.epol.action.ExibirNotificacoesAction,NA,NA,NA
+br.gov.dpf.epol.action.ExibirNotificacoesAction.FiltroNotificacao,NA,NA,NA
+br.gov.dpf.epol.action.ExibirNotificacoesAction.ListagemNotificacao,NA,NA,NA
+br.gov.dpf.epol.action.FatoAction,Felipe Diogenes,Carla Sukeyosi,Marcos Candeia
+br.gov.dpf.epol.action.ICrudAction,NA,NA,NA
+br.gov.dpf.epol.action.ICrudCreateAction,NA,NA,NA
+br.gov.dpf.epol.action.ICrudEditAction,NA,NA,NA
+br.gov.dpf.epol.action.ICrudReadAction,NA,NA,NA
+br.gov.dpf.epol.action.IExibicaoConfiguravel,NA,NA,NA
+br.gov.dpf.epol.action.IExibicaoConfiguravel.ExibicaoUtils,NA,NA,NA
+br.gov.dpf.epol.action.IndicarInconsistenciaMaterialAction,Leticia Wanderlei,Marcos Candeia,Vladwoguer Bezerra
+br.gov.dpf.epol.action.IndicarInconsistenciaMaterialAction.ListagemInternaMaterial,NA,NA,NA
+br.gov.dpf.epol.action.IndicarInconsistenciaMaterialAction.ListagemInternaMaterial.QualitativaEventHandler,NA,NA,NA
+br.gov.dpf.epol.action.IndicarInconsistenciaMaterialAction.ListagemInternaMaterial.QuantitativaMaiorEventHandler,NA,NA,NA
+br.gov.dpf.epol.action.IndicarInconsistenciaMaterialAction.ListagemInternaMaterial.QuantitativaMenorEventHandler,NA,NA,NA
+br.gov.dpf.epol.action.IndiciamentoAction,Leticia Wanderlei,Vladwoguer Bezerra,Marcos Candeia
+br.gov.dpf.epol.action.IndiciamentoAction.ListagemBVPs,NA,NA,NA
+br.gov.dpf.epol.action.IndiciamentoAction.ListagemConduta,NA,NA,NA
+br.gov.dpf.epol.action.IndiciamentoAction.ListagemPeca,NA,NA,NA
+br.gov.dpf.epol.action.IndiciamentoAction.PecaEventHandler,NA,NA,NA
+br.gov.dpf.epol.action.InstaurarInqueritoAction,Felipe Diogenes,Carla Sukeyosi,Filipe Wesley
+br.gov.dpf.epol.action.LacrarMaterialAction,Leticia Wanderlei,Vladwoguer Bezerra,Marcos Candeia
+br.gov.dpf.epol.action.LacrarMaterialAction.RetornoMaterialListener,NA,NA,NA
+br.gov.dpf.epol.action.listagem.ListagemFiltravelCaso,NA,NA,NA
+br.gov.dpf.epol.action.listagem.ListagemMultivalorada,NA,NA,NA
+br.gov.dpf.epol.action.listagem.ListagemSelecionar,NA,NA,NA
+br.gov.dpf.epol.action.listagem.pp.AbstractListagemPP,NA,NA,NA
+br.gov.dpf.epol.action.listagem.pp.ListagemBancoEPol,NA,NA,NA
+br.gov.dpf.epol.action.listagem.pp.ListagemEmBanco,NA,NA,NA
+br.gov.dpf.epol.action.listagem.pp.ListagemEmMemoria,NA,NA,NA
+br.gov.dpf.epol.action.listagem.pp.ListagemEnvolvidosEPol,NA,NA,NA
+br.gov.dpf.epol.action.listagem.pp.ListagemMemoriaEPol,NA,NA,NA
+br.gov.dpf.epol.action.listagem.pp.ListagemPP,NA,NA,NA
+br.gov.dpf.epol.action.listagem.pp.ListagemString,NA,NA,NA
+br.gov.dpf.epol.action.listagem.pp.ListagemTarefaPesquisa,NA,NA,NA
+br.gov.dpf.epol.action.listagem.pp.SeletorCampos,Carla Sukeyosi,Pedro Henriques,NA
+br.gov.dpf.epol.action.listagem.pp.StringValue,NA,NA,NA
+br.gov.dpf.epol.action.ListarRepresentacoesJudiciaisAction,NA,NA,NA
+br.gov.dpf.epol.action.ListarRepresentacoesJudiciaisAction.ListagemRepresentacaoJudicial,NA,NA,NA
+br.gov.dpf.epol.action.material.DestruicaoMaterial,Gabriel Brito,Andre Abrantes,Carla Sukeyosi
+br.gov.dpf.epol.action.material.DevolucaoMaterial,Felipe Diogenes,Andre Abrantes,Pedro Henriques
+br.gov.dpf.epol.action.material.ExtravioQuantitativoMaterial,Gabriel Brito,Andre Abrantes,Carla Sukeyosi
+br.gov.dpf.epol.action.material.IncineracaoMaterial,Gabriel Brito,Andre Abrantes,Carla Sukeyosi
+br.gov.dpf.epol.action.material.MovimentacaoMaterial,Gabriel Brito,Andre Abrantes,Carla Sukeyosi
+br.gov.dpf.epol.action.material.TransferenciaExterna,Felipe Diogenes,Andre Abrantes,Pedro Henriques
+br.gov.dpf.epol.action.material.TransferenciaInterna,Felipe Diogenes,Gabriel Brito,Andre Abrantes
+br.gov.dpf.epol.action.MaterialAction,Filipe Wesley,Igleson Freire,Jessica Sousa
+br.gov.dpf.epol.action.MaterialAction.ListagemApresentante,NA,NA,NA
+br.gov.dpf.epol.action.MaterialAction.ListagemIdentificadores,NA,NA,NA
+br.gov.dpf.epol.action.MaterialAction.ListagemPecaList,NA,NA,NA
+br.gov.dpf.epol.action.MostrarDadosDoUsuarioAction,Marcos Candeia,Andre Abrantes,NA
+br.gov.dpf.epol.action.MostrarDadosDoUsuarioAction.FiltroCaso,NA,NA,NA
+br.gov.dpf.epol.action.MostrarDadosDoUsuarioAction.FiltroProcedimento,NA,NA,NA
+br.gov.dpf.epol.action.MostrarDadosDoUsuarioAction.FiltroTarefa,NA,NA,NA
+br.gov.dpf.epol.action.MostrarDadosDoUsuarioAction.ListagemTarefa,NA,NA,NA
+br.gov.dpf.epol.action.MovimentarMaterialAction,Leticia Wanderlei,Marcos Candeia,Vladwoguer Bezerra
+br.gov.dpf.epol.action.MovimentarMaterialAction.ListagemMaterial,NA,NA,NA
+br.gov.dpf.epol.action.MovimentarMaterialAction.TipoMovimentacao,NA,NA,NA
+br.gov.dpf.epol.action.PageflowEPol,NA,NA,NA
+br.gov.dpf.epol.action.peca.CadastrarTemplatePecaAction,NA,NA,NA
+br.gov.dpf.epol.action.peca.FazerUploadPecaAction,Marcos Candeia,Carla Sukeyosi,Felipe Diogenes
+br.gov.dpf.epol.action.peca.FazerUploadPecaAction.TipoPecaConverter,NA,NA,NA
+br.gov.dpf.epol.action.peca.PecaAction,Andre Abrantes,Pedro Henriques,Seu Nome <seu@email.com>
+br.gov.dpf.epol.action.peca.PecaAction.TipoPecaNodo,Leticia Wanderlei,Marcos Candeia,Vladwoguer Bezerra
+br.gov.dpf.epol.action.PedirRedistribuicaoAction,NA,NA,NA
+br.gov.dpf.epol.action.PessoaFisicaAction,Felipe Diogenes,Carla Sukeyosi,Marcos Candeia
+br.gov.dpf.epol.action.PessoaFisicaAction.FalecimentoEventHandler,NA,NA,NA
+br.gov.dpf.epol.action.PessoaFisicaAction.FiltroDocumentosPessoaFisica,NA,NA,NA
+br.gov.dpf.epol.action.PessoaFisicaAction.ListagemDocumentos,NA,NA,NA
+br.gov.dpf.epol.action.PessoaJuridicaAction,NA,NA,NA
+br.gov.dpf.epol.action.PessoaJuridicaAction.ListagemPessoaFisica,NA,NA,NA
+br.gov.dpf.epol.action.ProrrogarCasoAction,NA,NA,NA
+br.gov.dpf.epol.action.RedistribuirCargaAction,Marcos Candeia,NA,NA
+br.gov.dpf.epol.action.RedistribuirCargaAction.ListagemCasosTransferencia,NA,NA,NA
+br.gov.dpf.epol.action.RedistribuirCargaAction.ListagemTarefasTransferencia,NA,NA,NA
+br.gov.dpf.epol.action.RegistrarDecisaoJudicialAction,NA,NA,NA
+br.gov.dpf.epol.action.RemoverLacreMaterialAction,Leticia Wanderlei,Marcos Candeia,Vladwoguer Bezerra
+br.gov.dpf.epol.action.RemoverLacreMaterialAction.ListagemInternaLacre,NA,NA,NA
+br.gov.dpf.epol.action.RemoverLacreMaterialAction.ListagemInternaLacreRompido,NA,NA,NA
+br.gov.dpf.epol.action.RenderAction,NA,NA,NA
+br.gov.dpf.epol.action.RepresentacaoJudicialAction,Leticia Wanderlei,Marcos Candeia,Vladwoguer Bezerra
+br.gov.dpf.epol.action.RepresentacaoJudicialAction.ListagemEnvolvidos,NA,NA,NA
+br.gov.dpf.epol.action.RepresentacaoJudicialAction.ListagemPedidos,Leticia Wanderlei,Marcos Candeia,Vladwoguer Bezerra
+br.gov.dpf.epol.action.RepresentacaoJudicialAction.ListagemRascunhoLista,NA,NA,NA
+br.gov.dpf.epol.action.RetornoListener,NA,NA,NA
+br.gov.dpf.epol.action.RoteiroDeInvestigacaoAction,NA,NA,NA
+br.gov.dpf.epol.action.RoteiroDeInvestigacaoAction.ListagemTarefasRoteiro,NA,NA,NA
+br.gov.dpf.epol.action.SelecionarEnvolvidoAction,NA,NA,NA
+br.gov.dpf.epol.action.SelecionarEnvolvidoAction.SelecionarEnvolvidoRetornoListener,NA,NA,NA
+br.gov.dpf.epol.action.SimpleIndexConverter,NA,NA,NA
+br.gov.dpf.epol.action.tarefa.AnalisarApensamentoAction,Andre Abrantes,Gabriel Brito,Pedro Henriques
+br.gov.dpf.epol.action.tarefa.AnalisarApensamentoAction.ListagemTarefaCasoPP,NA,NA,NA
+br.gov.dpf.epol.action.tarefa.AnalisarDocumentoEnviadoParaAnaliseAction,Andre Abrantes,Seu Nome <seu@email.com>,Leticia Wanderlei
+br.gov.dpf.epol.action.tarefa.AnalisarDocumentoEnviadoParaAnaliseAction.ListagemCondutas,Marcos Candeia,Pedro Henriques,NA
+br.gov.dpf.epol.action.tarefa.AnalisarDocumentoEnviadoParaAnaliseAction.ListagemEnvolvimentos,Marcos Candeia,Pedro Henriques,Carla Sukeyosi
+br.gov.dpf.epol.action.tarefa.AnalisarDocumentoEnviadoParaAnaliseAction.ListagemPecas,NA,NA,NA
+br.gov.dpf.epol.action.tarefa.AnalisarDocumentoEnviadoParaAnaliseAction.TipoDocumento,NA,NA,NA
+br.gov.dpf.epol.action.tarefa.AnalisarFimDeRedistribuicaoTemporariaAction,Carla Sukeyosi,Igleson Freire,Jessica Sousa
+br.gov.dpf.epol.action.tarefa.AnalisarFlagranteAction,Carla Sukeyosi,Igleson Freire,Jessica Sousa
+br.gov.dpf.epol.action.tarefa.AnalisarPedidoDeReconsideracaoAction,Felipe Diogenes,Marcos Candeia,NA
+br.gov.dpf.epol.action.tarefa.CamposArbitrarFianca,NA,NA,NA
+br.gov.dpf.epol.action.tarefa.CamposArbitrarFianca.EnvolvidoMultaMap,NA,NA,NA
+br.gov.dpf.epol.action.tarefa.CamposArbitrarFianca.ListagemEnvolvidos,NA,NA,NA
+br.gov.dpf.epol.action.tarefa.CamposArbitrarFianca.ListagemEnvolvidosSelecionados,NA,NA,NA
+br.gov.dpf.epol.action.tarefa.CamposFormularioAtoPresencial,Carla Sukeyosi,Felipe Diogenes,Gabriel Brito
+br.gov.dpf.epol.action.tarefa.CamposFormularioAtoPresencial.ListagemEnvolvimentos,NA,NA,NA
+br.gov.dpf.epol.action.tarefa.CamposFormularioAtoPresencial.ListagemEnvolvimentosSelecionados,NA,NA,NA
+br.gov.dpf.epol.action.tarefa.CamposFormularioProrrogarPrazo,NA,NA,NA
+br.gov.dpf.epol.action.tarefa.CamposFormularioTarefaInominada,NA,NA,NA
+br.gov.dpf.epol.action.tarefa.GerenciarDistribuicaoAction,Igleson Freire,Jessica Sousa,NA
+br.gov.dpf.epol.action.tarefa.ICamposFormularioTarefa,NA,NA,NA
+br.gov.dpf.epol.action.tarefa.IResponderTarefaAction,NA,NA,NA
+br.gov.dpf.epol.action.tarefa.RemarcarAtoPresencialAction,NA,NA,NA
+br.gov.dpf.epol.action.tarefa.RemarcarAtoPresencialAction.FiltroIdTarefaPai,NA,NA,NA
+br.gov.dpf.epol.action.tarefa.ResponderAnalisarPecaAdicionadaAction,Carla Sukeyosi,Igleson Freire,Jessica Sousa
+br.gov.dpf.epol.action.tarefa.ResponderTarefaAction,Marcos Candeia,Igleson Freire,Jessica Sousa
+br.gov.dpf.epol.action.tarefa.ResponderTarefaAction.ListagemPecas,NA,NA,NA
+br.gov.dpf.epol.action.tarefa.RevisarAnaliseAction,Igleson Freire,Jessica Sousa,Carla Sukeyosi
+br.gov.dpf.epol.action.tarefa.VerTarefaAction,Filipe Wesley,Leticia Wanderlei,Vladwoguer Bezerra
+br.gov.dpf.epol.action.tarefa.VerTarefaAction.FiltroCompostoNumeroTarefaAndSituacao,NA,NA,NA
+br.gov.dpf.epol.action.tarefa.VerTarefaAction.ListagemEnvolvido,NA,NA,NA
+br.gov.dpf.epol.action.tarefa.VerTarefaAction.ListagemPecaLista,NA,NA,NA
+br.gov.dpf.epol.action.tarefa.VerTarefaAction.ListagemRascunhoLista,NA,NA,NA
+br.gov.dpf.epol.action.tarefa.VerTarefaAction.ListagemTarefa,NA,NA,NA
+br.gov.dpf.epol.action.tarefa.VerTarefaAction.TipoAvocacaoTarefa,NA,NA,NA
+br.gov.dpf.epol.action.TipoPenalAction,NA,NA,NA
+br.gov.dpf.epol.action.validator.CepValidator,NA,NA,NA
+br.gov.dpf.epol.action.validator.CnpjValidator,NA,NA,NA
+br.gov.dpf.epol.action.validator.CpfValidator,NA,NA,NA
+br.gov.dpf.epol.action.validator.ValidacaoException,NA,NA,NA
+br.gov.dpf.epol.action.VerProcedimentoAction,Felipe Diogenes,NA,NA
+br.gov.dpf.epol.action.VerProcedimentoAction.ListagemPecas,NA,NA,NA
+br.gov.dpf.epol.action.VerProcedimentoAction.ListagemProcessos,NA,NA,NA
+br.gov.dpf.epol.action.VerProcedimentoAction.TipoVisualizacao,Felipe Diogenes,NA,NA
+br.gov.dpf.epol.action.VerTarefaRenderAction,Filipe Wesley,Igleson Freire,Jessica Sousa
+br.gov.dpf.epol.action.VerTarefaRenderAction.OpcoesResponsabilidade,NA,NA,NA
+br.gov.dpf.epol.action.VisualizarPecasAction,NA,NA,NA
+br.gov.dpf.epol.cenario.CenarioAgenda,NA,NA,NA
+br.gov.dpf.epol.cenario.CenarioAnalisarPedidoReconsideracao,Jessica Sousa,Vladwoguer Bezerra,NA
+br.gov.dpf.epol.cenario.CenarioCasoApensamento,Carla Sukeyosi,Felipe Diogenes,Marcos Candeia
+br.gov.dpf.epol.cenario.CenarioCasoDesapensamento,Carla Sukeyosi,Felipe Diogenes,Marcos Candeia
+br.gov.dpf.epol.cenario.CenarioCasoFaseAnalise,Vladwoguer Bezerra,Marcos Candeia,Carla Sukeyosi
+br.gov.dpf.epol.cenario.CenarioCasoFaseDistribuicao,Carla Sukeyosi,Felipe Diogenes,Marcos Candeia
+br.gov.dpf.epol.cenario.CenarioCasoFaseFinalizacao,Pedro Henriques,Carla Sukeyosi,Felipe Diogenes
+br.gov.dpf.epol.cenario.CenarioCasoFaseFinalizacaoAtrasado,Carla Sukeyosi,Felipe Diogenes,Marcos Candeia
+br.gov.dpf.epol.cenario.CenarioCasoFaseInstauracao,Carla Sukeyosi,Felipe Diogenes,Marcos Candeia
+br.gov.dpf.epol.cenario.CenarioCasoFinalizado,Carla Sukeyosi,Felipe Diogenes,Marcos Candeia
+br.gov.dpf.epol.cenario.CenarioCasoIndiciar,Carla Sukeyosi,Felipe Diogenes,Marcos Candeia
+br.gov.dpf.epol.cenario.CenarioConstantes,Jessica Sousa,Vladwoguer Bezerra,Carla Sukeyosi
+br.gov.dpf.epol.cenario.CenarioDadosFixos,Carla Sukeyosi,Felipe Diogenes,Marcos Candeia
+br.gov.dpf.epol.cenario.CenarioFlagranteFaseInquerito,Carla Sukeyosi,Felipe Diogenes,Marcos Candeia
+br.gov.dpf.epol.cenario.CenarioFlagranteTarefaAberta,Carla Sukeyosi,Felipe Diogenes,Marcos Candeia
+br.gov.dpf.epol.cenario.CenarioFlagranteTarefaConcluida,Carla Sukeyosi,Felipe Diogenes,Marcos Candeia
+br.gov.dpf.epol.cenario.CenarioNotificacoes,NA,NA,NA
+br.gov.dpf.epol.cenario.CenarioRepresentacaoJudicial,Carla Sukeyosi,Felipe Diogenes,Marcos Candeia
+br.gov.dpf.epol.cenario.CenarioUtil,Marcos Candeia,Carla Sukeyosi,Felipe Diogenes
+br.gov.dpf.epol.cenario.GrupoCenario,NA,NA,NA
+br.gov.dpf.epol.cenario.ITesteCenario,NA,NA,NA
+br.gov.dpf.epol.cenario.PopulaCenario,Marcos Candeia,NA,NA
+br.gov.dpf.epol.dao.SeamDAO,NA,NA,NA
+br.gov.dpf.epol.dao.SeamDAOLocal,NA,NA,NA
+br.gov.dpf.epol.dao.TestDAO,NA,NA,NA
+br.gov.dpf.epol.dao.TestDAOLocal,NA,NA,NA
+br.gov.dpf.epol.externo.protocolo.DocumentoDTO,NA,NA,NA
+br.gov.dpf.epol.externo.protocolo.SistemaProtocoloBean,Marcos Candeia,NA,NA
+br.gov.dpf.epol.externo.protocolo.SistemaProtocoloService,NA,NA,NA
+br.gov.dpf.epol.interfaces.selenium.elementos.listagem.AjudaSEI,NA,NA,NA
+br.gov.dpf.epol.interfaces.selenium.elementos.listagem.ListagemEI,NA,NA,NA
+br.gov.dpf.epol.interfaces.selenium.elementos.menuPrincipal.BuscarSEI,NA,NA,NA
+br.gov.dpf.epol.interfaces.selenium.elementos.menuPrincipal.CasoSEI,NA,NA,NA
+br.gov.dpf.epol.interfaces.selenium.elementos.menuPrincipal.EnvolvidoSEI,NA,NA,NA
+br.gov.dpf.epol.interfaces.selenium.elementos.menuPrincipal.MenuPrincipalEI,NA,NA,NA
+br.gov.dpf.epol.interfaces.selenium.elementos.menuPrincipal.NovoSEI,NA,NA,NA
+br.gov.dpf.epol.interfaces.selenium.elementos.TabelaDeAbasEI,NA,NA,NA
+br.gov.dpf.epol.interfaces.selenium.TestaLogar,NA,NA,NA
+br.gov.dpf.epol.interfaces.selenium.util.AbstractTesteInterfaces,NA,NA,NA
+br.gov.dpf.epol.interfaces.selenium.util.TesteInterfacesUtils,NA,NA,NA
+br.gov.dpf.epol.jobs.QuartzMailer,Marcos Candeia,NA,NA
+br.gov.dpf.epol.jobs.QuartzMailerKicker,NA,NA,NA
+br.gov.dpf.epol.model.Agenda,NA,NA,NA
+br.gov.dpf.epol.model.annotations.DateFilterType,NA,NA,NA
+br.gov.dpf.epol.model.annotations.ReferenceFilterType,NA,NA,NA
+br.gov.dpf.epol.model.annotations.StringFilterType,NA,NA,NA
+br.gov.dpf.epol.model.Apensamento,NA,NA,NA
+br.gov.dpf.epol.model.Caso,Carla Sukeyosi,Gabriel Brito,Jessica Sousa
+br.gov.dpf.epol.model.Conduta,Marcos Candeia,Pedro Henriques,NA
+br.gov.dpf.epol.model.custodia.CategoriaMaterial,NA,NA,NA
+br.gov.dpf.epol.model.custodia.CategoriaMaterialFilter,NA,NA,NA
+br.gov.dpf.epol.model.custodia.EstadoMaterial,Felipe Diogenes,NA,NA
+br.gov.dpf.epol.model.custodia.Identificador,NA,NA,NA
+br.gov.dpf.epol.model.custodia.Inconsistencia,NA,NA,NA
+br.gov.dpf.epol.model.custodia.Lacre,NA,NA,NA
+br.gov.dpf.epol.model.custodia.Material,NA,NA,NA
+br.gov.dpf.epol.model.custodia.StatusLacre,NA,NA,NA
+br.gov.dpf.epol.model.custodia.TipoInconsistencia,NA,NA,NA
+br.gov.dpf.epol.model.custodia.UnidadeMedida,NA,NA,NA
+br.gov.dpf.epol.model.custom.ClassFilter,NA,NA,NA
+br.gov.dpf.epol.model.custom.Customizable,NA,NA,NA
+br.gov.dpf.epol.model.custom.Field,NA,NA,NA
+br.gov.dpf.epol.model.custom.FieldTable,NA,NA,NA
+br.gov.dpf.epol.model.custom.FieldTable.FieldTableEntry,NA,NA,NA
+br.gov.dpf.epol.model.custom.Filter,NA,NA,NA
+br.gov.dpf.epol.model.custom.FilterField,NA,NA,NA
+br.gov.dpf.epol.model.custom.RuntimeEnum,NA,NA,NA
+br.gov.dpf.epol.model.custom.validator.CalendarAfter,NA,NA,NA
+br.gov.dpf.epol.model.custom.validator.CalendarBefore,NA,NA,NA
+br.gov.dpf.epol.model.custom.validator.CalendarBetween,NA,NA,NA
+br.gov.dpf.epol.model.custom.validator.CompositionType,NA,NA,NA
+br.gov.dpf.epol.model.custom.validator.ConstraintComposition,NA,NA,NA
+br.gov.dpf.epol.model.custom.validator.Email,NA,NA,NA
+br.gov.dpf.epol.model.custom.validator.Length,NA,NA,NA
+br.gov.dpf.epol.model.custom.validator.Max,NA,NA,NA
+br.gov.dpf.epol.model.custom.validator.Min,NA,NA,NA
+br.gov.dpf.epol.model.custom.validator.NotBlank,NA,NA,NA
+br.gov.dpf.epol.model.custom.validator.NotEmpty,NA,NA,NA
+br.gov.dpf.epol.model.custom.validator.NotNull,NA,NA,NA
+br.gov.dpf.epol.model.custom.validator.Pattern,NA,NA,NA
+br.gov.dpf.epol.model.custom.validator.Range,NA,NA,NA
+br.gov.dpf.epol.model.custom.validator.Validator,NA,NA,NA
+br.gov.dpf.epol.model.DadosParecer,NA,NA,NA
+br.gov.dpf.epol.model.DadosParecer.TipoPrescricao,NA,NA,NA
+br.gov.dpf.epol.model.DecisaoJudicial,NA,NA,NA
+br.gov.dpf.epol.model.DecisaoJudicial.RestricoesDireito,NA,NA,NA
+br.gov.dpf.epol.model.DecisaoJudicial.TipoCondenacao,NA,NA,NA
+br.gov.dpf.epol.model.DecisaoJudicial.TipoCondenacaoAbsolvido,NA,NA,NA
+br.gov.dpf.epol.model.DecisaoJudicial.TipoCondenacaoCulpado,NA,NA,NA
+br.gov.dpf.epol.model.DecisaoJudicial.TipoPenalizacao,NA,NA,NA
+br.gov.dpf.epol.model.DecisaoJudicial.TipoRegimeDetencao,NA,NA,NA
+br.gov.dpf.epol.model.DecisaoJudicial.TipoRegimeReclusao,NA,NA,NA
+br.gov.dpf.epol.model.Distribuivel,NA,NA,NA
+br.gov.dpf.epol.model.Documentavel,Felipe Diogenes,Carla Sukeyosi,NA
+br.gov.dpf.epol.model.DocumentoGerenciavel,NA,NA,NA
+br.gov.dpf.epol.model.egp.Ator,Pedro Henriques,Marcos Candeia,NA
+br.gov.dpf.epol.model.egp.AtribuicoesServidor,Igleson Freire,Jessica Sousa,NA
+br.gov.dpf.epol.model.egp.Cargo,Carla Sukeyosi,Marcos Candeia,NA
+br.gov.dpf.epol.model.egp.CargoPoliciaFederal,NA,NA,NA
+br.gov.dpf.epol.model.egp.Estado,Carla Sukeyosi,Marcos Candeia,NA
+br.gov.dpf.epol.model.egp.Municipio,Carla Sukeyosi,Marcos Candeia,NA
+br.gov.dpf.epol.model.egp.Pessoa,Carla Sukeyosi,Pedro Henriques,Marcos Candeia
+br.gov.dpf.epol.model.egp.Servidor,Carla Sukeyosi,Pedro Henriques,Marcos Candeia
+br.gov.dpf.epol.model.egp.Unidade,Carla Sukeyosi,Marcos Candeia,Pedro Henriques
+br.gov.dpf.epol.model.ElaborarPeca,NA,NA,NA
+br.gov.dpf.epol.model.EntidadeCRUDEPol,NA,NA,NA
+br.gov.dpf.epol.model.envolvido.Advogado,NA,NA,NA
+br.gov.dpf.epol.model.envolvido.Documento,NA,NA,NA
+br.gov.dpf.epol.model.envolvido.Endereco,Igleson Freire,Jessica Sousa,Felipe Diogenes
+br.gov.dpf.epol.model.envolvido.Envolvido,NA,NA,NA
+br.gov.dpf.epol.model.envolvido.Envolvimento,Gabriel Brito,NA,NA
+br.gov.dpf.epol.model.envolvido.EstadoCivil,NA,NA,NA
+br.gov.dpf.epol.model.envolvido.GrauInstrucao,NA,NA,NA
+br.gov.dpf.epol.model.envolvido.NaturezaPJ,Carla Sukeyosi,Marcos Candeia,NA
+br.gov.dpf.epol.model.envolvido.OutroNome,NA,NA,NA
+br.gov.dpf.epol.model.envolvido.PessoaFisica,Andre Abrantes,Carla Sukeyosi,Felipe Diogenes
+br.gov.dpf.epol.model.envolvido.PessoaJuridica,NA,NA,NA
+br.gov.dpf.epol.model.envolvido.Profissao,NA,NA,NA
+br.gov.dpf.epol.model.envolvido.QualificadorEnvolvimento,NA,NA,NA
+br.gov.dpf.epol.model.envolvido.Sexo,NA,NA,NA
+br.gov.dpf.epol.model.envolvido.Telefone,NA,NA,NA
+br.gov.dpf.epol.model.envolvido.TipoEndereco,NA,NA,NA
+br.gov.dpf.epol.model.envolvido.TipoEnvolvido,NA,NA,NA
+br.gov.dpf.epol.model.envolvido.TipoEnvolvimento,NA,NA,NA
+br.gov.dpf.epol.model.envolvido.TipoLogradouro,NA,NA,NA
+br.gov.dpf.epol.model.envolvido.TipoOutroNome,NA,NA,NA
+br.gov.dpf.epol.model.envolvido.TipoTelefone,NA,NA,NA
+br.gov.dpf.epol.model.Envolvivel,Gabriel Brito,NA,NA
+br.gov.dpf.epol.model.EPolException,NA,NA,NA
+br.gov.dpf.epol.model.Fato,Felipe Diogenes,NA,NA
+br.gov.dpf.epol.model.Indiciamento,NA,NA,NA
+br.gov.dpf.epol.model.Instituicao,Carla Sukeyosi,NA,NA
+br.gov.dpf.epol.model.lei.Categoria,NA,NA,NA
+br.gov.dpf.epol.model.lei.Competencia,NA,NA,NA
+br.gov.dpf.epol.model.lei.ItemNorma,NA,NA,NA
+br.gov.dpf.epol.model.lei.Norma,NA,NA,NA
+br.gov.dpf.epol.model.lei.TipoItemNorma,NA,NA,NA
+br.gov.dpf.epol.model.lei.TipoNorma,NA,NA,NA
+br.gov.dpf.epol.model.lei.TipoPenal,NA,NA,NA
+br.gov.dpf.epol.model.lei.TipoPenalFilter,NA,NA,NA
+br.gov.dpf.epol.model.ListaDeDistribuicao,Jessica Sousa,NA,NA
+br.gov.dpf.epol.model.MunicipioEGP,NA,NA,NA
+br.gov.dpf.epol.model.MunicipioEstrangeiro,NA,NA,NA
+br.gov.dpf.epol.model.NaturezaAtoPresencial,NA,NA,NA
+br.gov.dpf.epol.model.Notificacao,NA,NA,NA
+br.gov.dpf.epol.model.OperacaoNaoPermitidaException,NA,NA,NA
+br.gov.dpf.epol.model.Papel,NA,NA,NA
+br.gov.dpf.epol.model.peca.Atributo,NA,NA,NA
+br.gov.dpf.epol.model.peca.AtributoHQL,NA,NA,NA
+br.gov.dpf.epol.model.peca.AtributoImutavel,NA,NA,NA
+br.gov.dpf.epol.model.peca.AtributoLE,NA,NA,NA
+br.gov.dpf.epol.model.peca.AtributoValorInvalidoException,NA,NA,NA
+br.gov.dpf.epol.model.peca.Conversor,NA,NA,NA
+br.gov.dpf.epol.model.peca.Conversor.CollectionConversor,NA,NA,NA
+br.gov.dpf.epol.model.peca.DataAtual,NA,NA,NA
+br.gov.dpf.epol.model.peca.FormatoPeca,NA,NA,NA
+br.gov.dpf.epol.model.peca.NaoVisualizavelException,NA,NA,NA
+br.gov.dpf.epol.model.peca.Peca,Andre Abrantes,Gabriel Brito,NA
+br.gov.dpf.epol.model.peca.Peca.Formato,NA,NA,NA
+br.gov.dpf.epol.model.peca.Peca.StatusPeca,NA,NA,NA
+br.gov.dpf.epol.model.peca.PecaBuilder,NA,NA,NA
+br.gov.dpf.epol.model.peca.TemplateAtributo,NA,NA,NA
+br.gov.dpf.epol.model.peca.TemplateAtributoHQL,NA,NA,NA
+br.gov.dpf.epol.model.peca.TemplateAtributoLE,NA,NA,NA
+br.gov.dpf.epol.model.peca.TemplatePeca,NA,NA,NA
+br.gov.dpf.epol.model.peca.TipoPeca,Felipe Diogenes,Andre Abrantes,Carla Sukeyosi
+br.gov.dpf.epol.model.peca.TipoTemplateAtributo,NA,NA,NA
+br.gov.dpf.epol.model.peca.VisualizacaoData,NA,NA,NA
+br.gov.dpf.epol.model.peca.VisualizadorFormato,NA,NA,NA
+br.gov.dpf.epol.model.peca.VisualizadorFormatoHTML,NA,NA,NA
+br.gov.dpf.epol.model.peca.VisualizadorFormatoOutro,NA,NA,NA
+br.gov.dpf.epol.model.peca.VisualizadorFormatoTXT,NA,NA,NA
+br.gov.dpf.epol.model.Pedido,NA,NA,NA
+br.gov.dpf.epol.model.PreferenciaExibicaoDados,NA,NA,NA
+br.gov.dpf.epol.model.PreferenciaExibicaoDados.OrigemPreferenciaDados,NA,NA,NA
+br.gov.dpf.epol.model.procedimento.Procedimento,NA,NA,NA
+br.gov.dpf.epol.model.procedimento.TipoProcedimento,NA,NA,NA
+br.gov.dpf.epol.model.Processo,NA,NA,NA
+br.gov.dpf.epol.model.Protegivel,NA,NA,NA
+br.gov.dpf.epol.model.Rascunho,Andre Abrantes,Gabriel Brito,NA
+br.gov.dpf.epol.model.RegistroDeDistribuicao,Andre Abrantes,Gabriel Brito,Pedro Henriques
+br.gov.dpf.epol.model.RelacionamentoCaso,NA,NA,NA
+br.gov.dpf.epol.model.RelacionamentoCaso.TipoRelacionamento,Carla Sukeyosi,NA,NA
+br.gov.dpf.epol.model.RepresentacaoJudicial,NA,NA,NA
+br.gov.dpf.epol.model.RoteiroDeInvestigacao,NA,NA,NA
+br.gov.dpf.epol.model.RoteiroDeInvestigacao.TarefaDoRoteiro,NA,NA,NA
+br.gov.dpf.epol.model.StatusCaso,NA,NA,NA
+br.gov.dpf.epol.model.Tarefa,Gabriel Brito,Marcos Candeia,Carla Sukeyosi
+br.gov.dpf.epol.model.tarefa.AguardarRespostaRepresentacaoJudicial,NA,NA,NA
+br.gov.dpf.epol.model.tarefa.AnalisarApensamento,Felipe Diogenes,Igleson Freire,Jessica Sousa
+br.gov.dpf.epol.model.tarefa.AnalisarDocumentoEnviadoParaAnalise,Marcos Candeia,NA,NA
+br.gov.dpf.epol.model.tarefa.AnalisarFimDeRedistribuicaoTemporaria,NA,NA,NA
+br.gov.dpf.epol.model.tarefa.AnalisarFlagrante,NA,NA,NA
+br.gov.dpf.epol.model.tarefa.AnalisarFlagrante.AtributoFlagrante,NA,NA,NA
+br.gov.dpf.epol.model.tarefa.AnalisarFlagrante.AtributoTCO,NA,NA,NA
+br.gov.dpf.epol.model.tarefa.AnalisarPecaAdicionada,NA,NA,NA
+br.gov.dpf.epol.model.tarefa.AnalisarPedidoDeReconsideracao,Felipe Diogenes,Marcos Candeia,NA
+br.gov.dpf.epol.model.tarefa.Anotacao,NA,NA,NA
+br.gov.dpf.epol.model.tarefa.ArbitrarFianca,NA,NA,NA
+br.gov.dpf.epol.model.tarefa.AtoPresencial,Felipe Diogenes,Gabriel Brito,NA
+br.gov.dpf.epol.model.tarefa.AtributoTarefa,NA,NA,NA
+br.gov.dpf.epol.model.tarefa.ComunicarFlagrante,NA,NA,NA
+br.gov.dpf.epol.model.tarefa.DepoimentoCondutor,NA,NA,NA
+br.gov.dpf.epol.model.tarefa.DepoimentoFlagrante,NA,NA,NA
+br.gov.dpf.epol.model.tarefa.DepoimentoPreso,NA,NA,NA
+br.gov.dpf.epol.model.tarefa.DepoimentoTestemunha,NA,NA,NA
+br.gov.dpf.epol.model.tarefa.DestinacaoDeCustodia,Carla Sukeyosi,Felipe Diogenes,Gabriel Brito
+br.gov.dpf.epol.model.tarefa.DistribuirNoticiaCrime,Vladwoguer Bezerra,Marcos Candeia,NA
+br.gov.dpf.epol.model.tarefa.DistribuirRegistroEspecial,NA,NA,NA
+br.gov.dpf.epol.model.tarefa.ElaborarLaudoPericial,NA,NA,NA
+br.gov.dpf.epol.model.tarefa.EncaminharProcedimento,NA,NA,NA
+br.gov.dpf.epol.model.tarefa.EstadoTarefa,Felipe Diogenes,Marcos Candeia,NA
+br.gov.dpf.epol.model.tarefa.Flagrante,NA,NA,NA
+br.gov.dpf.epol.model.tarefa.InstaurarInquerito,Carla Sukeyosi,Filipe Wesley,Igleson Freire
+br.gov.dpf.epol.model.tarefa.Intimar,NA,NA,NA
+br.gov.dpf.epol.model.tarefa.Justificativa,NA,NA,NA
+br.gov.dpf.epol.model.tarefa.ModalidadeIntimacao,NA,NA,NA
+br.gov.dpf.epol.model.Tarefa.OpcoesResponder,NA,NA,NA
+br.gov.dpf.epol.model.tarefa.PedirPrazo,NA,NA,NA
+br.gov.dpf.epol.model.tarefa.PermitirAcesso,NA,NA,NA
+br.gov.dpf.epol.model.tarefa.ProduzirAQI,NA,NA,NA
+br.gov.dpf.epol.model.tarefa.ProduzirAutoApreensao,NA,NA,NA
+br.gov.dpf.epol.model.tarefa.ProduzirAutoDeApresentacaoEApreensao,NA,NA,NA
+br.gov.dpf.epol.model.tarefa.ProduzirBoletimIdentificacaoCriminal,NA,NA,NA
+br.gov.dpf.epol.model.tarefa.ProduzirBoletimVidaPregressa,NA,NA,NA
+br.gov.dpf.epol.model.tarefa.ProduzirDespachoFundamentado,NA,NA,NA
+br.gov.dpf.epol.model.tarefa.ProduzirNotaCiencia,NA,NA,NA
+br.gov.dpf.epol.model.tarefa.ProduzirNotaCulpa,NA,NA,NA
+br.gov.dpf.epol.model.tarefa.ProduzirRelatorioFinal,Felipe Diogenes,Marcos Candeia,NA
+br.gov.dpf.epol.model.tarefa.ProduzirTCOFlagrancial,NA,NA,NA
+br.gov.dpf.epol.model.tarefa.ProrrogarPrazo,NA,NA,NA
+br.gov.dpf.epol.model.tarefa.RealizarApensamento,NA,NA,NA
+br.gov.dpf.epol.model.tarefa.RevisarAnalise,Carla Sukeyosi,Marcos Candeia,NA
+br.gov.dpf.epol.model.tarefa.RevisarPermissoesDeAcesso,NA,NA,NA
+br.gov.dpf.epol.model.tarefa.SugestaoTarefa,NA,NA,NA
+br.gov.dpf.epol.model.tarefa.TransferenciaDeCustodia,Carla Sukeyosi,Felipe Diogenes,Gabriel Brito
+br.gov.dpf.epol.model.TipoData,NA,NA,NA
+br.gov.dpf.epol.model.TipoDeDistribuicao,NA,NA,NA
+br.gov.dpf.epol.model.TipoDocumento,NA,NA,NA
+br.gov.dpf.epol.model.TipoDocumentoIdentificacao,NA,NA,NA
+br.gov.dpf.epol.model.TipoIndiciamento,NA,NA,NA
+br.gov.dpf.epol.model.TipoJustificativa,Felipe Diogenes,Marcos Candeia,NA
+br.gov.dpf.epol.model.TipoPedido,NA,NA,NA
+br.gov.dpf.epol.model.TipoReferencia,NA,NA,NA
+br.gov.dpf.epol.model.TipoRepresentacaoJudicial,NA,NA,NA
+br.gov.dpf.epol.model.TipoTarefa,Marcos Candeia,Felipe Diogenes,Carla Sukeyosi
+br.gov.dpf.epol.model.UsuarioExterno,NA,NA,NA
+br.gov.dpf.epol.pesquisa.AbstractBooleanSearchFilter,NA,NA,NA
+br.gov.dpf.epol.pesquisa.AbstractRadioSearchFilter,NA,NA,NA
+br.gov.dpf.epol.pesquisa.AbstractSearchFilter,NA,NA,NA
+br.gov.dpf.epol.pesquisa.Filtro,NA,NA,NA
+br.gov.dpf.epol.pesquisa.FiltroAdapter,NA,NA,NA
+br.gov.dpf.epol.pesquisa.FiltroAnd,NA,NA,NA
+br.gov.dpf.epol.pesquisa.FiltroComposto,NA,NA,NA
+br.gov.dpf.epol.pesquisa.FiltroDePaginacao,NA,NA,NA
+br.gov.dpf.epol.pesquisa.FiltroOr,NA,NA,NA
+br.gov.dpf.epol.pesquisa.FiltroStringNaoVazia,NA,NA,NA
+br.gov.dpf.epol.pesquisa.FiltroValorNotNull,NA,NA,NA
+br.gov.dpf.epol.pesquisa.Pesquisa,NA,NA,NA
+br.gov.dpf.epol.pesquisa.Pesquisa.Ordem,NA,NA,NA
+br.gov.dpf.epol.pesquisa.PesquisaCampo,NA,NA,NA
+br.gov.dpf.epol.pesquisa.pp.BDList,NA,NA,NA
+br.gov.dpf.epol.pesquisa.pp.filtro.AbstractFiltro,NA,NA,NA
+br.gov.dpf.epol.pesquisa.pp.filtro.FiltroAceitaTudo,NA,NA,NA
+br.gov.dpf.epol.pesquisa.pp.filtro.FiltroCompareTo,NA,NA,NA
+br.gov.dpf.epol.pesquisa.pp.filtro.FiltroCompareTo.Comparison,NA,NA,NA
+br.gov.dpf.epol.pesquisa.pp.filtro.FiltroMemoria,NA,NA,NA
+br.gov.dpf.epol.pesquisa.pp.filtro.FiltroMemoria.Decisao,NA,NA,NA
+br.gov.dpf.epol.pesquisa.pp.filtro.FiltroPropertyEquals,NA,NA,NA
+br.gov.dpf.epol.pesquisa.pp.filtro.FiltroRejeitaTudo,NA,NA,NA
+br.gov.dpf.epol.pesquisa.pp.filtro.FiltrosEncadeados,NA,NA,NA
+br.gov.dpf.epol.pesquisa.pp.filtro.FiltroSituacaoTarefa,NA,NA,NA
+br.gov.dpf.epol.pesquisa.pp.filtro.IFiltroBanco,NA,NA,NA
+br.gov.dpf.epol.pesquisa.pp.filtro.IFiltroValorColuna,NA,NA,NA
+br.gov.dpf.epol.pesquisa.pp.IPesquisa,NA,NA,NA
+br.gov.dpf.epol.pesquisa.pp.IPesquisa.Ordem,NA,NA,NA
+br.gov.dpf.epol.pesquisa.pp.IPesquisaBanco,NA,NA,NA
+br.gov.dpf.epol.pesquisa.pp.IPesquisaMemoria,NA,NA,NA
+br.gov.dpf.epol.pesquisa.pp.PesquisaEmBanco,NA,NA,NA
+br.gov.dpf.epol.pesquisa.pp.PesquisaEmMemoria,Andre Abrantes,Felipe Diogenes,NA
+br.gov.dpf.epol.pesquisa.pp.PesquisaEmMemoria.ComparadorCampo,NA,NA,NA
+br.gov.dpf.epol.pesquisa.pp.PesquisaEmMemoria.ComparadorCampoComOrdem,NA,NA,NA
+br.gov.dpf.epol.pesquisa.SearchFilterType,NA,NA,NA
+br.gov.dpf.epol.session.AgendaBean,Felipe Diogenes,Gabriel Brito,NA
+br.gov.dpf.epol.session.AgendaService,Felipe Diogenes,Gabriel Brito,NA
+br.gov.dpf.epol.session.AnalisarApensamentoBean,Filipe Wesley,Felipe Diogenes,Marcos Candeia
+br.gov.dpf.epol.session.AnalisarApensamentoService,Felipe Diogenes,Igleson Freire,Jessica Sousa
+br.gov.dpf.epol.session.Autenticador,NA,NA,NA
+br.gov.dpf.epol.session.AutenticadorBean,Andre Abrantes,Pedro Henriques,Marcos Candeia
+br.gov.dpf.epol.session.CamposComplementaresBean,NA,NA,NA
+br.gov.dpf.epol.session.CamposComplementaresService,NA,NA,NA
+br.gov.dpf.epol.session.CasoBean,Carla Sukeyosi,Marcos Candeia,Pedro Henriques
+br.gov.dpf.epol.session.CasoService,Carla Sukeyosi,Marcos Candeia,Pedro Henriques
+br.gov.dpf.epol.session.CategoriaBean,Igleson Freire,Jessica Sousa,NA
+br.gov.dpf.epol.session.CategoriaService,Igleson Freire,Jessica Sousa,NA
+br.gov.dpf.epol.session.CmisBean,Andre Abrantes,NA,NA
+br.gov.dpf.epol.session.CMISIndisponivelBean,NA,NA,NA
+br.gov.dpf.epol.session.CMISService,Andre Abrantes,NA,NA
+br.gov.dpf.epol.session.CmisTesteBean,NA,NA,NA
+br.gov.dpf.epol.session.CompetenciaBean,Igleson Freire,Jessica Sousa,NA
+br.gov.dpf.epol.session.CompetenciaService,Igleson Freire,Jessica Sousa,NA
+br.gov.dpf.epol.session.CondutaBean,Marcos Candeia,Pedro Henriques,NA
+br.gov.dpf.epol.session.CondutaService,Marcos Candeia,Pedro Henriques,NA
+br.gov.dpf.epol.session.corporativo.EnderecoCorporativoBean,Felipe Diogenes,Marcos Candeia,Pedro Henriques
+br.gov.dpf.epol.session.corporativo.EnderecoCorporativoService,Felipe Diogenes,Marcos Candeia,Pedro Henriques
+br.gov.dpf.epol.session.corporativo.ProfissaoCorporativoBean,Carla Sukeyosi,NA,NA
+br.gov.dpf.epol.session.corporativo.ProfissaoCorporativoService,Carla Sukeyosi,NA,NA
+br.gov.dpf.epol.session.corporativo.ServidorCorporativoBean,Carla Sukeyosi,Marcos Candeia,Pedro Henriques
+br.gov.dpf.epol.session.corporativo.ServidorCorporativoService,Marcos Candeia,Pedro Henriques,NA
+br.gov.dpf.epol.session.corporativo.UnidadeCorporativoBean,Carla Sukeyosi,Pedro Henriques,Marcos Candeia
+br.gov.dpf.epol.session.corporativo.UnidadeCorporativoService,Marcos Candeia,NA,NA
+br.gov.dpf.epol.session.DistribuicaoBean,Andre Abrantes,Gabriel Brito,Pedro Henriques
+br.gov.dpf.epol.session.DistribuicaoService,Andre Abrantes,Gabriel Brito,Pedro Henriques
+br.gov.dpf.epol.session.EGPBean,Felipe Diogenes,Carla Sukeyosi,Marcos Candeia
+br.gov.dpf.epol.session.EGPCorporativoBean,Carla Sukeyosi,Pedro Henriques,Marcos Candeia
+br.gov.dpf.epol.session.EGPService,Marcos Candeia,Carla Sukeyosi,NA
+br.gov.dpf.epol.session.EnvolvidoBean,NA,NA,NA
+br.gov.dpf.epol.session.EnvolvidoService,NA,NA,NA
+br.gov.dpf.epol.session.EnvolvimentoBean,Felipe Diogenes,Marcos Candeia,Pedro Henriques
+br.gov.dpf.epol.session.EnvolvimentoService,Felipe Diogenes,Marcos Candeia,Pedro Henriques
+br.gov.dpf.epol.session.EstadoMaterialBean,NA,NA,NA
+br.gov.dpf.epol.session.EstadoMaterialService,NA,NA,NA
+br.gov.dpf.epol.session.FatoBean,NA,NA,NA
+br.gov.dpf.epol.session.FatoService,NA,NA,NA
+br.gov.dpf.epol.session.InstaurarInqueritoBean,Filipe Wesley,Carla Sukeyosi,Igleson Freire
+br.gov.dpf.epol.session.InstaurarInqueritoService,Filipe Wesley,Jessica Sousa,Carla Sukeyosi
+br.gov.dpf.epol.session.NormaBean,NA,NA,NA
+br.gov.dpf.epol.session.NormaService,NA,NA,NA
+br.gov.dpf.epol.session.NotificacaoBean,Felipe Diogenes,Marcos Candeia,NA
+br.gov.dpf.epol.session.NotificacaoService,NA,NA,NA
+br.gov.dpf.epol.session.PapelBean,NA,NA,NA
+br.gov.dpf.epol.session.PapelService,NA,NA,NA
+br.gov.dpf.epol.session.peca.TemplatePecaBean,NA,NA,NA
+br.gov.dpf.epol.session.peca.TemplatePecaService,NA,NA,NA
+br.gov.dpf.epol.session.PecaBean,NA,NA,NA
+br.gov.dpf.epol.session.PecaService,NA,NA,NA
+br.gov.dpf.epol.session.ProcedimentoBean,Marcos Candeia,NA,NA
+br.gov.dpf.epol.session.ProcedimentoService,NA,NA,NA
+br.gov.dpf.epol.session.RegistrarDecisaoJudicialBean,NA,NA,NA
+br.gov.dpf.epol.session.RegistrarDecisaoJudicialService,NA,NA,NA
+br.gov.dpf.epol.session.ServidorBean,NA,NA,NA
+br.gov.dpf.epol.session.ServidorService,NA,NA,NA
+br.gov.dpf.epol.session.SugestaoTarefaBean,Marcos Candeia,Vladwoguer Bezerra,Carla Sukeyosi
+br.gov.dpf.epol.session.SugestaoTarefaService,Jessica Sousa,NA,NA
+br.gov.dpf.epol.session.TarefaBean,Igleson Freire,Filipe Wesley,Jessica Sousa
+br.gov.dpf.epol.session.TarefaService,Igleson Freire,Jessica Sousa,Marcos Candeia
+br.gov.dpf.epol.session.TipoEnvolvimentoBean,NA,NA,NA
+br.gov.dpf.epol.session.TipoEnvolvimentoService,NA,NA,NA
+br.gov.dpf.epol.session.TipoPenalBean,Igleson Freire,Jessica Sousa,NA
+br.gov.dpf.epol.session.TipoPenalService,Igleson Freire,Jessica Sousa,NA
+br.gov.dpf.epol.session.TipoReferenciaBean,NA,NA,NA
+br.gov.dpf.epol.session.TipoReferenciaService,NA,NA,NA
+br.gov.dpf.epol.session.TipoTarefaBean,NA,NA,NA
+br.gov.dpf.epol.session.TipoTarefaService,NA,NA,NA
+br.gov.dpf.epol.sistema.agenda.AgendaRequestURLActionTest,NA,NA,NA
+br.gov.dpf.epol.sistema.agenda.AgendaServiceTestCase,NA,NA,NA
+br.gov.dpf.epol.sistema.caso.AlterarSegredoJusticaActionTest,NA,NA,NA
+br.gov.dpf.epol.sistema.caso.AnalisarApensarActionTest,NA,NA,NA
+br.gov.dpf.epol.sistema.caso.AnalisarApensarActionTest.ApensarRequest,NA,NA,NA
+br.gov.dpf.epol.sistema.caso.ApensarActionTest,NA,NA,NA
+br.gov.dpf.epol.sistema.caso.ApensarActionTest.ApensarRequest,NA,NA,NA
+br.gov.dpf.epol.sistema.caso.BuscarCasoActionTest,Marcos Candeia,NA,NA
+br.gov.dpf.epol.sistema.caso.BuscarCasoActionTest.BuscarCasoRequest,Marcos Candeia,NA,NA
+br.gov.dpf.epol.sistema.caso.CasoActionAvocarTest,NA,NA,NA
+br.gov.dpf.epol.sistema.caso.CasoActionAvocarTest.AvocarCasoActionRequest,NA,NA,NA
+br.gov.dpf.epol.sistema.caso.CasoActionTest,NA,NA,NA
+br.gov.dpf.epol.sistema.caso.CasoServiceTest,NA,NA,NA
+br.gov.dpf.epol.sistema.caso.CasoTest,NA,NA,NA
+br.gov.dpf.epol.sistema.caso.DefinirPermissoesSegredoDeJusticaTest,NA,NA,NA
+br.gov.dpf.epol.sistema.caso.DesapensarActionTest,NA,NA,NA
+br.gov.dpf.epol.sistema.caso.DesapensarActionTest.DesapensarInqueritoRequest,NA,NA,NA
+br.gov.dpf.epol.sistema.caso.DesapensarActionTest.DesapensarRequest,NA,NA,NA
+br.gov.dpf.epol.sistema.caso.DesmembrarCasoActionTest,NA,NA,NA
+br.gov.dpf.epol.sistema.caso.DesmembrarCasoActionTest.DesmembrarRequest,NA,NA,NA
+br.gov.dpf.epol.sistema.caso.ListaDeDistribuicaoTestCase,NA,NA,NA
+br.gov.dpf.epol.sistema.caso.ListarRepresentacoesJudiciaisActionTest,NA,NA,NA
+br.gov.dpf.epol.sistema.caso.ListarRepresentacoesJudiciaisActionTest.RepresentacaoRequest,NA,NA,NA
+br.gov.dpf.epol.sistema.caso.ProrrogarCasoActionTest,NA,NA,NA
+br.gov.dpf.epol.sistema.caso.RedistribuirCargaActionTest,NA,NA,NA
+br.gov.dpf.epol.sistema.caso.RedistribuirCargaActionTest.RedistribuirRequest,NA,NA,NA
+br.gov.dpf.epol.sistema.caso.RepresentacaoJudicialActionTest,NA,NA,NA
+br.gov.dpf.epol.sistema.caso.RepresentacaoJudicialActionTest.RepresentacaoJudicialActionRequest,NA,NA,NA
+br.gov.dpf.epol.sistema.caso.VerProcedimentoActionTest,NA,NA,NA
+br.gov.dpf.epol.sistema.caso.VerProcedimentoActionTest.VerProcedimentoRequest,NA,NA,NA
+br.gov.dpf.epol.sistema.cenario.GrupoCenarioTest,Carla Sukeyosi,Felipe Diogenes,Marcos Candeia
+br.gov.dpf.epol.sistema.cenario.PopulaCenarioTest,NA,NA,NA
+br.gov.dpf.epol.sistema.componentes.CamposComplementaresTest,NA,NA,NA
+br.gov.dpf.epol.sistema.componentes.EGPServiceTest,NA,NA,NA
+br.gov.dpf.epol.sistema.componentes.FatoServiceTest,NA,NA,NA
+br.gov.dpf.epol.sistema.componentes.NormaServiceTest,NA,NA,NA
+br.gov.dpf.epol.sistema.distribuicao.CadastrarListaDeDistribuicaoDeTarefaTest,NA,NA,NA
+br.gov.dpf.epol.sistema.distribuicao.CadastrarListaDeDistribuicaoDeTarefaTest.CadastrarListaDeDistribuicaoRequest,NA,NA,NA
+br.gov.dpf.epol.sistema.distribuicao.CadastrarListaDeDistribuicaoDeTarefaTest.VisualizarListaDeDistribuicaoRequest,NA,NA,NA
+br.gov.dpf.epol.sistema.distribuicao.DistribuicaoServiceTest,NA,NA,NA
+br.gov.dpf.epol.sistema.distribuicao.DistribuirNoticiaCrimeActionTemporarioTest,NA,NA,NA
+br.gov.dpf.epol.sistema.distribuicao.DistribuirNoticiaCrimeActionTemporarioTest.ResponderTarefaRequest,NA,NA,NA
+br.gov.dpf.epol.sistema.distribuicao.DistribuirNoticiaCrimeActionTest,NA,NA,NA
+br.gov.dpf.epol.sistema.envolvimento.AdvogadoActionTest,NA,NA,NA
+br.gov.dpf.epol.sistema.envolvimento.BuscarEnvolvidoActionTest,NA,NA,NA
+br.gov.dpf.epol.sistema.envolvimento.BuscarEnvolvidoActionTest.BuscarEnvolvidoRequest,NA,NA,NA
+br.gov.dpf.epol.sistema.envolvimento.BuscarEnvolvidoActionTest.EnvolvimentoRequest,NA,NA,NA
+br.gov.dpf.epol.sistema.envolvimento.CondutaActionTest,NA,NA,NA
+br.gov.dpf.epol.sistema.envolvimento.CondutaActionTest.CondutaRequest,NA,NA,NA
+br.gov.dpf.epol.sistema.envolvimento.EnvolvidoServiceTest,NA,NA,NA
+br.gov.dpf.epol.sistema.envolvimento.EnvolvimentoActionTest,NA,NA,NA
+br.gov.dpf.epol.sistema.envolvimento.PessoaFisicaActionTest,NA,NA,NA
+br.gov.dpf.epol.sistema.envolvimento.PessoaFisicaTest,NA,NA,NA
+br.gov.dpf.epol.sistema.envolvimento.PessoaJuridicaActionTest,NA,NA,NA
+br.gov.dpf.epol.sistema.envolvimento.PessoaJuridicaTest,NA,NA,NA
+br.gov.dpf.epol.sistema.envolvimento.TipoEnvolvimentoServiceTest,NA,NA,NA
+br.gov.dpf.epol.sistema.envolvimento.TipoPenalActionTest,NA,NA,NA
+br.gov.dpf.epol.sistema.envolvimento.TipoPenalFilterTest,NA,NA,NA
+br.gov.dpf.epol.sistema.indefinido.AnalisarPedidoDeReconsideracaoActionTest,NA,NA,NA
+br.gov.dpf.epol.sistema.indefinido.CasoDaoTest,NA,NA,NA
+br.gov.dpf.epol.sistema.indefinido.CompetenciaPersistenceTest,NA,NA,NA
+br.gov.dpf.epol.sistema.indefinido.EGPDaoTest,NA,NA,NA
+br.gov.dpf.epol.sistema.indefinido.InstaurarInqueritoServiceTest,NA,NA,NA
+br.gov.dpf.epol.sistema.indefinido.ListagemEmBancoTest,NA,NA,NA
+br.gov.dpf.epol.sistema.indefinido.RepresentacaoJudicialPersistenciaTest,NA,NA,NA
+br.gov.dpf.epol.sistema.indefinido.TesteIntegracao,NA,NA,NA
+br.gov.dpf.epol.sistema.indefinido.TesteIntegracao.EpolFacesRequest,NA,NA,NA
+br.gov.dpf.epol.sistema.indefinido.TipoReferenciaServiceTest,NA,NA,NA
+br.gov.dpf.epol.sistema.logica.AtributoHQLPesquisaTest,NA,NA,NA
+br.gov.dpf.epol.sistema.logica.AtributoLEPesquisaTest,NA,NA,NA
+br.gov.dpf.epol.sistema.logica.AutenticadorTest,NA,NA,NA
+br.gov.dpf.epol.sistema.logica.AutenticadorTest.AutenticadorFacesRequest,NA,NA,NA
+br.gov.dpf.epol.sistema.logica.CadastrarCamposComplementaresActionTest,NA,NA,NA
+br.gov.dpf.epol.sistema.logica.CadastrarPapelServidorActionTest,NA,NA,NA
+br.gov.dpf.epol.sistema.logica.CnpjValidatorTestCase,NA,NA,NA
+br.gov.dpf.epol.sistema.logica.CpfValidatorTestCase,NA,NA,NA
+br.gov.dpf.epol.sistema.logica.DefinirPermissoesDeAcessoCasoActionTest,NA,NA,NA
+br.gov.dpf.epol.sistema.logica.DefinirPermissoesDeAcessoPecaActionTest,NA,NA,NA
+br.gov.dpf.epol.sistema.logica.DefinirPermissoesDeAcessoPecaActionTest.DefinirPermissoesDeAcessoRequest,NA,NA,NA
+br.gov.dpf.epol.sistema.logica.DefinirPermissoesDeAcessoPecaActionTest.DefinirPermissoesVerPecaRequest,NA,NA,NA
+br.gov.dpf.epol.sistema.logica.ExibirNotificacoesActionTest,NA,NA,NA
+br.gov.dpf.epol.sistema.logica.ExibirNotificacoesActionTest.NotificacoesRequest,NA,NA,NA
+br.gov.dpf.epol.sistema.logica.FieldTableActionTest,NA,NA,NA
+br.gov.dpf.epol.sistema.logica.FieldTableTest,NA,NA,NA
+br.gov.dpf.epol.sistema.logica.FiltrosDeListagemMostrarDadosUsuarioTest,NA,NA,NA
+br.gov.dpf.epol.sistema.logica.IExibicaoConfiguravelTestCase,NA,NA,NA
+br.gov.dpf.epol.sistema.logica.IExibicaoConfiguravelTestCase.CasoActionRequest,NA,NA,NA
+br.gov.dpf.epol.sistema.logica.MostrarDadosDoUsuarioActionTest,Marcos Candeia,NA,NA
+br.gov.dpf.epol.sistema.logica.MostrarDadosUsuarioFacesTest,NA,NA,NA
+br.gov.dpf.epol.sistema.logica.MostrarDadosUsuarioFacesTest.MostrarDadosRequest,NA,NA,NA
+br.gov.dpf.epol.sistema.logica.RuntimeEnumTest,NA,NA,NA
+br.gov.dpf.epol.sistema.logica.TemplateAtributoHQLPersistenciaTest,NA,NA,NA
+br.gov.dpf.epol.sistema.logica.TemplateAtributoLEPersistenciaTest,NA,NA,NA
+br.gov.dpf.epol.sistema.logica.TemplateAtributoPersistenciaTest,NA,NA,NA
+br.gov.dpf.epol.sistema.material.ApreenderMaterialActionTest,NA,NA,NA
+br.gov.dpf.epol.sistema.material.ApreenderMaterialActionTest.ApreenderMaterialFacesRequest,NA,NA,NA
+br.gov.dpf.epol.sistema.material.BuscarMaterialActionTest,NA,NA,NA
+br.gov.dpf.epol.sistema.material.BuscarMaterialActionTest.BuscarMaterialRequest,NA,NA,NA
+br.gov.dpf.epol.sistema.material.CategoriaMaterialFilterTest,Carla Sukeyosi,Felipe Diogenes,Marcos Candeia
+br.gov.dpf.epol.sistema.material.EstadoMaterialTest,NA,NA,NA
+br.gov.dpf.epol.sistema.material.IndicarInconsistenciaMaterialActionTest,NA,NA,NA
+br.gov.dpf.epol.sistema.material.IndicarInconsistenciaMaterialActionTest.InconsistenciaMaterialRequest,NA,NA,NA
+br.gov.dpf.epol.sistema.material.LacrarMaterialActionTest,NA,NA,NA
+br.gov.dpf.epol.sistema.material.LacrarMaterialActionTest.LacrarMaterialRequest,NA,NA,NA
+br.gov.dpf.epol.sistema.material.MaterialActionTest,NA,NA,NA
+br.gov.dpf.epol.sistema.material.MaterialActionTest.MaterialActionRequest,NA,NA,NA
+br.gov.dpf.epol.sistema.material.MovimentarMaterialActionTest,NA,NA,NA
+br.gov.dpf.epol.sistema.material.MovimentarMaterialActionTest.MovimentarMaterialRequest,NA,NA,NA
+br.gov.dpf.epol.sistema.material.RegistrarDecisaoJudicialActionTest,NA,NA,NA
+br.gov.dpf.epol.sistema.material.RegistrarDecisaoJudicialActionTest.RegistrarDecisaoJudicialRequest,NA,NA,NA
+br.gov.dpf.epol.sistema.material.RemoverLacreActionTest,NA,NA,NA
+br.gov.dpf.epol.sistema.material.RemoverLacreActionTest.RemoverLacreMaterialRequest,NA,NA,NA
+br.gov.dpf.epol.sistema.mock.CasoMock,NA,NA,NA
+br.gov.dpf.epol.sistema.peca.CadastrarTemplatePecaTest,NA,NA,NA
+br.gov.dpf.epol.sistema.peca.CadastrarTemplatePecaTest.CadastrarTemplatePecaRequest,NA,NA,NA
+br.gov.dpf.epol.sistema.peca.CriarPecaActionTest,NA,NA,NA
+br.gov.dpf.epol.sistema.peca.MarcarPecaSegredoDeJusticaTest,NA,NA,NA
+br.gov.dpf.epol.sistema.peca.MarcarPecaSegredoDeJusticaTest.FazerUploadPecaActionParaTeste,NA,NA,NA
+br.gov.dpf.epol.sistema.peca.MarcarPecaSegredoDeJusticaTest.MarcarPecaSegredoDeJusticaTestRequest,NA,NA,NA
+br.gov.dpf.epol.sistema.peca.PecaActionTest,NA,NA,NA
+br.gov.dpf.epol.sistema.peca.PecaPersistenciaTest,NA,NA,NA
+br.gov.dpf.epol.sistema.peca.PecaServiceTest,NA,NA,NA
+br.gov.dpf.epol.sistema.peca.TemplatePecaPersistenciaTest,NA,NA,NA
+br.gov.dpf.epol.sistema.peca.TemplatePecaServiceTest,NA,NA,NA
+br.gov.dpf.epol.sistema.peca.VerPecaTest,NA,NA,NA
+br.gov.dpf.epol.sistema.peca.VerPecaTest.EditarPecaRequest,NA,NA,NA
+br.gov.dpf.epol.sistema.peca.VerPecaTest.PecaFacesRequest,NA,NA,NA
+br.gov.dpf.epol.sistema.peca.VisualizarPecasActionTest,NA,NA,NA
+br.gov.dpf.epol.sistema.peca.VisualizarPecasActionTest.VisualizarPecasRequest,NA,NA,NA
+br.gov.dpf.epol.sistema.tarefa.BuscarTarefaActionTest,NA,NA,NA
+br.gov.dpf.epol.sistema.tarefa.CadastrarTarefaActionTest,NA,NA,NA
+br.gov.dpf.epol.sistema.tarefa.CadastrarTarefaActionTest.CadastrarRequest,NA,NA,NA
+br.gov.dpf.epol.sistema.tarefa.CadastrarTarefaRelacionadaTest,NA,NA,NA
+br.gov.dpf.epol.sistema.tarefa.CadastrarTarefaRelacionadaTest.CadastrarRequest,NA,NA,NA
+br.gov.dpf.epol.sistema.tarefa.IndiciamentoActionTest,NA,NA,NA
+br.gov.dpf.epol.sistema.tarefa.RemarcarAtoPresencialTest,NA,NA,NA
+br.gov.dpf.epol.sistema.tarefa.RemarcarAtoPresencialTest.RemarcarRequest,NA,NA,NA
+br.gov.dpf.epol.sistema.tarefa.ResponderTarefaActionTest,Marcos Candeia,NA,NA
+br.gov.dpf.epol.sistema.tarefa.ResponderTarefaActionTest.ResponderTarefaRequest,Marcos Candeia,NA,NA
+br.gov.dpf.epol.sistema.tarefa.ResponderTarefaAguardarRespostaRepresentacaoJudicialTest,NA,NA,NA
+br.gov.dpf.epol.sistema.tarefa.ResponderTarefaAguardarRespostaRepresentacaoJudicialTest.ResponderTarefaRequest,NA,NA,NA
+br.gov.dpf.epol.sistema.tarefa.ResponderTarefaAnalisarDocumentoEnviadoParaAnaliseTest,NA,NA,NA
+br.gov.dpf.epol.sistema.tarefa.ResponderTarefaAnalisarDocumentoEnviadoParaAnaliseTest.ResponderTarefaRequest,NA,NA,NA
+br.gov.dpf.epol.sistema.tarefa.ResponderTarefaAnalisarFlagranteTest,NA,NA,NA
+br.gov.dpf.epol.sistema.tarefa.ResponderTarefaAnalisarFlagranteTest.ResponderTarefaRequest,NA,NA,NA
+br.gov.dpf.epol.sistema.tarefa.ResponderTarefaArbitrarFiancaTest,NA,NA,NA
+br.gov.dpf.epol.sistema.tarefa.ResponderTarefaArbitrarFiancaTest.ResponderTarefaRequest,NA,NA,NA
+br.gov.dpf.epol.sistema.tarefa.ResponderTarefaPedirPrazoTest,NA,NA,NA
+br.gov.dpf.epol.sistema.tarefa.ResponderTarefaPedirPrazoTest.ResponderTarefaRequest,NA,NA,NA
+br.gov.dpf.epol.sistema.tarefa.ResponderTarefaProrrogarPrazoTest,NA,NA,NA
+br.gov.dpf.epol.sistema.tarefa.ResponderTarefaProrrogarPrazoTest.ResponderTarefaRequest,NA,NA,NA
+br.gov.dpf.epol.sistema.tarefa.RevisarTarefaAnalisarNoticiaCrimeAnaliseTest,NA,NA,NA
+br.gov.dpf.epol.sistema.tarefa.RevisarTarefaAnalisarNoticiaCrimeAnaliseTest.ResponderTarefaRequest,NA,NA,NA
+br.gov.dpf.epol.sistema.tarefa.RoteiroDeInvestigacaoActionTest,NA,NA,NA
+br.gov.dpf.epol.sistema.tarefa.RoteiroDeInvestigacaoActionTest.RoteiroDeInvestigacaoRequest,NA,NA,NA
+br.gov.dpf.epol.sistema.tarefa.SugestaoTarefaServiceTest,NA,NA,NA
+br.gov.dpf.epol.sistema.tarefa.TarefaServiceTest,NA,NA,NA
+br.gov.dpf.epol.sistema.tarefa.TipoTarefaServiceTest,Guilherme Emmanuel,NA,NA
+br.gov.dpf.epol.sistema.tarefa.TipoTarefaTest,NA,NA,NA
+br.gov.dpf.epol.sistema.tarefa.VerTarefaActionTest,Marcos Candeia,NA,NA
+br.gov.dpf.epol.sistema.tarefa.VerTarefaActionTest.VerTarefaRequest,Marcos Candeia,NA,NA
+br.gov.dpf.epol.sistema.util.AbstractTest,NA,NA,NA
+br.gov.dpf.epol.sistema.util.ComponentesEPolTest,Carla Sukeyosi,Felipe Diogenes,Marcos Candeia
+br.gov.dpf.epol.sistema.util.ComponentesTest,NA,NA,NA
+br.gov.dpf.epol.sistema.util.SQLUtils,NA,NA,NA
+br.gov.dpf.epol.sistema.util.TesteComponentes,NA,NA,NA
+br.gov.dpf.epol.sistema.util.TesteComponentesEPol,NA,NA,NA
+br.gov.dpf.epol.sistema.util.TesteFacesEpol,Pedro Henriques,NA,NA
+br.gov.dpf.epol.sistema.util.TesteFacesEpol.EpolFacesRequest,Filipe Wesley,Gabriel Brito,Igleson Freire
+br.gov.dpf.epol.unidade.AdvogadoTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.AnotacaoTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.AtributoTarefaTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.AtributoTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.AtributoTestCase.AtrCampos,NA,NA,NA
+br.gov.dpf.epol.unidade.CadastrarTemplatePecaTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.CalendarAfterValidatorTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.CalendarBeforeValidatorTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.CalendarBetweenValidatorTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.CasoTestCase,Marcos Candeia,NA,NA
+br.gov.dpf.epol.unidade.CategoriaTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.CepConverterTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.CepValidatorTestCase,Carla Sukeyosi,Felipe Diogenes,Marcos Candeia
+br.gov.dpf.epol.unidade.CnpjConverterTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.CompetenciaTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.CompetenciaTipoPenalFilterTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.ComunicarFlagranteTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.CondutaTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.ConstraintCompositionTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.ConversorTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.CpfConverterTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.DataAtualTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.DecisaoJudicialTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.DepoimentoFlagranteTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.DistribuirNoticiaCrimeTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.DocumentoTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.EmailValidatorTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.EnderecoTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.EnvolvimentoTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.ExceptionsTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.FieldTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.FilterFieldTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.HorarioConverterTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.InstituicaoConverterTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.InstituicaoTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.IntimarTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.ItemNormaTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.LengthValidatorTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.Log4jUtilTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.MaterialTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.MaxValidatorTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.MensagensTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.MinValidatorTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.MunicipioEGPTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.NaturezaAtoPresencialTestCase,Gabriel Brito,NA,NA
+br.gov.dpf.epol.unidade.NormaTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.NotBlankValidatorTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.NotEmptyValidatorTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.NotificacaoTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.NotNullValidatorTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.PatternValidatorTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.PecaTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.PedidoTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.PedirPrazoTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.PessoaFisicaTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.PessoaJuridicaTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.ProcessoTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.ProduzirAQITestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.ProduzirBoletimIdentificacaoCriminalTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.ProduzirBoletimVidaPregressaTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.ProduzirDespachoFundamentadoTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.ProduzirNotaCienciaTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.ProduzirRelatorioFinalTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.ProrrogarPrazoTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.RangeValidatorTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.ReflectionUtilTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.ReflectionUtilTestCase.ClasseA,NA,NA,NA
+br.gov.dpf.epol.unidade.ReflectionUtilTestCase.ClasseB,NA,NA,NA
+br.gov.dpf.epol.unidade.ReflectionUtilTestCase.ClasseC,NA,NA,NA
+br.gov.dpf.epol.unidade.RepresentacaoJudicialTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.RoteiroDeInvestigacaoTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.RuntimeEnumTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.SeamDaoTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.ServidorTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.session.DocumentoDTOTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.session.SistemaProtocoloBeanTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.StatusCasoTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.TarefaTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.TelefoneTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.TemplateAtributoHQLTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.TemplateAtributoLETestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.TemplatePecaTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.TesteUnidade,NA,NA,NA
+br.gov.dpf.epol.unidade.TipoDocumentoTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.TipoIndiciamentoTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.TipoPenalTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.TipoTarefaTestCase,Filipe Wesley,Igleson Freire,Jessica Sousa
+br.gov.dpf.epol.unidade.UsuarioExternoTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.UtilsTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.VisualizadorFormatoHTMLTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.VisualizadorFormatoOutroTestCase,NA,NA,NA
+br.gov.dpf.epol.unidade.VisualizadorFormatoTestCase,NA,NA,NA
+br.gov.dpf.epol.util.AdaptadorDeLista,Igleson Freire,Jessica Sousa,NA
+br.gov.dpf.epol.util.AgendaDownload,NA,NA,NA
+br.gov.dpf.epol.util.CachedMethodResultInterceptor,Carla Sukeyosi,Felipe Diogenes,NA
+br.gov.dpf.epol.util.ComparadorSelecionavel,NA,NA,NA
+br.gov.dpf.epol.util.ComparadorSelecionavelTipoTarefa,NA,NA,NA
+br.gov.dpf.epol.util.ELUtil,NA,NA,NA
+br.gov.dpf.epol.util.EscapableMessagesRenderer,NA,NA,NA
+br.gov.dpf.epol.util.EscapableMessagesRenderer.LiteralResponseWriterWrapper,NA,NA,NA
+br.gov.dpf.epol.util.ExibidorCamposUtils,NA,NA,NA
+br.gov.dpf.epol.util.Function,NA,NA,NA
+br.gov.dpf.epol.util.JavaBeanUtils,NA,NA,NA
+br.gov.dpf.epol.util.LabelConverter,NA,NA,NA
+br.gov.dpf.epol.util.ListView,NA,NA,NA
+br.gov.dpf.epol.util.LogEpol,NA,NA,NA
+br.gov.dpf.epol.util.LogEpol.Nivel,NA,NA,NA
+br.gov.dpf.epol.util.Mensagens,NA,NA,NA
+br.gov.dpf.epol.util.MyFacesSecurityEvents,NA,NA,NA
+br.gov.dpf.epol.util.OutjectCenario,NA,NA,NA
+br.gov.dpf.epol.util.PecaUploadRetornoListener,NA,NA,NA
+br.gov.dpf.epol.util.Predicate,NA,NA,NA
+br.gov.dpf.epol.util.SelectItemComparator,NA,NA,NA
+br.gov.dpf.epol.util.ServicesContainer,Carla Sukeyosi,Filipe Wesley,Igleson Freire
+br.gov.dpf.epol.util.ToStringComparator,NA,NA,NA
+br.gov.dpf.epol.util.Utils,Marcos Candeia,Pedro Henriques,Andre Abrantes
+br.gov.dpf.epol.util.Utils.ToStringAdaptador,Igleson Freire,Jessica Sousa,NA
+br.gov.dpf.epol.util.UtilsMock,Carla Sukeyosi,NA,NA
+br.gov.dpf.epol.util.VersaoBuildMessages,NA,NA,NA
+br.gov.dpf.epol.utilTest.Log4jUtil,NA,NA,NA
+br.gov.dpf.epol.utilTest.Log4jUtil.LogEventExceptionTypeMatcher,NA,NA,NA
+br.gov.dpf.epol.utilTest.ReflectionUtil,NA,NA,NA
+com.vocado.services.hibernate.HibernateWorkaroundHH2763,NA,NA,NA
