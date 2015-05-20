@@ -1,7 +1,8 @@
 import sys
 import os
+from math import log
 
-def acuracia(pasta):
+def acuracia(pasta, abordagens):
     saida_classe = ""
     saida_total = ""
     consenso = carrega_consenso("dados brutos/surveyfamiliaridade@gmail.com.csv")
@@ -17,7 +18,8 @@ def acuracia(pasta):
             prec = precisao(i_abordagem, i_consenso)
             cob = cobertura(i_abordagem, i_consenso)
             f = f_measure(prec, cob)
-            saida_classe += "{0}|{1}|{2}|{3}|{4}\n".format(nome_abordagem, classe, prec, cob, f)
+            ndcg = NDCG(i_consenso, i_abordagem, 4)
+            saida_classe += "{0}|{1}|{2}|{3}|{4}|{5}\n".format(nome_abordagem, classe, prec, cob, f, ndcg)
             #para calculo total
             votos_abordagem += tuplas(classe, abordagem[classe])
             votos_consenso += tuplas(classe, consenso[classe])
@@ -33,6 +35,29 @@ def acuracia(pasta):
     arq = open("acuracia.csv", "w")
     arq.writelines(saida_total.strip())
     arq.close()
+
+def NDCG(consenso, abordagem, k):
+    # O ranking ideal eh o proprio consenso
+    idcg_k = DCG_K(consenso, consenso, k)
+    ndcg_k = DCG_K(consenso, abordagem, k)
+    return ndcg_k/float(idcg_k)
+
+def DCG_K(consenso, abordagem, k):
+    ranking = abordagem[:k-1]
+    pesos = [k-i for i in range(k)]
+    if not ranking:
+        return float('NaN')
+    dcg = DCG(ranking, consenso, pesos[0], 1)
+    for i in range(1, len(ranking)):
+        dcg += DCG(ranking, consenso, pesos[i], i+1)
+    return dcg
+
+def DCG(ranking, ideal, peso, i):
+    rel_i = rel(ranking, ideal, peso, i)
+    return rel_i if i <= 1 else rel_i/log(2, i)
+
+def rel(ranking, ideal, peso, i):
+    return float(2**peso - 1) if ranking[i-1] in ideal else float(1 - 2**peso)
 
 def corretos(abordagem, consenso):
     count = 0
@@ -109,4 +134,4 @@ if __name__ == "__main__":
     except:
         print "Informe onde estao os arquivos dos resultados das abordagens. Ex: python calcula_acuracia.py ~/mestrado/analises/abordagens/"
         sys.exit(0)
-    acuracia(pasta)
+    acuracia(pasta, abordagens)
