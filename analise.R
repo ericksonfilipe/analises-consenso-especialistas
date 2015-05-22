@@ -1,4 +1,5 @@
 require(ggplot2)
+library(plyr)
 
 setwd("/home/erickson/mestrado/analises-consenso-especialistas")
 
@@ -44,3 +45,5 @@ png("f-measure_abordagem.png", width = 800, height = 800)
 ggplot(dados, aes(x = entidade, y = dados$"f-measure", fill = abordagem)) +
   geom_bar(stat = "identity") + coord_flip() + facet_wrap(~ abordagem)
 dev.off()
+
+dlply(dados, .(abordagem), function(df) summary(df))
