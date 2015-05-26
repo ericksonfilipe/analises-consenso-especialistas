@@ -8,6 +8,7 @@ def acuracia(pasta, abordagens):
     consenso = carrega_consenso("dados brutos/surveyfamiliaridade@gmail.com.csv")
     for arquivo_abordagem in abordagens:
         abordagem = carrega_abordagem(pasta + "/" + arquivo_abordagem)
+        salva_indicacoes_dev_ativos(abordagem, arquivo_abordagem)
         votos_abordagem = []
         votos_consenso = []
         for classe in consenso.keys():
@@ -98,7 +99,9 @@ def carrega_abordagem(arquivo):
         linha_list = linha.split(",")
         classe = recupera_nome_classe(linha_list[0])
         indicacoes = [nome.strip() for nome in linha_list[1:] if nome.strip() != "" and nome.strip() != "NA"]
-        abordagem[classe] = indicacoes
+        desenvolvedores_ativos = ["Andre Abrantes", "Carla Sukeyosi", "Filipe Wesley", "Guilherme Emmanuel", "Igleson Freire", "Jessica Sousa", "Leticia Wanderlei", "Marcos Candeia", "Pedro Henriques", "Vladwoguer Bezerra", "Gabriel Brito"]
+        indicacoes_validas = [nome.strip() for nome in indicacoes if nome.strip() in desenvolvedores_ativos]
+        abordagem[classe] = indicacoes_validas
     return abordagem
 
 def carrega_consenso(arquivo):
@@ -114,6 +117,14 @@ def carrega_consenso(arquivo):
         if indicacoes != []:
             consenso[classe] = indicacoes
     return consenso
+
+def salva_indicacoes_dev_ativos(indicacoes, file_name):
+    saida = ""
+    for (classe, resultados) in indicacoes.items():
+        saida += classe + ",".join(resultados) + "\n"
+    arq = open(file_name, "w")
+    arq.writelines(saida)
+    arq.close()
 
 def recupera_nome_classe(classe):
     classe = classe.replace(".java", "")

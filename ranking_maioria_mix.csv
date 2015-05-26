@@ -1,0 +1,50 @@
+RuntimeEnumVladwoguer Bezerra,Marcos Candeia,Andre Abrantes
+FiltroRejeitaTudoVladwoguer Bezerra
+MaterialCarla Sukeyosi,Andre Abrantes,Vladwoguer Bezerra,Gabriel Brito,Pedro Henriques
+PapelServiceIgleson Freire,Marcos Candeia,Andre Abrantes,Vladwoguer Bezerra
+AnotacaoAndre Abrantes,Vladwoguer Bezerra
+EnderecoCorporativoServiceMarcos Candeia,Carla Sukeyosi
+FiltroPropertyEquals
+ListavelEmArvoreIgleson Freire
+ProfissaoCorporativoBeanMarcos Candeia,Carla Sukeyosi
+ServidorCorporativoServiceMarcos Candeia,Carla Sukeyosi,Andre Abrantes,Vladwoguer Bezerra,Leticia Wanderlei
+FatoActionCarla Sukeyosi
+BuscarMaterialAction
+ServidorCorporativoBeanMarcos Candeia
+EntidadeCRUDEPolAndre Abrantes,Vladwoguer Bezerra
+TemplatePecaAndre Abrantes,Leticia Wanderlei,Vladwoguer Bezerra,Gabriel Brito,Marcos Candeia,Pedro Henriques,Carla Sukeyosi,Filipe Wesley,Igleson Freire
+TipoDeDistribuicaoVladwoguer Bezerra,Carla Sukeyosi
+AnalisarApensamentoActionVladwoguer Bezerra,Andre Abrantes
+AnalisarFlagranteActionLeticia Wanderlei,Andre Abrantes,Vladwoguer Bezerra,Carla Sukeyosi
+DepoimentoCondutorVladwoguer Bezerra
+AbstractBooleanSearchFilterVladwoguer Bezerra
+CepConverterAndre Abrantes,Vladwoguer Bezerra,Marcos Candeia
+PecaActionLeticia Wanderlei,Pedro Henriques,Andre Abrantes,Carla Sukeyosi,Vladwoguer Bezerra
+ComparadorSelecionavel
+RascunhoIgleson Freire,Andre Abrantes
+EnvolvimentoGabriel Brito,Vladwoguer Bezerra,Andre Abrantes,Carla Sukeyosi,Guilherme Emmanuel
+TarefaServiceVladwoguer Bezerra,Andre Abrantes,Carla Sukeyosi
+IndicarInconsistenciaMaterialActionGabriel Brito,Vladwoguer Bezerra
+NaturezaPJAndre Abrantes
+NormaBeanVladwoguer Bezerra
+CargoPoliciaFederalMarcos Candeia
+CenarioCasoFaseAnaliseJessica Sousa,Guilherme Emmanuel,Vladwoguer Bezerra
+FilterVladwoguer Bezerra
+AnalisarFlagranteCarla Sukeyosi,Andre Abrantes,Vladwoguer Bezerra,Filipe Wesley,Leticia Wanderlei,Pedro Henriques,Gabriel Brito,Marcos Candeia,Igleson Freire
+ProduzirNotaCiencia
+AtribuicoesServidorIgleson Freire
+TipoReferencia
+OperacaoNaoPermitidaExceptionCarla Sukeyosi
+CenarioAnalisarPedidoReconsideracaoGuilherme Emmanuel,Jessica Sousa
+RepresentacaoJudicialActionIgleson Freire
+AnalisarDocumentoEnviadoParaAnaliseActionCarla Sukeyosi,Andre Abrantes,Vladwoguer Bezerra,Leticia Wanderlei,Filipe Wesley,Gabriel Brito,Marcos Candeia,Igleson Freire,Pedro Henriques
+PedirRedistribuicaoAction
+PopulaCenarioGuilherme Emmanuel,Jessica Sousa,Vladwoguer Bezerra,Andre Abrantes,Gabriel Brito
+CompetenciaBeanIgleson Freire,Vladwoguer Bezerra
+CenarioNotificacoesJessica Sousa,Guilherme Emmanuel,Vladwoguer Bezerra,Andre Abrantes
+AutenticadorBeanIgleson Freire,Marcos Candeia,Andre Abrantes,Vladwoguer Bezerra
+CmisTesteBeanIgleson Freire,Andre Abrantes,Vladwoguer Bezerra
+ListagemSelecionar
+AbstractRadioSearchFilter
+EnvolvivelGabriel Brito,Andre Abrantes
+FilterAction
