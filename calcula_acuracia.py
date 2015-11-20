@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import sys
 import os
 from math import log
@@ -13,7 +14,7 @@ def acuracia(pasta, abordagens):
         votos_consenso = []
         for classe in consenso.keys():
             #para calculo por classe
-            nome_abordagem = arquivo_abordagem.replace(".csv", "")
+            nome_abordagem = get_abordagem(arquivo_abordagem.replace(".csv", ""))
             i_abordagem = abordagem[classe]
             i_consenso = consenso[classe]
             prec = precisao(i_abordagem, i_consenso)
@@ -47,7 +48,7 @@ def DCG_K(consenso, abordagem, k):
     ranking = abordagem[:k]
     pesos = [k-i for i in range(k)]
     if not ranking:
-        return float('NaN')
+        return 0
     dcg = DCG(ranking, consenso, pesos[0], 0)
     for i in range(1, len(ranking)):
         if ranking[i] in consenso:
@@ -117,6 +118,13 @@ def carrega_consenso(arquivo):
         if indicacoes != []:
             consenso[classe] = indicacoes
     return consenso
+
+def get_abordagem(nome):
+    abordagens = {'ranking_commit': 'Commit',
+                  'ranking_linha': 'Linha',
+                  'ranking_maioria_mix': 'Votação',
+                  'MaEE_Similaridade_Cossine': 'Vocabulário'}
+    return abordagens[nome]
 
 def salva_indicacoes_dev_ativos(indicacoes, file_name):
     saida = ""
