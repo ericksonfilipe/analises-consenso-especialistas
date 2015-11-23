@@ -34,8 +34,8 @@ gera.sumario <- function(variavel.resposta, dados) {
 #função que retorna lista de cores a ser utilizada em determinada ocasião para boxplots/histogramas, dependendo da quantidade desejada
 cores <- function(qtd.cores){
   lista.de.cores=c( #7 cores principais, uma por alggoritmo
-    "green1", "green2",	"green3", "green4", #verde
-    "yellow1", "yellow2", "yellow3", "yellow4", #amarelo
+    "deeppink1", "deeppink2", "deeppink3", "deeppink4", #verde
+    "green1", "green2",  "green3", "green4", #amarelo
     "red1",	"red2",	"red3",	"red4", #vermelho
     "steelblue1", "steelblue2",	"steelblue3", "steelblue" #azul
   )
@@ -107,25 +107,33 @@ ic_media <- function(x, alpha) {
   return(data.frame(c1, c2, y=x_barra))
 }
 
-#função que gera gráficos de intervalo de confiança com alpha igual a 5%		---cores pros 8 abordagems em IC
+#função que gera gráficos de intervalo de confiança com alpha igual a 5%  	---cores pros 8 algoritmos em IC
 gera.grafico.ic <- function(nome_imagem, dados, atributo.a.comparar, atributo.a.analisar){
-  png(paste(nome_imagem,".png", sep=""), width=620, height=150) #cortar 10 da esquerda,direita,acima e 5 abaixo
-  print(ggplot(ddply(dados, atributo.a.comparar, function(df) ic_media(,atributo.a.analisar], alpha=.05)), aes_string(x=atributo.a.comparar)) 
+  png(paste(nome_imagem,".png", sep=""), width=620, height=480) #cortar 10 da esquerda,direita,acima e 5 abaixo
+  print(ggplot(ddply(dados, atributo.a.comparar, function(df) ic_media(df[,atributo.a.analisar], alpha=.05)), aes_string(x=atributo.a.comparar)) 
         + geom_errorbar(aes(ymax=c2, ymin=c1), colour=cores(4), size=0.8) #definindo limites
         + geom_point(aes(y=y), colour=cores(4), size=3.5) #definindo ponto central
         + ylab(atributo.a.analisar) #especificando label do eixo y
         #+ ggtitle(nome_imagem)
-        + coord_flip()
         + theme_bw()
   )
   dev.off()
 }
 
 #função que escreve em arquivo os resultados de Zkurtosis, Zskewness, testes de Anderson Darling e de Shapiro-Wilk
-testar_normalidade <- function(base, abordagem, data, arquivo){
-  k = kurtosis(data)/sqrt(24/length(data))
-  s = skewness(data)/sqrt(6/length(data))
-  writeLines(paste(base, abordagem, k, s, shapiro.test(data)$p.value, shapiro.test(data)$statistic, ad.test(data)$p.value, ad.test(data)$statistic, sep = "\t"), arquivo)
+testar_normalidade <- function(data){
+  for (variavel.resposta in c("precision","recall","NDCG","fmeasure")) {
+    arquivo.normalidade = file(paste("normalidade", variavel.resposta, sep="_"), "w")
+    writeLines("Abordagem\tZkurtosis\tZskewness\tSW\tAD", arquivo.normalidade)
+    for (a in c("Votação", "Linha", "Commit", "Vocabulário")) {
+      dados.abordagem = subset(data, abordagem==a)[,variavel.resposta]
+      k = kurtosis(dados.abordagem)/sqrt(24/length(dados.abordagem))
+      s = skewness(dados.abordagem)/sqrt(6/length(dados.abordagem))
+      print(mean(dados.abordagem))
+      writeLines(paste(a, k, s, shapiro.test(dados.abordagem)$p.value, ad.test(dados.abordagem)$p.value, sep = "\t"), arquivo.normalidade)
+    }
+    close(arquivo.normalidade)
+  }
 }
 
 #função que escreve em arquivo os resultados dos teste de Bartlett e de Levene
@@ -142,6 +150,7 @@ colnames(dados) = c("abordagem", "entidade", "precision", "recall", "fmeasure", 
 
 dados$abordagem = as.factor(dados$abordagem)							          # 4 abordagems
 
+testar_normalidade(dados)
 
 #gerando gráficos - comparando métricas por abordagem
 gera.grafico.ic("ICs precision", dados, "abordagem", "precision")
@@ -149,54 +158,23 @@ gera.grafico.ic("ICs recall", dados, "abordagem", "recall")
 gera.grafico.ic("ICs fmeasure", dados, "abordagem", "fmeasure")
 gera.grafico.ic("ICs NDCG", dados, "abordagem", "NDCG")
 
-#gerando gráficos blocados
-# porcentagens = levels(as.factor(dados$porcentagem.treino))
-# for (p in porcentagens) {
-#   dados.blocados = subset(dados, porcentagem.treino==p)
-#   gera.grafico.ic(paste("Métrica=AUC; PorcentagemTreino=",p, sep=""), dados.blocados, "abordagem", "AUC")
-#   gera.grafico.ic(paste("Métrica=P@5; PorcentagemTreino=",p, sep=""), dados.blocados, "abordagem", "prec5")
-#   gera.grafico.ic(paste("Métrica=MAP; PorcentagemTreino=",p, sep=""), dados.blocados, "abordagem", "MAP")
-#   gera.grafico.ic(paste("Métrica=R@5; PorcentagemTreino=",p, sep=""), dados.blocados, "abordagem", "recall5")
-#   gera.grafico.ic(paste("Métrica=NDCG; PorcentagemTreino=",p, sep=""), dados.blocados, "abordagem", "NDCG")
-#   gera.grafico.ic(paste("Métrica=MRR; PorcentagemTreino=",p, sep=""), dados.blocados, "abordagem", "MRR")
-# }
-
-
 #visão geral dos dados
 png("Pair plot.png", width=1600, height=1600)
 #plot(dados, col="saddlebrown")
 plot(dados, col="saddlebrown")
 dev.off()
 
-
-#gerando boxplots e histogramas para as variáveis 
+#gerando boxplots e histogramas para as variáveis
 for (variavel.resposta in c("precision","recall","NDCG","fmeasure")) {
   #gera sumário de dados
   gera.sumario(variavel.resposta, dados)
   
   #gera Boxplots
-  png(paste("Boxplots", variavel.resposta, "por abordagem.png"), width=600, height=220) #800,600
+  png(paste("boxplots_", variavel.resposta, ".png", sep=""), width=620, height=480) #800,600
   par(mfrow=c(1,1),mar=c(2.5,8,0.5,1), oma=c(0,0,0,0))
-  boxplot(dados[,variavel.resposta] ~ dados$abordagem, horizontal=TRUE, las=1, col=cores(7))
+  boxplot(dados[,variavel.resposta] ~ dados$abordagem, las=1, col=cores(4))
   #title(paste("Boxplots  - ",variavel.resposta), cex.main = 1.3, font.main = 2, outer=TRUE)
   dev.off()
-  
-  
-  #gera gráficos a partir dos dados residuais, úteis para validação
-  #gera.graficos.residuais(variavel.resposta, dados)
-  
-  #gera histogramas após blocar por abordagem e porcentagem.treino
-  #png(paste("Histogramas por abordagem e porcentagem treino -", variavel.resposta, ".png"), width=800, height=750)
-  #par(mfrow=c(3,8), oma=c(0,0,2.5,0))
-  #for (p in levels(as.factor(dados$porcentagem.treino))){
-  #	cor=1
-  #	for (a in levels(dados$abordagem)){
-  #		amostra=subset(dados, abordagem==a & porcentagem.treino==p)[,variavel.resposta]
-  #		hist(amostra, main=paste(p,"\n",a), las=1, xlab=variavel.resposta, col=cores(7)[cor]); cor=cor+1
-  #	}
-  #}
-  #title(paste("Histogramas por abordagem e porcentagem treino - ",variavel.resposta), cex.main = 2, font.main = 2, outer=TRUE)
-  #dev.off()
 }
 
 
@@ -207,8 +185,8 @@ for (variavel.resposta in c("precision","recall","fmeasure", "NDCG")) {
   fit = lm(dados[,variavel.resposta] ~ abordagem, dados) 
   a = anova(fit)
 
-  writeLines(paste("Df", "Sum Sq", "F value", "Pr(>F)", sep = "\t"), arquivo.anova)
-  writeLines(paste(a[1,"Df"], a[1,"Sum Sq"], a[1,"F value"], a[1,"Pr(>F)"], sep = "\t"), arquivo.anova)
+  writeLines(paste("Df", "Sum Sq", "F value", "F table", sep = "\t"), arquivo.anova)
+  writeLines(paste(a[1,"Df"], a[1,"Sum Sq"], a[1,"F value"], qf(.95, a[1,"Df"], a[2,"Df"]), sep = "\t"), arquivo.anova)
 }
 close(arquivo.anova)
 
@@ -222,8 +200,12 @@ for (variavel.resposta in c("precision","recall","fmeasure", "NDCG")) {
 #testes par a par com base nos resultados de normalidade e homoscedasticidade... (Mann–Whitney para não normais)
 with(dados, pairwise.t.test(precision, abordagem, paired=F, var.equal=T)) #Normal e Homoscedástico
 with(dados, pairwise.t.test(precision, abordagem, paired=F, var.equal=F)) #Normal e Heteroscedástico
-with(dados, pairwise.wilcox.test(tempo.de.resposta, abordagem, paired=F, var.equal=T)) #Não Normal e Homoscedástico
-with(dados, pairwise.wilcox.test(tempo.de.resposta, abordagem, paired=F, var.equal=F)) #Não Normal e Heteroscedástico
+# with(dados, pairwise.wilcox.test(tempo.de.resposta, abordagem, paired=F, var.equal=T)) #Não Normal e Homoscedástico
+# with(dados, pairwise.wilcox.test(tempo.de.resposta, abordagem, paired=F, var.equal=F)) #Não Normal e Heteroscedástico
+
+with(dados, pairwise.t.test(NDCG, abordagem, paired=F, var.equal=T)) #Normal e Homoscedástico
+with(dados, pairwise.t.test(recall, abordagem, paired=F, var.equal=F)) #Normal e Heteroscedástico
+
 # png("ndcg.png", width = 800, height = 800)
 # ggplot(dados, aes(x = entidade, y = NDCG, fill = abordagem)) + 
 #   geom_bar(position = "dodge", stat = "identity") + coord_flip()

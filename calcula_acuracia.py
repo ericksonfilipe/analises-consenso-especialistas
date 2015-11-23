@@ -7,6 +7,7 @@ def acuracia(pasta, abordagens):
     saida_classe = ""
     saida_total = ""
     consenso = carrega_consenso("dados brutos/surveyfamiliaridade@gmail.com.csv")
+    print consenso
     for arquivo_abordagem in abordagens:
         abordagem = carrega_abordagem(pasta + "/" + arquivo_abordagem)
         salva_indicacoes_dev_ativos(abordagem, arquivo_abordagem)
@@ -40,30 +41,20 @@ def acuracia(pasta, abordagens):
 
 def NDCG(consenso, abordagem, k):
     # O ranking ideal eh o proprio consenso
-    idcg_k = DCG_K(consenso, consenso, k)
-    ndcg_k = DCG_K(consenso, abordagem, k)
-    return ndcg_k/float(idcg_k)
+    idcg = computeIDCG(len(consenso))
+    dcg = 0
+    for i in range(len(abordagem)):
+      item_id = abordagem[i]
+      if item_id in consenso:
+          rank = i + 1
+          dcg += log(2) / log(rank + 1)
+    return dcg/float(idcg)
 
-def DCG_K(consenso, abordagem, k):
-    ranking = abordagem[:k]
-    pesos = [k-i for i in range(k)]
-    if not ranking:
-        return 0
-    dcg = DCG(ranking, consenso, pesos[0], 0)
-    for i in range(1, len(ranking)):
-        if ranking[i] in consenso:
-            dcg += DCG(ranking, consenso, pesos[i], i)
-    return dcg
-
-def DCG(ranking, ideal, peso, i):
-    rel_i = rel_penalize_bad_results(ranking, ideal, peso, i)
-    return rel_i if i <= 0 else rel_i/log(2, 1+i)
-
-def rel_penalize_bad_results(ranking, ideal, peso, i):
-    return float(2**peso - 1) if ranking[i] in ideal else float(1 - 2**peso)
-
-def rel(ranking, ideal, peso, i):
-    return peso if ranking[i] in ideal else 0
+def computeIDCG(n):
+    idcg = 0
+    for i in range(n):
+      idcg += log(2) / log(i + 2)
+    return idcg
 
 def corretos(abordagem, consenso):
     count = 0
