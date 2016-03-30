@@ -4,6 +4,7 @@ import os
 from math import log
 
 def acuracia(pasta, abordagens):
+    """Calcula a acuracia das abordagens"""
     saida_classe = ""
     saida_total = ""
     consenso = carrega_consenso("dados brutos/surveyfamiliaridade@gmail.com.csv")
